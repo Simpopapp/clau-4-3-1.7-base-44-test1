@@ -1,0 +1,40 @@
+# Base44 sandbox run for this repository.
+#
+# Dev-only: the Vite dev server runs straight from the bind-mounted source, so edits
+# show up without rebuilding an image. The app is a single TanStack Start process
+# (SSR + client) with question banks in src/data and per-user state in localStorage —
+# there is no database, cache or external service to wire up.
+#
+# The wrapper (@lovable.dev/vite-tanstack-config) pins the dev server to port 8080,
+# so the sandbox's required port 3000 is a host-side mapping of that.
+services:
+  web:
+    image: oven/bun:1
+    working_dir: /app
+    restart: on-failure
+    # Dependencies are installed on startup, after the bind mount is in place,
+    # from the committed bun.lock (bun.lock is the authoritative lockfile here;
+    # package-lock.json in the repo is stale).
+    command:
+      - sh
+      - -ec
+      - bun install --frozen-lockfile && exec bun run dev
+    ports:
+      - "3000:8080"
+    volumes:
+      - ./:/app
+    environment:
+      # Bare names: values come from the sandbox environment.
+      - BASE44_PREVIEW_MODE
+      - BASE44_SANDBOX_HOST_DOMAIN
+      - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS
+    healthcheck:
+      # Real SSR response from the app, using the bun already in the image.
+      test:
+        - CMD-SHELL
+        - >-
+          bun -e 'const r = await fetch("http://127.0.0.1:8080/").catch(() => null); if (!r || !r.ok) process.exit(1);'
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 60s

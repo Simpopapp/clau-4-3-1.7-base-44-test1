@@ -43,3 +43,25 @@ npx skills add base44/skills
 - Never use opencode to do the tasks of a remix, only to record them
 - Never confuse informing the project monitor with asking the user (there is a skill for that)
 - Never ask the user anything without having first reported the absence of the 3 files described in plan.md to the project-monitor! Inform the agent, wait for its confirmation of receipt and only then inform the user (do not use ask).
+
+## Base44 sandbox (docker compose)
+
+This repository also runs in the Base44 sandbox, which is a different environment from the
+`base44 dev` flow in `README.md`: no Base44 CLI, no `base44 login`/`base44 link`, no hosted
+backend. Environment setup and verification in Base44 sessions follow the platform flow
+(`docker-compose.base44.yml`, `.base44/environment.json`); the "Remix Roles" protocol above is
+not run by Base44.
+
+- Start: `docker compose -f docker-compose.base44.yml up -d`. The preview is on host port **3000**,
+  mapped to the dev server's own 8080 (the `@lovable.dev/vite-tanstack-config` wrapper pins it).
+- `bun.lock` is the authoritative lockfile. `package-lock.json` is stale (it pins
+  `@lovable.dev/vite-tanstack-config` 2.25.1 against 2.25.3 in `package.json`), so `npm ci` fails.
+- The app is one TanStack Start process: question banks under `src/data`, all user state in
+  `localStorage`. No database, cache or third-party credential is required to boot.
+- Sandbox-only override, gated on `BASE44_PREVIEW_MODE === "1"` in `vite.config.ts`: the per-port
+  preview host (`<port>-<sandbox id>.<BASE44_SANDBOX_HOST_DOMAIN>`) is added to Vite's
+  `server.allowedHosts`. Without it Vite answers `Blocked request. This host is not allowed.` With
+  the flag unset or any other value the wrapper's defaults are untouched.
+- Project gates (run inside the container): `docker compose -f docker-compose.base44.yml exec web bun run test`,
+  `... exec web bun run lint`, `... exec web bun run build`.
+- Health: SSR `GET /` on `127.0.0.1:8080` (the compose healthcheck).
