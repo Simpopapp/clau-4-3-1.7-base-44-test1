@@ -31,11 +31,12 @@ const EXPECTED_COUNTS: Record<string, number> = {
   wfd: 934,
   lst_fib: 96,
   summarize_spoken_text: 115,
-  lst_hiw: 3,
-  lst_hcs: 3,
+  // Projeto 10, Fase 1: bancos públicos do goarno.io integrados (50 itens por tipo).
+  lst_hiw: 53,
+  lst_hcs: 53,
   lst_summary: 5,
-  lst_smw: 3,
-  lst_mcq: 6,
+  lst_smw: 53,
+  lst_mcq: 56,
   lst_mcq_multi: 3,
   // Fase 7 do projeto 9 — os 3 tipos novos do formato 2025.
   summarize_group_discussion: 13,
@@ -91,7 +92,8 @@ describe("Catálogo (22 task types, carregamento sob demanda)", () => {
 
   it("questões de escolha têm opções e respostas normalizadas", async () => {
     const choice = all.filter((q) => "options" in q);
-    expect(choice.length).toBe(106 + 18 + 6 + 3 + 3 + 3);
+    // Projeto 10, Fase 1: +50 em lst_hcs, +50 em lst_smw e +50 em lst_mcq (bancos do goarno.io).
+    expect(choice.length).toBe(106 + 18 + 56 + 53 + 53 + 3);
     for (const q of choice) {
       expect(q.options.length).toBeGreaterThan(0);
       expect(Array.isArray(q.answer)).toBe(true);

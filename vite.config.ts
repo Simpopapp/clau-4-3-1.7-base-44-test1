@@ -6,10 +6,32 @@
 // You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
+import { opencodeProxy } from "./vite-opencode-proxy";
+
+// The Base44 sandbox preview reaches this dev server through a per-port proxy host
+// (`<port>-<sandbox id>.${BASE44_SANDBOX_HOST_DOMAIN}`), which Vite rejects as an unknown Host
+// unless it is allowlisted. The leading dot is Vite's "this domain and any subdomain" wildcard.
+// Only extend the allowlist when the sandbox flag is exactly "1"; with it unset or any other
+// value the wrapper's defaults stand untouched.
+const sandboxHostDomain =
+  process.env["BASE44_PREVIEW_MODE"] === "1"
+    ? process.env["BASE44_SANDBOX_HOST_DOMAIN"]
+    : undefined;
+const sandboxAllowedHosts = sandboxHostDomain ? [`.${sandboxHostDomain}`] : [];
+
 export default defineConfig({
+  // Same-origin proxy for the OpenCode monitor: exposes its web UI + API on /oc.
+  // It forwards to $OPENCODE_URL (default 127.0.0.1:4096) and is a no-op for every
+  // other route, so the app keeps working when the monitor is not running.
+  plugins: [opencodeProxy()],
   tanstackStart: {
     // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
     // nitro/vite builds from this
     server: { entry: "server" },
+  },
+  vite: {
+    server: {
+      ...(sandboxAllowedHosts.length > 0 ? { allowedHosts: sandboxAllowedHosts } : {}),
+    },
   },
 });

@@ -197,9 +197,14 @@ describe("Filas respeitam duplicatas e o filtro de fontes (D4/D7)", () => {
 
   it("buildExamQueue com verifiedOnly só amostra fontes verificadas", async () => {
     const { buildExamQueue } = await import("@/lib/pte/exam");
+    const { allMeta } = await import("@/lib/pte");
     const queue = buildExamQueue("listening", () => 0.5, { verifiedOnly: true });
-    // Listening NÃO tem fonte verificada: a fila fica vazia em vez de treinar IA
-    expect(queue).toHaveLength(0);
+    // Projeto 10: a escuta passou a TER fontes verificadas (bancos públicos do goarno.io em
+    // lst_hiw/lst_hcs/lst_smw/lst_mcq), então a fila deixa de ser vazia. A garantia que o teste
+    // protege é a de que nada não-verificado entra na fila filtrada.
+    const meta = new Map(allMeta.map((m) => [m.id, m]));
+    expect(queue.length).toBeGreaterThan(0);
+    expect(queue.every((id) => meta.get(id)!.sourceClass === "verificada")).toBe(true);
   });
 
   it("o plano do dia respeita o filtro (verifiedOnly => sem estoque de tipos só-IA)", async () => {
@@ -224,12 +229,16 @@ describe("Filas respeitam duplicatas e o filtro de fontes (D4/D7)", () => {
 
 describe("Banco pequeno (C4)", () => {
   it("selo para tipos com ≤ 6 itens", async () => {
-    const { isSmallBank, typeCounts } = await import("@/lib/pte");
-    expect(isSmallBank("lst_hcs")).toBe(true);
+    // Projeto 10 (D8): o selo é verificado por SEMÂNTICA contra as contagens vivas. Antes o teste
+    // dependia de `lst_hcs` continuar raso — expandir o banco (que é o objetivo do projeto 10)
+    // quebraria o teste por mérito, não por defeito.
+    const { isSmallBank, typeCounts, SMALL_BANK_MAX } = await import("@/lib/pte");
+    for (const [type, n] of Object.entries(typeCounts)) {
+      expect(isSmallBank(type as keyof typeof typeCounts)).toBe(n <= SMALL_BANK_MAX);
+    }
     expect(isSmallBank("lst_summary")).toBe(true);
     expect(isSmallBank("wfd")).toBe(false);
-    expect(typeCounts["lst_hcs"]).toBeLessThanOrEqual(6);
-    expect(typeCounts["wfd"]).toBeGreaterThan(6);
+    expect(typeCounts["wfd"]).toBeGreaterThan(SMALL_BANK_MAX);
   });
 });
 
@@ -254,8 +263,8 @@ describe("Payload (D2) — contrato do leitor", () => {
     expect(essay!.text).toBe(essay!.prompt);
   });
 
-  it("o manifesto continua com 2.618 questões (os 3 tipos da Fase 7 incluídos)", async () => {
+  it("o manifesto soma 2.818 questões (projeto 10: +200 dos bancos do goarno.io)", async () => {
     const { TOTAL_ALL_QUESTIONS } = await import("@/lib/pte");
-    expect(TOTAL_ALL_QUESTIONS).toBe(2_618);
+    expect(TOTAL_ALL_QUESTIONS).toBe(2_818);
   });
 });

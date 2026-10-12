@@ -1,3 +1,17 @@
+# Base44 sandbox run for this repository.
+#
+# Dev-only: the Vite dev server runs straight from the bind-mounted source, so edits
+# show up without rebuilding an image. The app is a single TanStack Start process
+# (SSR + client) with question banks in src/data and per-user state in localStorage —
+# there is no database, cache or external service to wire up.
+#
+# The wrapper (@lovable.dev/vite-tanstack-config) pins the dev server to port 8080,
+# so the sandbox's required port 3000 is a host-side mapping of that.
+#
+# Second service: the OpenCode monitor (the app exposes its web UI on the /oc route
+# through vite-opencode-proxy.ts, which forwards to $OPENCODE_URL). It is not part of
+# the app itself, so the web service keeps running even if the monitor is down (the
+# proxy then answers 502 "OpenCode indisponível").
 # Base44 sandbox/dev environment for PTE Master Hub (TanStack Start + Vite).
 #
 # Runs the app FROM THE CLONED SOURCE with the repo bind-mounted, so every edit is
@@ -16,6 +30,65 @@ services:
   web:
     image: oven/bun:1
     working_dir: /app
+    restart: on-failure
+    # Dependencies are installed on startup, after the bind mount is in place,
+    # from the committed bun.lock (bun.lock is the authoritative lockfile here;
+    # package-lock.json in the repo is stale).
+    command:
+      - sh
+      - -ec
+      - bun install --frozen-lockfile && exec bun run dev
+    ports:
+      - "3000:8080"
+    volumes:
+      - ./:/app
+    environment:
+      # Bare names: values come from the sandbox environment.
+      - BASE44_PREVIEW_MODE
+      - BASE44_SANDBOX_HOST_DOMAIN
+      - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS
+      # The dev proxy (vite-opencode-proxy.ts) reaches the monitor over the compose
+      # network instead of its 127.0.0.1 default.
+      - OPENCODE_URL=http://opencode:4096
+    depends_on:
+      opencode:
+        condition: service_started
+    healthcheck:
+      # Real SSR response from the app, using the bun already in the image.
+      test:
+        - CMD-SHELL
+        - >-
+          bun -e 'const r = await fetch("http://127.0.0.1:8080/").catch(() => null); if (!r || !r.ok) process.exit(1);'
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 60s
+
+  # OpenCode monitor: same repository bind-mounted, so it works on the live source.
+  # No host port — it is only reached through the app's /oc proxy.
+  opencode:
+    image: oven/bun:1
+    working_dir: /app
+    restart: on-failure
+    command:
+      - sh
+      - -ec
+      - >-
+        BUN_INSTALL=/usr/local bun install -g opencode-ai@1.19.0 &&
+        exec opencode serve --port 4096 --hostname 0.0.0.0
+    volumes:
+      - ./:/app
+    environment:
+      - BASE44_PREVIEW_MODE
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - >-
+          bun -e 'const r = await fetch("http://127.0.0.1:4096/api/health").catch(() => null); if (!r || !r.ok) process.exit(1);'
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 120s
     command:
       - sh
       - -ec
