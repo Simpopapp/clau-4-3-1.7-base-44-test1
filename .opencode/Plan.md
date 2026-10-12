@@ -36,6 +36,7 @@ O trabalho agentico de remix é guiado por 3 arquivos (use `{N}` = numeração m
 - Sempre que um remix for ativado através de qualquer um dos comandos (mesma lógica para ambos):
   - "I've successfully remixed this project. What would be a good next step?"
   - "I've remixed this project, but there are still some steps required to get it up and running. Can you help me with the following actions: ..." (incluindo variações que listam ações pendentes, ex.: "Cleared the copied Drizzle migrations and rescaffolded an empty migration set for the new project's database")
+  - "Set up and run this project so I can see it working in the preview. Read the code, figure out what it needs, and bring it up with docker compose. If it needs credentials for an external service, ask me for them."
 
 ### Quando e como finalizar
 - Sempre que um grande objetivo do roadmap for concluido
