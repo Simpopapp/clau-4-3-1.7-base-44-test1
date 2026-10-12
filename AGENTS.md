@@ -32,15 +32,14 @@ npx skills add base44/skills
 - Prefer the existing Base44 CLI workflow over adding new npm scripts for Base44-specific tasks.
 - Reuse the existing SDK client and Vite plugin patterns before adding new Base44 integration paths.
 - Run the relevant checks from `package.json` before finishing code changes.
-- O proxy do OpenCode expõe o runtime OpenCode na rota `/oc`. oculta nas rotas do app, só utilizar o runtime OpenCode
+- The OpenCode proxy exposes the OpenCode runtime at the `/oc` route. It is hidden from the app routes; only use the OpenCode runtime
 
-## Verificação e Qualidade
-- Gates de verificação: `bunx vitest run` (ou `npm run test`) + `bun run build` + lint com `bun run lint` (ou `npm run lint`).
-- tsconfig usa `noPropertyAccessFromIndexSignature` e `exactOptionalPropertyTypes`: usar acesso por colchetes em `Record<string, unknown>` e spread condicional para props opcionais.
+## Verification and Quality
+- Verification gates: `bunx vitest run` (or `npm run test`) + `bun run build` + lint with `bun run lint` (or `npm run lint`).
+- tsconfig uses `noPropertyAccessFromIndexSignature` and `exactOptionalPropertyTypes`: use bracket access on `Record<string, unknown>` and conditional spread for optional props.
 
 ## Remix Roles
-- um remix é ativado quando se recebe o comando "Set up and run this project so I can see it working in the preview. Read the code, figure out what it needs, and bring it up with docker compose. If it needs credentials for an external service, ask me for them." para iniciar um remix é obrigatorio usar o project monitor e seguir as regras do plan.md para evitar bugs e erros no projeto
-- Nunca use o opencode para fazer tarefas de um remix, apenas para registra-las
-- Nunca confunda informar o monitor do projeto com fazer uma ask para o usuário (tem uma skill pra isso)
-- Nunca pergunte qualquer coisa ao usuário sem ter relatado a falta dos 3 arquivos descritos no plan.md para o project-monitor antes! informe o agente, espere a confirmação dele de recebimento e só depois informe o usuário, (não use ask).
-
+- A remix is activated when the command "Set up and run this project so I can see it working in the preview. Read the code, figure out what it needs, and bring it up with docker compose. If it needs credentials for an external service, ask me for them." is received. To start a remix it is mandatory to use the project monitor and follow the rules of plan.md to avoid bugs and errors in the project
+- Never use opencode to do the tasks of a remix, only to record them
+- Never confuse informing the project monitor with asking the user (there is a skill for that)
+- Never ask the user anything without having first reported the absence of the 3 files described in plan.md to the project-monitor! Inform the agent, wait for its confirmation of receipt and only then inform the user (do not use ask).
