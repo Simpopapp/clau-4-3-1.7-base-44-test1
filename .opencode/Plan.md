@@ -1,52 +1,50 @@
-Protocolo dos 3 arquivos (planejamento → PRD → roadmap)
+Protocol of the 3 files (planning → PRD → roadmap)
 
-O trabalho agentico de remix é guiado por 3 arquivos (use `{N}` = numeração mais recente; não se limite a `1` caso esteja finalizada e caso hajam outras versões numéricas de projetos por fazer; com ou sem extensão `.md`, é o mesmo arquivo):
+Agentic remix work is guided by 3 files (use `{N}` = latest numbering; do not limit yourself to `1` if it is finished and if there are other numbered versions of projects still to be done; with or without the `.md` extension, it is the same file):
 
-| Arquivo | Papel |
+| File | Role |
 |---|---|
-| `project{N}` | Planejamento: o QUÊ e o POR QUÊ (falhas, direção, ordem lógica ou idealização do projeto). Fonte de verdade do escopo. |
-| `prd-project{N}` | PRD: o COMO. Decisões técnicas, escopo por fase, critérios de aceite. |
-| `roadmap-proj{N}` | Roadmap: fases em ordem de dependência, checkboxes e gates. Registro de progresso. |
+| `project{N}` | Planning: the WHAT and the WHY (failures, direction, logical order or ideation of the project). Source of truth for scope. |
+| `prd-project{N}` | PRD: the HOW. Technical decisions, scope per phase, acceptance criteria. |
+| `roadmap-proj{N}` | Roadmap: phases in dependency order, checkboxes and gates. Progress record. |
 
-### O que fazer, conforme o que existe (a ordem de criação dos arquivos não importa, mas todos devem existir e serem preenchidos e seguidos conforme as necessidades do projeto)
-- **Os 3 existem:** execute o roadmap, a partir da primeira fase não concluída.
-- **2 existem:** crie o que falta e depois execute.
-- **1 existe:** crie os outros 2 (ordem: planejamento → PRD → roadmap) e depois execute.
-- **Nenhum existe:** informe o project-monitor e em seguida o usuário (a proxima mensagem do usuário deve ser imediatamente colada em project{N} substituindo o "null")
-- **NULL** "null" demarca a não existencia (nesse caso a prioridade é preenche-lo e registrar através do project monitor que aguarda a atualização de um dos arquivos para iniciar o projeto). é obrigatorio confirmar que o agente leu a mensagem
+### What to do, depending on what exists (the order in which the files are created does not matter, but all of them must exist, be filled in and be followed according to the project's needs)
+- **All 3 exist:** execute the roadmap, starting from the first unfinished phase.
+- **2 exist:** create the missing one and then execute.
+- **1 exists:** create the other 2 (order: planning → PRD → roadmap) and then execute.
+- **None exist:** inform the project-monitor and then the user (the user's next message must be immediately pasted into project{N}, replacing the "null")
+- **NULL** "null" marks non-existence (in that case the priority is to fill it in and register it through the project monitor, which waits for one of the files to be updated in order to start the project). It is mandatory to confirm that the agent has read the message
 
-### Como criar o que falta + numero de linhas esperado de cada um
-- **PRD:** derive do planejamento (e do roadmap, se existir). Você conhece o ambiente melhor que o planejamento: confirme no código o que ele afirma, escolha a melhor solução técnica, escreva escopo por fase e critérios de aceite. Não copie o planejamento. (min: 500 / max: 1000)
-- **Roadmap:** uma fase por bloco do planejamento/PRD, em ordem de dependência, com checkboxes e uma linha de Gates por fase. (min: 20 / max: 50)
-- **Planejamento** (se só houver PRD/roadmap): reconstrua a intenção: problemas, direção e ordem lógica para cria-los a partir disso. (min: 1 / max: 100)
-- **Qualidade acima da facilidade** nunca preencha o numero de linhas pensando em concluir atingir o numero de linhas forçadamente pra completar a tarefa, use como oportunidade criativa para planejar os detalhes, cada linha tem o seu propósito e importancia para atingir o auge do potencial sem se limitar pela praticidade da realização de tarefas simples ou mal planejadas
+### How to create what is missing + expected number of lines for each
+- **PRD:** derive it from the planning (and from the roadmap, if it exists). You know the environment better than the planning does: confirm in the code what it claims, choose the best technical solution, write scope per phase and acceptance criteria. Do not copy the planning. (min: 500 / max: 1000)
+- **Roadmap:** one phase per block of the planning/PRD, in dependency order, with checkboxes and one Gates line per phase. (min: 20 / max: 50)
+- **Planning** (if only the PRD/roadmap exist): reconstruct the intent: problems, direction and the logical order to create them from that. (min: 1 / max: 100)
+- **Quality over ease:** never fill in the number of lines with the aim of forcibly reaching the line count just to complete the task; use it as a creative opportunity to plan the details, as every line has its purpose and importance in reaching the peak of the potential, without being limited by the practicality of carrying out simple or poorly planned tasks
 
-### Como executar
-- Siga o roadmap fase a fase. Só avance quando os gates da fase passarem (seção 19) e marque `[x]` no roadmap, com a linha de Gates.
-- Se o roadmap tiver uma fase "planejar o PRD", executá-la é criar o PRD.
-- Só mude a ordem das fases com justificativa registrada no próprio roadmap.
-- Precedência: no escopo (o quê), planejamento > PRD > roadmap. No "como", o PRD manda.
-- Antes de executar, confira se PRD e roadmap tratam do mesmo projeto e versão do planejamento (título, fases, escopo). Se divergirem, trate-os como desatualizados: refaça o PRD a partir do planejamento e reabra o roadmap.
-- Nunca pergunte ao usuário (sem `ask`). Em caso de dúvida, decida e registre a decisão no PRD.
-- Ao concluir tudo, reporte (seção 20) e crie a checagem de 5 min / 10 tentativas por novos arquivos ou fases.
-- Esta seção prevalece sobre a regra 3 do `Plan.md` em caso de conflito.
-- Nunca perguntar ao usuário o que fazer durante um remix sem ter concluido ao menos 1 fase completa do roadmap
+### How to execute
+- Follow the roadmap phase by phase. Only advance when the phase's gates pass (section 19) and mark `[x]` in the roadmap, along with the Gates line.
+- If the roadmap has a "plan the PRD" phase, executing it means creating the PRD.
+- Only change the order of the phases with a justification recorded in the roadmap itself.
+- Precedence: on scope (the what), planning > PRD > roadmap. On the "how", the PRD rules.
+- Before executing, check that the PRD and roadmap deal with the same project and version as the planning (title, phases, scope). If they diverge, treat them as outdated: redo the PRD from the planning and reopen the roadmap.
+- Never ask the user (no `ask`). In case of doubt, decide and record the decision in the PRD.
+- When everything is complete, report (section 20) and create the 5 min / 10 attempts check for new files or phases.
+- This section prevails over rule 3 of `Plan.md` in case of conflict.
+- Never ask the user what to do during a remix without having completed at least 1 full phase of the roadmap
 
-### Quando executar
-- Sempre que um remix for ativado através de qualquer um dos comandos (mesma lógica para ambos):
+### When to execute
+- Whenever a remix is activated through any of the following commands (same logic for all of them):
   - "I've successfully remixed this project. What would be a good next step?"
-  - "I've remixed this project, but there are still some steps required to get it up and running. Can you help me with the following actions: ..." (incluindo variações que listam ações pendentes, ex.: "Cleared the copied Drizzle migrations and rescaffolded an empty migration set for the new project's database")
+  - "I've remixed this project, but there are still some steps required to get it up and running. Can you help me with the following actions: ..." (including variations that list pending actions, e.g.: "Cleared the copied Drizzle migrations and rescaffolded an empty migration set for the new project's database")
   - "Set up and run this project so I can see it working in the preview. Read the code, figure out what it needs, and bring it up with docker compose. If it needs credentials for an external service, ask me for them."
 
-### Quando e como finalizar
-- Sempre que um grande objetivo do roadmap for concluido
+### When and how to finish
+- Whenever a major objective of the roadmap is completed
 
-### ATENÇÃO
-- - no primeiro "I've remixed this project, but there are still some steps required to get it up and running. 
+### ATTENTION
+- - in the first "I've remixed this project, but there are still some steps required to get it up and running. 
 
 Can you help me with the following actions:
-1. Cleared the copied Drizzle migrations and rescaffolded an empty migration set for the new project's database" conclua imediatamente todas as etapas do "project{N}" mais recente, sem para pra falar com o usuário até concluir todo o roadmap.(obs: se todos os "project{N}" estiverem concluidos apenas planeje as proximas melhorias de forma bem pensada tendo em vista o que temos até agora, escreva isso em um novo arquivo "project{N}" seguindo a logica de numeração e em seguida: ative o opencode, informe o monitor e avise o usuário (sem usar "ask")).
-- Obrigatorio avisar o opencode/monitor que o remix foi finalizado com a seguinte mensagem: "remix finalizado (+{N} da etapa do roadmap que foi efetuada)
-- Em tarefas de complexidade media/alta sempre guie o agente para olhar as melhores tools e skills e utiliza-las da melhor forma para realizar cada tipo de trabalho
-
-
+1. Cleared the copied Drizzle migrations and rescaffolded an empty migration set for the new project's database" immediately complete all the steps of the most recent "project{N}", without stopping to talk to the user until the entire roadmap is complete. (note: if all the "project{N}" files are completed, just plan the next improvements in a well-thought-out way, taking into account what we have so far, write this in a new "project{N}" file following the numbering logic and then: activate opencode, inform the monitor and notify the user (without using "ask")).
+- It is mandatory to notify opencode/the monitor that the remix has been finished with the following message: "remix completed (+{N} of the roadmap step that was performed)
+- In medium/high complexity tasks, always guide the agent to look at the best tools and skills and to use them in the best way to carry out each type of work
