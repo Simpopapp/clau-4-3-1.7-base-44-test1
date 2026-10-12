@@ -12,7 +12,6 @@
 # through vite-opencode-proxy.ts, which forwards to $OPENCODE_URL). It is not part of
 # the app itself, so the web service keeps running even if the monitor is down (the
 # proxy then answers 502 "OpenCode indisponível").
-# Base44 sandbox/dev environment for PTE Master Hub (TanStack Start + Vite).
 #
 # Runs the app FROM THE CLONED SOURCE with the repo bind-mounted, so every edit is
 # reflected without rebuilding an image. App entry point: http://localhost:3000.
@@ -47,6 +46,8 @@ services:
       - BASE44_PREVIEW_MODE
       - BASE44_SANDBOX_HOST_DOMAIN
       - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS
+      # Bind-mounted sources: poll for changes so hot reload fires reliably in the sandbox.
+      - CHOKIDAR_USEPOLLING=true
       # The dev proxy (vite-opencode-proxy.ts) reaches the monitor over the compose
       # network instead of its 127.0.0.1 default.
       - OPENCODE_URL=http://opencode:4096
@@ -89,33 +90,3 @@ services:
       timeout: 5s
       retries: 5
       start_period: 120s
-    command:
-      - sh
-      - -ec
-      - |
-        bun install --frozen-lockfile
-        exec bun ./node_modules/vite/bin/vite.js dev --host 0.0.0.0 --port 3000 --strictPort
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./:/app
-    environment:
-      # Bare passthrough so the value comes from the platform (never hardcoded).
-      - BASE44_PREVIEW_MODE
-      # Vite >= 6.1 appends this to server.allowedHosts so the preview proxy host is accepted.
-      - __VITE_ADDITIONAL_SERVER_ALLOWED_HOSTS
-      # Bind-mounted sources: poll for changes so hot reload fires reliably in the sandbox.
-      - CHOKIDAR_USEPOLLING=true
-      - NODE_ENV=development
-    restart: on-failure
-    healthcheck:
-      # bun has no curl in this image; probe real HTTP responsiveness with bun instead.
-      test:
-        [
-          "CMD-SHELL",
-          "bun -e 'const r = await fetch(\"http://127.0.0.1:3000/\").catch(() => null); if (!r || !r.ok) { console.error(\"web not responding\"); process.exit(1); }' || exit 1",
-        ]
-      interval: 10s
-      timeout: 5s
-      retries: 12
-      start_period: 180s
