@@ -65,3 +65,15 @@ not run by Base44.
 - Project gates (run inside the container): `docker compose -f docker-compose.base44.yml exec web bun run test`,
   `... exec web bun run lint`, `... exec web bun run build`.
 - Health: SSR `GET /` on `127.0.0.1:8080` (the compose healthcheck).
+- Monitor (OpenCode): the compose file also runs an `opencode` service (the OpenCode CLI is installed at
+  container start, then `opencode serve` on 4096, repo bind-mounted at `/app`). The committed dev proxy
+  `vite-opencode-proxy.ts` is registered as a Vite plugin in `vite.config.ts` and exposes the monitor UI
+  on `/oc` (forwarding to `$OPENCODE_URL`, which compose sets to `http://opencode:4096`; the code default
+  is `127.0.0.1:4096`). `/oc` and `/api/health` are **not app routes** — they are separate proxied
+  documents, so they need a full page load (client-side/SPA navigation cannot reach them and Vite's
+  middleware, not the TanStack router, answers them). When the monitor is down the proxy answers
+  502 `OpenCode indisponível`; the app itself keeps working.
+  - Monitor health: `curl -sf http://localhost:3000/api/health` (proxied) or
+    `docker compose -f docker-compose.base44.yml exec opencode bun -e 'const r=await fetch("http://127.0.0.1:4096/api/health"); if(!r.ok) process.exit(1)'`.
+  - No model provider credential is configured in the repo (there is no `opencode.json`), so the monitor
+    UI runs but agent runs need the user's own provider key/config.
