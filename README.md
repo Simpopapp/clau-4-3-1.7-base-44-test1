@@ -120,11 +120,3 @@ The order in which the files are created does not matter, but all of them must e
 
 - Whenever a major objective of the roadmap is completed.
 - It is mandatory to notify opencode/the monitor that the remix has been finished with the following message: "remix completed (+{N} of the roadmap step that was performed)".
-
-## Docs & Support
-
-GitHub integration: [https://docs.base44.com/developers/app-code/local-development/github](https://docs.base44.com/developers/app-code/local-development/github)
-
-Local development: [https://docs.base44.com/developers/backend/overview/local-dev/local-development-overview](https://docs.base44.com/developers/backend/overview/local-dev/local-development-overview)
-
-Support: [https://app.base44.com/support](https://app.base44.com/support)
