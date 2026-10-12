@@ -18,16 +18,11 @@ const TOTALS = { speaking: 100, writing: 50, reading: 50, listening: 100 };
 // Fixtures com instante fixo — determinístico e independente do relógio.
 const NOW = Date.UTC(2026, 9, 10, 12, 0, 0); // 2026-10-10T12:00Z
 
+// Auditoria de proveniência (12/10/2026): o banco não tem mais itens de predição de IA, então
+// toda tentativa pesa 1 na prontidão (o peso 0,7 da D4 continua no código, sem itens que o ativem).
 const SPEAKING_QIDS = allMeta
   .filter((m) => TYPE_META[m.taskType].section === "speaking")
   .map((m) => m.id);
-const AI_SOURCES = new Set(["ai-generated-prediction", "pteracai-seed"]);
-const NORMAL_SPEAKING_QIDS = allMeta
-  .filter((m) => TYPE_META[m.taskType].section === "speaking" && !AI_SOURCES.has(m.source))
-  .map((m) => m.id);
-const AI_META = allMeta.find(
-  (m) => m.source === "ai-generated-prediction" && TYPE_META[m.taskType].section === "speaking",
-)!;
 
 function attempt(
   partial: Partial<Attempt> & { qid: string; taskType: Attempt["taskType"] },
@@ -117,19 +112,6 @@ describe("readinessBySection — núcleo (desempenho recente ponderado)", () => 
     expect(sp.recentScore).toBe(80); // média simples dos últimos 7d
     expect(sp.trend).toBeNull(); // janela anterior vazia
     expect(sp.hasData).toBe(true);
-  });
-
-  it("tentativas em itens de IA/seed pesam 0,7 (D4)", () => {
-    const rows = readinessBySection(
-      app([
-        attempt({ qid: SPEAKING_QIDS[0]!, taskType: "read_aloud", ts: NOW, score: 60 }),
-        attempt({ qid: AI_META.id, taskType: AI_META.taskType, ts: NOW, score: 100 }),
-      ]),
-      NOW,
-      TOTALS,
-    );
-    const sp = bySection(rows).get("speaking")!;
-    expect(sp.recentPct).toBe(76); // (60·1 + 100·0,7)/1,7 = 76,5
   });
 });
 
@@ -352,8 +334,8 @@ describe("estimateBySkill (10–90, D3)", () => {
   it("overallEstimate usa todas as tentativas com score", () => {
     const est = overallEstimate(
       app([
-        attempt({ qid: NORMAL_SPEAKING_QIDS[0]!, taskType: "read_aloud", ts: NOW, score: 80 }),
-        attempt({ qid: NORMAL_SPEAKING_QIDS[1]!, taskType: "read_aloud", ts: NOW, score: 50 }),
+        attempt({ qid: SPEAKING_QIDS[0]!, taskType: "read_aloud", ts: NOW, score: 80 }),
+        attempt({ qid: SPEAKING_QIDS[1]!, taskType: "read_aloud", ts: NOW, score: 50 }),
       ]),
       NOW,
     );

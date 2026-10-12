@@ -25,7 +25,7 @@ describe("Proveniência (C2)", () => {
 
   it("o manifesto carrega o selo em toda QuestionMeta", async () => {
     const { allMeta } = await import("@/lib/pte");
-    expect(allMeta.length).toBeGreaterThan(2_000);
+    expect(allMeta.length).toBe(890);
     expect(allMeta.every((m) => ["verificada", "comunitária", "ia"].includes(m.sourceClass))).toBe(
       true,
     );
@@ -40,8 +40,10 @@ describe("Dedupe / canonicalId (C3)", () => {
     expect(isDuplicateId("pte-swt-00dc6a7a")).toBe(true);
     expect(isDuplicateId("goarno-swt-07")).toBe(false);
     const { allMeta } = await import("@/lib/pte");
-    expect(allMeta.filter((m) => m.duplicate)).toHaveLength(28);
-    expect(allMeta.filter((m) => m.duplicate).every((m) => m.taskType === "swt")).toBe(true);
+    // Auditoria de proveniência (12/10/2026): as 28 cópias `pte-swt-*` eram predição de IA e
+    // saíram do banco, então nenhum item restante carrega o selo "repetida". O mapa canônico
+    // mantém os apelidos para o progresso já feito nessas cópias migrar para o item que ficou.
+    expect(allMeta.filter((m) => m.duplicate)).toHaveLength(0);
   });
 
   it("mergeSnapshots soma contadores, pega máximos e mantém o 'último' do mais recente", async () => {
@@ -246,7 +248,7 @@ describe("Payload (D2) — contrato do leitor", () => {
   it("wfd.json guarda só id/answer/source/word_count — sem text/transcript duplicados", async () => {
     const wfd = (await import("@/data/pte/wfd.json")).default as { questions?: unknown[] };
     const items = (wfd.questions ?? wfd) as Record<string, unknown>[];
-    expect(items.length).toBe(934);
+    expect(items.length).toBe(98);
     expect(Object.keys(items[0]!).sort()).toEqual(["answer", "id", "source", "word_count"]);
   });
 
@@ -263,8 +265,8 @@ describe("Payload (D2) — contrato do leitor", () => {
     expect(essay!.text).toBe(essay!.prompt);
   });
 
-  it("o manifesto soma 2.818 questões (projeto 10: +200 dos bancos do goarno.io)", async () => {
+  it("o manifesto soma 890 questões (só fontes verificadas/comunitárias após a auditoria)", async () => {
     const { TOTAL_ALL_QUESTIONS } = await import("@/lib/pte");
-    expect(TOTAL_ALL_QUESTIONS).toBe(2_818);
+    expect(TOTAL_ALL_QUESTIONS).toBe(890);
   });
 });

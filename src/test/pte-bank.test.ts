@@ -5,9 +5,9 @@ import { tokenize } from "@/lib/pte";
 import { getQuestion, questions, topics, TOTAL_QUESTIONS } from "@/lib/pte/readaloud";
 
 describe("Banco de questões PTE Read Aloud", () => {
-  it("carrega as 195 questões do pte.json", () => {
-    expect(TOTAL_QUESTIONS).toBe(195);
-    expect(questions.length).toBe(195);
+  it("carrega as 47 questões do pte.json", () => {
+    expect(TOTAL_QUESTIONS).toBe(47);
+    expect(questions.length).toBe(47);
   });
 
   it("toda questão tem texto, palavras, contagem e tópico válidos", () => {

@@ -56,9 +56,9 @@ describe("Repetição espaçada (Leitner) em computeStats", () => {
   });
 
   it("não depende da ordem das tentativas no array (backup importado)", () => {
-    const q = id("lst_fib");
-    const a = attempt(q, "lst_fib", 40, T0);
-    const b = attempt(q, "lst_fib", 95, T0 + DAY);
+    const q = id("lst_hiw");
+    const a = attempt(q, "lst_hiw", 40, T0);
+    const b = attempt(q, "lst_hiw", 95, T0 + DAY);
     expect(computeStats(stateWith([b, a])).get(q)!.lastScore).toBe(95);
   });
 
@@ -118,15 +118,15 @@ describe("buildQueue (fila inteligente)", () => {
     const q = buildQueue(new Map(), 12, { rand });
     expect(q).toHaveLength(12);
     expect(new Set(q).size).toBe(12);
-    // 16 task types prontos → as 12 primeiras vêm de 12 tipos diferentes (round-robin)
+    // 17 task types com itens → as 12 primeiras vêm de 12 tipos diferentes (round-robin)
     expect(new Set(q.map((x) => getMeta(x)!.taskType)).size).toBe(12);
   });
 
   it("revisões vencidas vêm antes das novas (2:1) e as de pior score primeiro", () => {
     const worst = id("wfd", 0);
-    const mid = id("lst_fib", 0);
+    const mid = id("lst_hiw", 0);
     const stats = computeStats(
-      stateWith([attempt(worst, "wfd", 20, T0), attempt(mid, "lst_fib", 60, T0)]),
+      stateWith([attempt(worst, "wfd", 20, T0), attempt(mid, "lst_hiw", 60, T0)]),
     );
     const q = buildQueue(stats, 6, { now: T0 + DAY, rand });
     expect(q.slice(0, 2)).toEqual([worst, mid]);
@@ -137,8 +137,8 @@ describe("buildQueue (fila inteligente)", () => {
 
   it("questão ainda não vencida só entra depois das novas", () => {
     const fresh = id("wfd", 0);
-    const strong = id("lst_fib", 0);
-    const stats = computeStats(stateWith([attempt(strong, "lst_fib", 100, T0)]));
+    const strong = id("lst_hiw", 0);
+    const stats = computeStats(stateWith([attempt(strong, "lst_hiw", 100, T0)]));
     const q = buildQueue(stats, 5000, { now: T0 + 1000, rand });
     expect(q.indexOf(strong)).toBe(q.length - 1);
     expect(q).toContain(fresh);
@@ -147,25 +147,25 @@ describe("buildQueue (fila inteligente)", () => {
   it("modo errors: só última tentativa < 70, pior primeiro; respeita size e taskTypes", () => {
     const a = id("wfd", 0);
     const b = id("wfd", 1);
-    const c = id("lst_fib", 0);
+    const c = id("lst_hiw", 0);
     const stats = computeStats(
       stateWith([
         attempt(a, "wfd", 30, T0),
         attempt(b, "wfd", 65, T0),
-        attempt(c, "lst_fib", 95, T0),
+        attempt(c, "lst_hiw", 95, T0),
       ]),
     );
     expect(countErrors(stats)).toBe(2);
     expect(buildQueue(stats, 10, { mode: "errors" })).toEqual([a, b]);
     expect(buildQueue(stats, 1, { mode: "errors" })).toEqual([a]);
-    expect(buildQueue(stats, 10, { mode: "errors", taskTypes: ["lst_fib"] })).toEqual([]);
+    expect(buildQueue(stats, 10, { mode: "errors", taskTypes: ["lst_hiw"] })).toEqual([]);
   });
 
   it("interleaveByType alterna os tipos preservando a ordem interna", () => {
     const out = interleaveByType([
       { taskType: "wfd" as TaskType, n: 1 },
       { taskType: "wfd" as TaskType, n: 2 },
-      { taskType: "lst_fib" as TaskType, n: 3 },
+      { taskType: "lst_hiw" as TaskType, n: 3 },
     ]);
     expect(out.map((x) => x.n)).toEqual([1, 3, 2]);
   });

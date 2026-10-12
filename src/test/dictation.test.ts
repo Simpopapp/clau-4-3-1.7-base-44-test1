@@ -76,7 +76,8 @@ describe("gradeHiw (Highlight Incorrect Words)", () => {
 
 describe("integridade dos dados dos motores", () => {
   it("todas as lacunas de FIB têm índices sequenciais a partir de 0", () => {
-    expect(fibQuestions.length).toBeGreaterThan(0);
+    // O banco de lst_fib ficou sem itens na auditoria de proveniência (era só predição de IA);
+    // a invariante continua valendo para todo item que voltar a entrar.
     for (const q of fibQuestions) {
       const blanks = parseFibSegments(q.text).filter((s) => s.kind === "blank");
       blanks.forEach((s, k) => expect(s.kind === "blank" && s.index).toBe(k));
