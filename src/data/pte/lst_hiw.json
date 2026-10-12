@@ -2,8 +2,8 @@
   "type": "lst_hiw",
   "task_type": "Highlight Incorrect Words",
   "section": "listening",
-  "total": 3,
-  "generated_at": "2026-10-05",
+  "total": 53,
+  "generated_at": "2026-10-12",
   "questions": [
     {
       "text": "The Antarctic ice sheet has been losing mass at an accelerating rate since the early 1990s, with most of the loss concentrated in West Antarctica where warming ocean currents are eroding the floating ice shelves that buttress inland glaciers.",
@@ -55,6 +55,998 @@
       "topic": "academic lecture",
       "source": "pteracai-seed",
       "word_count": 56
+    },
+    {
+      "text": "Effective learning in higher education relies heavily on the continuous feedback loop between instructors and students. While statistical grades provide a quick snapshot of performance, they often fail to demonstrate specific areas for improvement or detailed guidance. Constructive commentary allows students to clearly identify their weaknesses and adjust their study techniques accordingly. However, for this process to be truly successful, students must be willing to actively interact with the criticism rather than simply looking at the final score. Unfortunately, many learners view assessment purely as a scholastic hurdle to overcome, ignoring the valuable insights that could significantly enhance their future academic careers.",
+      "id": "goarno-hiw-01",
+      "answer": "",
+      "errors": [
+        17,
+        29,
+        50,
+        66,
+        86,
+        101
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): statistical→numerical, demonstrate→communicate, techniques→strategies, interact→engage, scholastic→bureaucratic, careers→endeavors. (Source key: goarno.io)",
+      "trap": "Leia a transcrição antes de ouvir: antecipar onde a palavra pode ter sido trocada (datas, quantidades, direção) reduz muito o tempo de reação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 102,
+      "audio_text": "Effective learning in higher education relies heavily on the continuous feedback loop between instructors and students. While numerical grades provide a quick snapshot of performance, they often fail to communicate specific areas for improvement or detailed guidance. Constructive commentary allows students to clearly identify their weaknesses and adjust their study strategies accordingly. However, for this process to be truly successful, students must be willing to actively engage with the criticism rather than simply looking at the final score. Unfortunately, many learners view assessment purely as a bureaucratic hurdle to overcome, ignoring the valuable insights that could significantly enhance their future academic endeavors."
+    },
+    {
+      "text": "Effective learning in higher education relies heavily on the quality of feedback students receive on their assignments. It is not efficient to simply grade a paper and move on; instructors must provide instructive comments that highlight specific strengths and weaknesses. This outgoing dialogue allows students to understand where their reading may be flawed or where their arguments lack accurate evidence. Without this crucial guidance, learners often struggle to prove their academic performance significantly over time. Consequently, many universities are now prioritizing specialized training for staff to ensure they can deliver assessments that truly foster intellectual worth rather than merely measuring a student's current ability.",
+      "id": "goarno-hiw-02",
+      "answer": "",
+      "errors": [
+        20,
+        32,
+        41,
+        49,
+        58,
+        68,
+        95
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): efficient→sufficient, instructive→constructive, outgoing→ongoing, reading→reasoning, accurate→adequate, prove→improve, worth→growth. (Source key: goarno.io)",
+      "trap": "Marque só o que ouviu diferente do texto — destacar demais desconta pontos.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 104,
+      "audio_text": "Effective learning in higher education relies heavily on the quality of feedback students receive on their assignments. It is not sufficient to simply grade a paper and move on; instructors must provide constructive comments that highlight specific strengths and weaknesses. This ongoing dialogue allows students to understand where their reasoning may be flawed or where their arguments lack adequate evidence. Without this crucial guidance, learners often struggle to improve their academic performance significantly over time. Consequently, many universities are now prioritizing specialized training for staff to ensure they can deliver assessments that truly foster intellectual growth rather than merely measuring a student's current ability."
+    },
+    {
+      "text": "Many students discover that the most memorable aspect of their university journey actually happens outside the lecture hall. Running student organizations provides a useful opportunity to broaden one's horizons beyond the standard curriculum. It is not merely about pursuing a fun hobby; it is fundamentally about building a robust support network. When you collaborate on complex projects with people from distinct backgrounds, you cultivate accountability and resilience. These soft skills are increasingly sought after in the modern job market, often weighing heavily in recruitment decisions. Moreover, the bonds formed during these activities frequently turn into lifelong professional relationships, proving that social interaction is key to future prosperity.",
+      "id": "goarno-hiw-03",
+      "answer": "",
+      "errors": [
+        6,
+        18,
+        23,
+        60,
+        64,
+        101
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): memorable→beneficial, Running→Joining, useful→unique, distinct→diverse, accountability→adaptability, interaction→integration. (Source key: goarno.io)",
+      "trap": "Cerca de 80% do texto costuma bater com o áudio; a tarefa é achar os 20% que não batem.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 107,
+      "audio_text": "Many students discover that the most beneficial aspect of their university journey actually happens outside the lecture hall. Joining student organizations provides a unique opportunity to broaden one's horizons beyond the standard curriculum. It is not merely about pursuing a fun hobby; it is fundamentally about building a robust support network. When you collaborate on complex projects with people from diverse backgrounds, you cultivate adaptability and resilience. These soft skills are increasingly sought after in the modern job market, often weighing heavily in recruitment decisions. Moreover, the bonds formed during these activities frequently turn into lifelong professional relationships, proving that social integration is key to future prosperity."
+    },
+    {
+      "text": "Rituals play a fundamental role in maintaining social order within traditional communities and modern societies alike. Anthropologists observe that these ceremonies often mark significant transactions in an individual's life, effectively guarding them from one status to another, such as during marriage or coming-of-age events. Through these structured preferences, shared values are reinforced, and group stability is significantly strengthened. Symbols used during these rituals carry precise meanings that are understood immediately by members of the culture but may seem absurd to outsiders. By analyzing these symbolic actions, researchers can gain valuable insight into the underlying beliefs that govern a society’s daily behavior.",
+      "id": "goarno-hiw-04",
+      "answer": "",
+      "errors": [
+        24,
+        30,
+        47,
+        54,
+        64,
+        78
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): transactions→transitions, guarding→guiding, preferences→performances, stability→solidarity, precise→profound, absurd→obscure. (Source key: goarno.io)",
+      "trap": "Palavras de polaridade (aumenta/diminui, antes/depois, mais/menos) são trocadas com frequência: escute a direção da afirmação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 101,
+      "audio_text": "Rituals play a fundamental role in maintaining social order within traditional communities and modern societies alike. Anthropologists observe that these ceremonies often mark significant transitions in an individual's life, effectively guiding them from one status to another, such as during marriage or coming-of-age events. Through these structured performances, shared values are reinforced, and group solidarity is significantly strengthened. Symbols used during these rituals carry profound meanings that are understood immediately by members of the culture but may seem obscure to outsiders. By analyzing these symbolic actions, researchers can gain valuable insight into the underlying beliefs that govern a society’s daily behavior."
+    },
+    {
+      "text": "For decades, final examinations served as the definitive method for evaluating student performance in higher education institutions. This conventional approach relied heavily on memory retention and the ability to focus under significant time pressure. However, many modern universities are increasingly shifting towards continuous assessment models to better reflect real-world demands. These methods allow for a more historic evaluation of a student's development throughout the entire academic year. By interpreting diverse tasks like research essays, oral presentations and group projects, educators can accurately monitor a wider range of skills, including critical analysis and communication. This transition acknowledges that true academic success implies far more than just passing a single high-stakes test.",
+      "id": "goarno-hiw-05",
+      "answer": "",
+      "errors": [
+        7,
+        29,
+        56,
+        68,
+        82,
+        92,
+        100
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): definitive→dominant, focus→function, historic→holistic, interpreting→incorporating, monitor→measure, communication→collaboration, implies→involves. (Source key: goarno.io)",
+      "trap": "Vocabulário acadêmico parecido (adapt/integrate, holistic/dominant) exige ouvir a palavra inteira, não só o começo.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 110,
+      "audio_text": "For decades, final examinations served as the dominant method for evaluating student performance in higher education institutions. This conventional approach relied heavily on memory retention and the ability to function under significant time pressure. However, many modern universities are increasingly shifting towards continuous assessment models to better reflect real-world demands. These methods allow for a more holistic evaluation of a student's development throughout the entire academic year. By incorporating diverse tasks like research essays, oral presentations and group projects, educators can accurately measure a wider range of skills, including critical analysis and collaboration. This transition acknowledges that true academic success involves far more than just passing a single high-stakes test."
+    },
+    {
+      "text": "One of the biggest adjustments international students face is the shift in assessment methods at western universities. In many traditional systems, grades depend largely on final exams, but here, continuous assessment is far more common. This means that actual participation in tutorials and regular written assignments contribute sufficiently to your overall mark. At first, I found this approach quite demanding because it requires consistent effort throughout the semester, rather than a frantic period of review at the very end. However, I soon realized that this structure actually reduces stress levels by spreading the academic workload more evenly across the year.",
+      "id": "goarno-hiw-06",
+      "answer": "",
+      "errors": [
+        19,
+        23,
+        38,
+        47,
+        59,
+        74,
+        99
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): traditional→educational, largely→heavily, actual→active, sufficiently→significantly, demanding→daunting, review→revision, year→term. (Source key: goarno.io)",
+      "trap": "Leia a transcrição antes de ouvir: antecipar onde a palavra pode ter sido trocada (datas, quantidades, direção) reduz muito o tempo de reação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 100,
+      "audio_text": "One of the biggest adjustments international students face is the shift in assessment methods at western universities. In many educational systems, grades depend heavily on final exams, but here, continuous assessment is far more common. This means that active participation in tutorials and regular written assignments contribute significantly to your overall mark. At first, I found this approach quite daunting because it requires consistent effort throughout the semester, rather than a frantic period of revision at the very end. However, I soon realized that this structure actually reduces stress levels by spreading the academic workload more evenly across the term."
+    },
+    {
+      "text": "Upon arriving at university, particularly in a foreign nation, many international students find themselves feeling somewhat insulated initially. While academic achievements are obviously a primary focus, engaging in extracurricular activities is equally valid for long-term personal growth. Joining societies or sports clubs offers a unique avenue to meet peers with similar interests outside the formal lecture theatre setting. These groups often initiate social events that help newcomers migrate into the campus community much faster than studying alone would allow. Furthermore, holding a position within a club committee can develop potential leadership skills that future employers rate highly. Therefore, getting involved is about more than just having fun; it is a strategic step towards a well-rounded university experience.",
+      "id": "goarno-hiw-07",
+      "answer": "",
+      "errors": [
+        16,
+        20,
+        32,
+        45,
+        61,
+        67,
+        95
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): insulated→isolated, achievements→commitments, valid→vital, avenue→platform, initiate→facilitate, migrate→integrate, rate→value. (Source key: goarno.io)",
+      "trap": "Marque só o que ouviu diferente do texto — destacar demais desconta pontos.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 117,
+      "audio_text": "Upon arriving at university, particularly in a foreign nation, many international students find themselves feeling somewhat isolated initially. While academic commitments are obviously a primary focus, engaging in extracurricular activities is equally vital for long-term personal growth. Joining societies or sports clubs offers a unique platform to meet peers with similar interests outside the formal lecture theatre setting. These groups often facilitate social events that help newcomers integrate into the campus community much faster than studying alone would allow. Furthermore, holding a position within a club committee can develop potential leadership skills that future employers value highly. Therefore, getting involved is about more than just having fun; it is a strategic step towards a well-rounded university experience."
+    },
+    {
+      "text": "When I first arrived, I assumed my language skills were quite sufficient because I had studied English for years. However, the reality of daily interaction was surprisingly different from the classroom environment. I struggled significantly with local dialects and the speed at which people spoke during casual conversations. It wasn't just about vocabulary; it was the rhythm and pronunciation that confused me. I found myself nodding along quietly even when I had missed the point entirely. Gradually, by joining social clubs and forcing myself to interact with locals, I began to pick up the basics. Now, I feel much more confident, but that initial period of adjustment was certainly challenging.",
+      "id": "goarno-hiw-08",
+      "answer": "",
+      "errors": [
+        11,
+        24,
+        37,
+        58,
+        67,
+        94
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): sufficient→advanced, interaction→communication, dialects→slang, pronunciation→intonation, quietly→politely, basics→nuances. (Source key: goarno.io)",
+      "trap": "Cerca de 80% do texto costuma bater com o áudio; a tarefa é achar os 20% que não batem.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 110,
+      "audio_text": "When I first arrived, I assumed my language skills were quite advanced because I had studied English for years. However, the reality of daily communication was surprisingly different from the classroom environment. I struggled significantly with local slang and the speed at which people spoke during casual conversations. It wasn't just about vocabulary; it was the rhythm and intonation that confused me. I found myself nodding along politely even when I had missed the point entirely. Gradually, by joining social clubs and forcing myself to interact with locals, I began to pick up the nuances. Now, I feel much more confident, but that initial period of adjustment was certainly challenging."
+    },
+    {
+      "text": "Universities often pride themselves on the vibrant community they feature outside the lecture halls. For international students, joining a society or a sports club can be a positive step in settling into campus life. It is not merely about pursuing a hobby; it is a strategic way to build a network of friends from diverse backgrounds. These extracurricular activities provide a structured environment to practice language skills formally, away from the pleasure of the classroom. Furthermore, being part of a team or a committee develops soft skills like leadership and negotiation, which are highly rewarded by future employers. Ultimately, engaging in student organizations transforms the university experience from a purely academic pursuit into a historic journey of personal growth.",
+      "id": "goarno-hiw-09",
+      "answer": "",
+      "errors": [
+        9,
+        27,
+        67,
+        71,
+        94,
+        114
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): feature→foster, positive→pivotal, formally→informally, pleasure→pressure, rewarded→regarded, historic→holistic. (Source key: goarno.io)",
+      "trap": "Palavras de polaridade (aumenta/diminui, antes/depois, mais/menos) são trocadas com frequência: escute a direção da afirmação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 119,
+      "audio_text": "Universities often pride themselves on the vibrant community they foster outside the lecture halls. For international students, joining a society or a sports club can be a pivotal step in settling into campus life. It is not merely about pursuing a hobby; it is a strategic way to build a network of friends from diverse backgrounds. These extracurricular activities provide a structured environment to practice language skills informally, away from the pressure of the classroom. Furthermore, being part of a team or a committee develops soft skills like leadership and negotiation, which are highly regarded by future employers. Ultimately, engaging in student organizations transforms the university experience from a purely academic pursuit into a holistic journey of personal growth."
+    },
+    {
+      "text": "Writing a successful introduction is beneficial for any academic essay. It acts as a rulebook for your paper, leading the reader through your main agreements. The opening sentence should capture attention, often called a hook, while providing necessary content about the topic. Following this, you must present a clear thesis statement, which outlines the central claim you attend to support. Many students struggle here because they make their thesis statement too vague or broad. Remember, a precise argument allows you to contain focus throughout the body paragraphs, ensuring that every point relates back to your clear idea.",
+      "id": "goarno-hiw-10",
+      "answer": "",
+      "errors": [
+        5,
+        14,
+        24,
+        38,
+        48,
+        57,
+        81
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): beneficial→essential, rulebook→roadmap, agreements→arguments, content→context, attend→intend, contain→maintain, clear→core. (Source key: goarno.io)",
+      "trap": "Vocabulário acadêmico parecido (adapt/integrate, holistic/dominant) exige ouvir a palavra inteira, não só o começo.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 97,
+      "audio_text": "Writing a successful introduction is essential for any academic essay. It acts as a roadmap for your paper, leading the reader through your main arguments. The opening sentence should capture attention, often called a hook, while providing necessary context about the topic. Following this, you must present a core thesis statement, which outlines the central claim you intend to support. Many students struggle here because they make their thesis statement too vague or broad. Remember, a precise argument allows you to maintain focus throughout the body paragraphs, ensuring that every point relates back to your clear idea."
+    },
+    {
+      "text": "Moving to a new country for higher education presents significant challenges beyond just academic expectations. One of the most intimidating hurdles students face is managing their finances effectively in an unfamiliar academic environment. The cost of living can vary greatly depending on the city, and unexpected events often arise during the first few months. It is crucial for students to establish a rigid budget early on, factoring in accommodation, transport, and daily necessities. Many universities offer workshops on financial literacy to help newcomers navigate booking systems. Without careful planning, mental stress can distract from studies and impact overall well-being.",
+      "id": "goarno-hiw-11",
+      "answer": "",
+      "errors": [
+        13,
+        14,
+        19,
+        39,
+        46,
+        62,
+        84,
+        89
+      ],
+      "explanation": "The recording differs from the transcript in 8 place(s): expectations→requirements, intimidating→immediate, academic→economic, greatly→drastically, events→expenses, rigid→realistic, booking→banking, mental→monetary. (Source key: goarno.io)",
+      "trap": "Leia a transcrição antes de ouvir: antecipar onde a palavra pode ter sido trocada (datas, quantidades, direção) reduz muito o tempo de reação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 99,
+      "audio_text": "Moving to a new country for higher education presents significant challenges beyond just economic requirements. One of the most immediate hurdles students face is managing their finances effectively in an unfamiliar academic environment. The cost of living can vary drastically depending on the city, and unexpected expenses often arise during the first few months. It is crucial for students to establish a realistic budget early on, factoring in accommodation, transport, and daily necessities. Many universities offer workshops on financial literacy to help newcomers navigate banking systems. Without careful planning, monetary stress can distract from studies and impact overall well-being."
+    },
+    {
+      "text": "In the realm of higher education, the academic focus often shifts from the passive consumption of information to an active engagement with complex contexts. Unlike secondary school, where the curriculum is frequently rapid and prescriptive, universities encourage students to challenge established theories and conduct individual research. This transition can be demanding for many undergraduates, as it requires a significant degree of self-discipline and intellectual capability. Professors expect learners to analyze sources critically rather than simply assessing them at face value. Ultimately, success at this level depends not just on raw intelligence, but on the ability to synthesize diverse perspectives and formulate original arguments supported by relevant evidence.",
+      "id": "goarno-hiw-12",
+      "answer": "",
+      "errors": [
+        23,
+        32,
+        44,
+        50,
+        64,
+        75,
+        105
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): contexts→concepts, rapid→rigid, individual→independent, demanding→daunting, capability→curiosity, assessing→accepting, relevant→robust. (Source key: goarno.io)",
+      "trap": "Marque só o que ouviu diferente do texto — destacar demais desconta pontos.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 107,
+      "audio_text": "In the realm of higher education, the academic focus often shifts from the passive consumption of information to an active engagement with complex concepts. Unlike secondary school, where the curriculum is frequently rigid and prescriptive, universities encourage students to challenge established theories and conduct independent research. This transition can be daunting for many undergraduates, as it requires a significant degree of self-discipline and intellectual curiosity. Professors expect learners to analyze sources critically rather than simply accepting them at face value. Ultimately, success at this level depends not just on raw intelligence, but on the ability to synthesize diverse perspectives and formulate original arguments supported by robust evidence."
+    },
+    {
+      "text": "Finding suitable accommodation is often the first major obstacle encountered by international students arriving in a new country. While many universities offer on-campus housing, which provides a comfortable and secure environment for newcomers, the demand frequently exceeds the available supply. Consequently, students are often forced to look for private rentals in the nearby suburbs. This search can be quite demanding, particularly as it requires understanding complex lease arrangements and paying significant bonds upfront. Sharing a house with local residents is a popular alternative, as it helps lower daily living costs and offers a unique opportunity to integrate oneself in the local culture.",
+      "id": "goarno-hiw-13",
+      "answer": "",
+      "errors": [
+        8,
+        27,
+        52,
+        59,
+        67,
+        86,
+        96
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): obstacle→hurdle, comfortable→convenient, nearby→surrounding, demanding→daunting, arrangements→agreements, lower→reduce, integrate→immerse. (Source key: goarno.io)",
+      "trap": "Cerca de 80% do texto costuma bater com o áudio; a tarefa é achar os 20% que não batem.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 102,
+      "audio_text": "Finding suitable accommodation is often the first major hurdle encountered by international students arriving in a new country. While many universities offer on-campus housing, which provides a convenient and secure environment for newcomers, the demand frequently exceeds the available supply. Consequently, students are often forced to look for private rentals in the surrounding suburbs. This search can be quite daunting, particularly as it requires understanding complex lease agreements and paying significant bonds upfront. Sharing a house with local residents is a popular alternative, as it helps reduce daily living costs and offers a unique opportunity to immerse oneself in the local culture."
+    },
+    {
+      "text": "Feedback is a functional component of the academic journey, serving as a final bridge between a student's current performance and their future potential. It is not merely about finding errors but rather about guiding learners toward deeper understanding and critical perfection. Effective feedback must be timely and constructive, offering specific insights that students can act upon in consequent assignments. However, receiving criticism can be initially challenging; students must therefore learn to view comments objectively rather than taking them personally. When students engage actively with the guidelines provided by tutors, they transform assessment into a protective dialogue, ultimately enhancing their ability to self-regulate their learning and significantly improve their academic outcomes.",
+      "id": "goarno-hiw-14",
+      "answer": "",
+      "errors": [
+        3,
+        12,
+        28,
+        40,
+        57,
+        64,
+        85,
+        94
+      ],
+      "explanation": "The recording differs from the transcript in 8 place(s): functional→fundamental, final→vital, finding→highlighting, perfection→reflection, consequent→subsequent, initially→emotionally, guidelines→guidance, protective→productive. (Source key: goarno.io)",
+      "trap": "Palavras de polaridade (aumenta/diminui, antes/depois, mais/menos) são trocadas com frequência: escute a direção da afirmação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 110,
+      "audio_text": "Feedback is a fundamental component of the academic journey, serving as a vital bridge between a student's current performance and their future potential. It is not merely about highlighting errors but rather about guiding learners toward deeper understanding and critical reflection. Effective feedback must be timely and constructive, offering specific insights that students can act upon in subsequent assignments. However, receiving criticism can be emotionally challenging; students must therefore learn to view comments objectively rather than taking them personally. When students engage actively with the guidance provided by tutors, they transform assessment into a productive dialogue, ultimately enhancing their ability to self-regulate their learning and significantly improve their academic outcomes."
+    },
+    {
+      "text": "In the past, university libraries were viewed primarily as repositories for physical books and quiet places for independent study. However, the digital revolution has fundamentally transformed this landscape, turning these spaces into dynamic hubs of technology and interaction. Today, the main challenge for students is not simply finding information, but rather navigating the overwhelming mass of data available online. Consequently, librarians have shifted their focus from merely organising texts to teaching information literacy, ensuring scholars can differentiate between authoritative sources and misinformation. This critical skill set is essential for academic success, as the ability to evaluate the validity of digital content is now just as important as analyzing the arguments within it.",
+      "id": "goarno-hiw-15",
+      "answer": "",
+      "errors": [
+        17,
+        37,
+        40,
+        54,
+        67,
+        76,
+        97
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): independent→individual, interaction→collaboration, main→primary, mass→volume, organising→cataloging, differentiate→distinguish, validity→reliability. (Source key: goarno.io)",
+      "trap": "Vocabulário acadêmico parecido (adapt/integrate, holistic/dominant) exige ouvir a palavra inteira, não só o começo.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 112,
+      "audio_text": "In the past, university libraries were viewed primarily as repositories for physical books and quiet places for individual study. However, the digital revolution has fundamentally transformed this landscape, turning these spaces into dynamic hubs of technology and collaboration. Today, the primary challenge for students is not simply finding information, but rather navigating the overwhelming volume of data available online. Consequently, librarians have shifted their focus from merely cataloging texts to teaching information literacy, ensuring scholars can distinguish between authoritative sources and misinformation. This critical skill set is essential for academic success, as the ability to evaluate the reliability of digital content is now just as important as analyzing the arguments within it."
+    },
+    {
+      "text": "Arriving in a new country can be challenging, particularly when you have to leave your entire support network behind. I quickly discovered that joining student associations was crucial for my successful adaptation into campus life. It was not merely about pursuing interests; it was fundamentally about finding a sense of community. Too many international students tend to insulate themselves initially, focusing solely on their coursework to ensure good grades. However, interacting with peers from diverse backgrounds actually benefited my overall well-being by alleviating feelings of loneliness. Ultimately, university is not just about the qualification; it is about the durable connections you form along the way.",
+      "id": "goarno-hiw-16",
+      "answer": "",
+      "errors": [
+        7,
+        25,
+        31,
+        41,
+        57,
+        70,
+        101
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): challenging→daunting, associations→societies, adaptation→integration, interests→hobbies, insulate→isolate, interacting→engaging, form→forge. (Source key: goarno.io)",
+      "trap": "Leia a transcrição antes de ouvir: antecipar onde a palavra pode ter sido trocada (datas, quantidades, direção) reduz muito o tempo de reação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 105,
+      "audio_text": "Arriving in a new country can be daunting, particularly when you have to leave your entire support network behind. I quickly discovered that joining student societies was crucial for my successful integration into campus life. It was not merely about pursuing hobbies; it was fundamentally about finding a sense of community. Too many international students tend to isolate themselves initially, focusing solely on their coursework to ensure good grades. However, engaging with peers from diverse backgrounds actually benefited my overall well-being by alleviating feelings of loneliness. Ultimately, university is not just about the qualification; it is about the durable connections you forge along the way."
+    },
+    {
+      "text": "Securing sustainable accommodation is often one of the most daunting tasks for newcomers arriving in a foreign country. Many people assume they can easily find a place online before they start, but photographs can be revealing. It is generally essential to book temporary lodging for the first few weeks, allowing you to inspect potential long-term venues in person. This approach also gives you the opportunity to explore different neighborhoods and gauge the community to your workplace or campus. Furthermore, tenancy laws vary significantly across borders, so understanding your rights regarding deposits and lease terminations is crucial to avoid unexpected debts.",
+      "id": "goarno-hiw-17",
+      "answer": "",
+      "errors": [
+        1,
+        30,
+        35,
+        39,
+        55,
+        72,
+        99
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): sustainable→suitable, start→depart, revealing→deceiving, essential→advisable, venues→rentals, community→commute, debts→disputes. (Source key: goarno.io)",
+      "trap": "Marque só o que ouviu diferente do texto — destacar demais desconta pontos.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 100,
+      "audio_text": "Securing suitable accommodation is often one of the most daunting tasks for newcomers arriving in a foreign country. Many people assume they can easily find a place online before they depart, but photographs can be deceiving. It is generally advisable to book temporary lodging for the first few weeks, allowing you to inspect potential long-term rentals in person. This approach also gives you the opportunity to explore different neighborhoods and gauge the commute to your workplace or campus. Furthermore, tenancy laws vary significantly across borders, so understanding your rights regarding deposits and lease terminations is crucial to avoid unexpected disputes."
+    },
+    {
+      "text": "When moving abroad for university, one of the first major decisions involves ensuring suitable accommodation. Many students initially opt for on-campus housing purely because of the confidence it offers. Living in a dormitory provides immediate access to library facilities and lecture halls, effectively limiting the need for a lengthy daily commute. However, others might prefer renting private departments to gain a greater sense of independence and privacy. While this option allows for sufficiently more freedom regarding lifestyle choices, it often comes with additional responsibilities, such as managing utility bills and navigating complete tenancy agreements. Ultimately, the choice depends mainly on personal preferences and financial constraints.",
+      "id": "goarno-hiw-18",
+      "answer": "",
+      "errors": [
+        12,
+        26,
+        43,
+        57,
+        72,
+        91,
+        98
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): ensuring→securing, confidence→convenience, limiting→eliminating, departments→apartments, sufficiently→significantly, complete→complex, mainly→heavily. (Source key: goarno.io)",
+      "trap": "Cerca de 80% do texto costuma bater com o áudio; a tarefa é achar os 20% que não batem.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 105,
+      "audio_text": "When moving abroad for university, one of the first major decisions involves securing suitable accommodation. Many students initially opt for on-campus housing purely because of the convenience it offers. Living in a dormitory provides immediate access to library facilities and lecture halls, effectively eliminating the need for a lengthy daily commute. However, others might prefer renting private apartments to gain a greater sense of independence and privacy. While this option allows for significantly more freedom regarding lifestyle choices, it often comes with additional responsibilities, such as managing utility bills and navigating complex tenancy agreements. Ultimately, the choice depends heavily on personal preferences and financial constraints."
+    },
+    {
+      "text": "In the concept of higher education, the delivery of feedback is often just as sufficient as the curriculum itself. Many students tend to focus simply on the final grade, viewing it as the ultimate method of their success or failure. However, educators consistently argue that constructive comments provided throughout the term are far more valid for long-term development. This continuous guidance helps learners identify their specific weaknesses and define their critical thinking skills before submitting final assignments. Without this interactive process, students may inadvertently repeat the same errors, missing crucial opportunities to improve their academic performance and broaden their understanding of the subject matter.",
+      "id": "goarno-hiw-19",
+      "answer": "",
+      "errors": [
+        2,
+        14,
+        24,
+        34,
+        54,
+        68,
+        79,
+        97
+      ],
+      "explanation": "The recording differs from the transcript in 8 place(s): concept→context, sufficient→significant, simply→solely, method→measure, valid→valuable, define→refine, interactive→iterative, broaden→deepen. (Source key: goarno.io)",
+      "trap": "Palavras de polaridade (aumenta/diminui, antes/depois, mais/menos) são trocadas com frequência: escute a direção da afirmação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 104,
+      "audio_text": "In the context of higher education, the delivery of feedback is often just as significant as the curriculum itself. Many students tend to focus solely on the final grade, viewing it as the ultimate measure of their success or failure. However, educators consistently argue that constructive comments provided throughout the term are far more valuable for long-term development. This continuous guidance helps learners identify their specific weaknesses and refine their critical thinking skills before submitting final assignments. Without this iterative process, students may inadvertently repeat the same errors, missing crucial opportunities to improve their academic performance and deepen their understanding of the subject matter."
+    },
+    {
+      "text": "One of the most immediate challenges I encountered was figuring out the metropolitan public transport circuit. Coming from a rural area where private vehicles are the norm, relying solely on trains and trams was a daunting aspect. I was initially cautious about getting lost or inadvertently taking the wrong line, but I quickly realized how local the layout actually is. Obtaining a digital travel card was eventual, as it allows for automatic transfers between different services without needing extra tickets. Now, I actually enjoy the journey to campus because it gives me a quiet moment to absorb the urban landscape and feel more connected to my new environment.",
+      "id": "goarno-hiw-20",
+      "answer": "",
+      "errors": [
+        15,
+        36,
+        40,
+        55,
+        66,
+        96
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): circuit→network, aspect→prospect, cautious→anxious, local→logical, eventual→essential, absorb→observe. (Source key: goarno.io)",
+      "trap": "Vocabulário acadêmico parecido (adapt/integrate, holistic/dominant) exige ouvir a palavra inteira, não só o começo.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 108,
+      "audio_text": "One of the most immediate challenges I encountered was figuring out the metropolitan public transport network. Coming from a rural area where private vehicles are the norm, relying solely on trains and trams was a daunting prospect. I was initially anxious about getting lost or inadvertently taking the wrong line, but I quickly realized how logical the layout actually is. Obtaining a digital travel card was essential, as it allows for automatic transfers between different services without needing extra tickets. Now, I actually enjoy the journey to campus because it gives me a quiet moment to observe the urban landscape and feel more connected to my new environment."
+    },
+    {
+      "text": "One of the most efficient ways to settle into university life is by joining a student society or club. When I first arrived, I felt quite insulated because I didn't know anyone outside my specific course. However, signing up for the debating team completely changed my perception. It wasn't just about arguing topics; it was about building confidence and meeting people from completely different backgrounds. These extracurricular activities provide a cultural balance to your studies, allowing you to develop soft skills like teamwork and leadership in a relaxed setting. For any new student, I strongly suggest getting involved early to maximize these special opportunities.",
+      "id": "goarno-hiw-21",
+      "answer": "",
+      "errors": [
+        4,
+        26,
+        46,
+        64,
+        70,
+        102
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): efficient→effective, insulated→isolated, perception→perspective, backgrounds→disciplines, cultural→crucial, special→social. (Source key: goarno.io)",
+      "trap": "Leia a transcrição antes de ouvir: antecipar onde a palavra pode ter sido trocada (datas, quantidades, direção) reduz muito o tempo de reação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 104,
+      "audio_text": "One of the most effective ways to settle into university life is by joining a student society or club. When I first arrived, I felt quite isolated because I didn't know anyone outside my specific course. However, signing up for the debating team completely changed my perspective. It wasn't just about arguing topics; it was about building confidence and meeting people from completely different disciplines. These extracurricular activities provide a crucial balance to your studies, allowing you to develop soft skills like teamwork and leadership in a relaxed setting. For any new student, I strongly suggest getting involved early to maximize these social opportunities."
+    },
+    {
+      "text": "Participating in university clubs and societies is frequently underestimated by new arrivals, yet it stands as one of the most effective methods to adapt into campus life. Beyond merely pursuing a hobby, these groups offer a structured setting to encounter peers with common interests, fostering connections that often endure for years. Many students discover that the soft skills acquired here, such as leadership and teamwork, are just as valuable as their academic achievements. Furthermore, engaging in extracurricular activities helps eliminate feelings of isolation, establishing a sense of community that is vital for mental well-being during the introduction to higher education.",
+      "id": "goarno-hiw-22",
+      "answer": "",
+      "errors": [
+        8,
+        23,
+        37,
+        42,
+        72,
+        79,
+        96
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): underestimated→overlooked, adapt→settle, setting→environment, common→shared, achievements→qualifications, eliminate→alleviate, introduction→transition. (Source key: goarno.io)",
+      "trap": "Marque só o que ouviu diferente do texto — destacar demais desconta pontos.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 100,
+      "audio_text": "Participating in university clubs and societies is frequently overlooked by new arrivals, yet it stands as one of the most effective methods to settle into campus life. Beyond merely pursuing a hobby, these groups offer a structured environment to encounter peers with shared interests, fostering connections that often endure for years. Many students discover that the soft skills acquired here, such as leadership and teamwork, are just as valuable as their academic qualifications. Furthermore, engaging in extracurricular activities helps alleviate feelings of isolation, establishing a sense of community that is vital for mental well-being during the transition to higher education."
+    },
+    {
+      "text": "In the academic world, the ability to evaluate sources critically is apparent. Students often assume that because an article is published in a journal, it is automatically relevant. However, this is not always the case. Scholars must standardize the methodology, check for potential bias, and verify the potentials of the author. Simply accepting information at face value can lead to broad arguments and weak conclusions. Therefore, university courses emphasize the development of analytical skills over the mere combination of data. It is this capacity to question and investigate that diminishes a true scholar from a passive learner.",
+      "id": "goarno-hiw-23",
+      "answer": "",
+      "errors": [
+        11,
+        27,
+        37,
+        47,
+        60,
+        77,
+        89
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): apparent→paramount, relevant→reliable, standardize→scrutinize, potentials→credentials, broad→flawed, combination→accumulation, diminishes→distinguishes. (Source key: goarno.io)",
+      "trap": "Cerca de 80% do texto costuma bater com o áudio; a tarefa é achar os 20% que não batem.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 97,
+      "audio_text": "In the academic world, the ability to evaluate sources critically is paramount. Students often assume that because an article is published in a journal, it is automatically reliable. However, this is not always the case. Scholars must scrutinize the methodology, check for potential bias, and verify the credentials of the author. Simply accepting information at face value can lead to flawed arguments and weak conclusions. Therefore, university courses emphasize the development of analytical skills over the mere accumulation of data. It is this capacity to question and investigate that distinguishes a true scholar from a passive learner."
+    },
+    {
+      "text": "One of the most efficient ways to settle into university life is by joining various clubs and societies. Initially, I felt quite isolated because I didn't know anyone outside my intermediate course. However, once I signed up for the photography club, the solution changed rapidly. It wasn't just about the activity itself; it was the informative social interaction that mattered most. We would often gather for coffee after our lessons, allowing us to build general friendships in a relaxed setting. This network provided emotional support, which is critical when you are living far away from your family. I soon realized that balancing social activities with your studies is vital for maintaining a healthy prospective.",
+      "id": "goarno-hiw-24",
+      "answer": "",
+      "errors": [
+        4,
+        30,
+        42,
+        55,
+        69,
+        74,
+        87,
+        113
+      ],
+      "explanation": "The recording differs from the transcript in 8 place(s): efficient→effective, intermediate→immediate, solution→situation, informative→informal, lessons→sessions, general→genuine, critical→crucial, prospective→perspective. (Source key: goarno.io)",
+      "trap": "Palavras de polaridade (aumenta/diminui, antes/depois, mais/menos) são trocadas com frequência: escute a direção da afirmação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 114,
+      "audio_text": "One of the most effective ways to settle into university life is by joining various clubs and societies. Initially, I felt quite isolated because I didn't know anyone outside my immediate course. However, once I signed up for the photography club, the situation changed rapidly. It wasn't just about the activity itself; it was the informal social interaction that mattered most. We would often gather for coffee after our sessions, allowing us to build genuine friendships in a relaxed setting. This network provided emotional support, which is crucial when you are living far away from your family. I soon realized that balancing social activities with your studies is vital for maintaining a healthy perspective."
+    },
+    {
+      "text": "Moving to a new country for university is often portrayed as an exciting adventure, yet the reality of social integration can be quite demanding. Many newcomers find themselves insulated within their accommodation blocks, rarely venturing out to meet the wider community. One effective method to overcome this barrier is joining university societies or sports clubs. These organizations provide a structured environment where interaction is focused around a shared interest rather than awkward small talk. Furthermore, engaging in local volunteering opportunities can widen one’s understanding of the host culture and improve language skills in real-world contexts. Ultimately, building a support network takes time, but stepping outside your comfort zone is essential for a truly rewarding experience abroad.",
+      "id": "goarno-hiw-25",
+      "answer": "",
+      "errors": [
+        23,
+        28,
+        43,
+        64,
+        81,
+        113
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): demanding→daunting, insulated→isolated, method→strategy, focused→centered, widen→deepen, rewarding→fulfilling. (Source key: goarno.io)",
+      "trap": "Vocabulário acadêmico parecido (adapt/integrate, holistic/dominant) exige ouvir a palavra inteira, não só o começo.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 116,
+      "audio_text": "Moving to a new country for university is often portrayed as an exciting adventure, yet the reality of social integration can be quite daunting. Many newcomers find themselves isolated within their accommodation blocks, rarely venturing out to meet the wider community. One effective strategy to overcome this barrier is joining university societies or sports clubs. These organizations provide a structured environment where interaction is centered around a shared interest rather than awkward small talk. Furthermore, engaging in local volunteering opportunities can deepen one’s understanding of the host culture and improve language skills in real-world contexts. Ultimately, building a support network takes time, but stepping outside your comfort zone is essential for a truly fulfilling experience abroad."
+    },
+    {
+      "text": "Finding suitable accommodation is often one of the first major challenges that new arrivals face when moving overseas for their education. While university dormitories provide a convenient and secure option located close to campus facilities, they can sometimes lack the privacy and quiet that mature students often require. Alternatively, renting a private apartment offers substantially more independence, though it usually comes with higher monthly costs and the added responsibility of managing utility bills directly. Homestays are another popular choice, allowing individuals to fully integrate themselves in the local culture and practice the language daily with a host family. Ultimately, the decision depends on your personal budget and how much social interaction you really prefer in your living environment.",
+      "id": "goarno-hiw-26",
+      "answer": "",
+      "errors": [
+        10,
+        28,
+        47,
+        54,
+        73,
+        83,
+        112
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): challenges→hurdles, secure→safe, require→desire, substantially→significantly, directly→alone, integrate→immerse, really→actually. (Source key: goarno.io)",
+      "trap": "Leia a transcrição antes de ouvir: antecipar onde a palavra pode ter sido trocada (datas, quantidades, direção) reduz muito o tempo de reação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 118,
+      "audio_text": "Finding suitable accommodation is often one of the first major hurdles that new arrivals face when moving overseas for their education. While university dormitories provide a convenient and safe option located close to campus facilities, they can sometimes lack the privacy and quiet that mature students often desire. Alternatively, renting a private apartment offers significantly more independence, though it usually comes with higher monthly costs and the added responsibility of managing utility bills alone. Homestays are another popular choice, allowing individuals to fully immerse themselves in the local culture and practice the language daily with a host family. Ultimately, the decision depends on your personal budget and how much social interaction you actually prefer in your living environment."
+    },
+    {
+      "text": "Traditionally, university lectures involved a professor speaking from a podium while students silently took notes, observing information without immediate questioning. However, modern pedagogy emphasizes active preparation to foster deeper understanding. In seminars, the focus shifts from passive listening to critical debate, requiring students to articulate their own viewpoints and define their arguments against scrutiny. This transition can be challenging for those accustomed to a teacher-centered model where reliance is key. Success in this environment depends not just on memorizing content, but on the ability to summarise information and challenge existing theories. Consequently, universities are increasingly designing courses that encourage elaboration and independent inquiry rather than simple rote learning.",
+      "id": "goarno-hiw-27",
+      "answer": "",
+      "errors": [
+        15,
+        25,
+        49,
+        67,
+        85,
+        99
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): observing→absorbing, preparation→participation, define→defend, reliance→compliance, summarise→synthesize, elaboration→collaboration. (Source key: goarno.io)",
+      "trap": "Marque só o que ouviu diferente do texto — destacar demais desconta pontos.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 108,
+      "audio_text": "Traditionally, university lectures involved a professor speaking from a podium while students silently took notes, absorbing information without immediate questioning. However, modern pedagogy emphasizes active participation to foster deeper understanding. In seminars, the focus shifts from passive listening to critical debate, requiring students to articulate their own viewpoints and defend their arguments against scrutiny. This transition can be challenging for those accustomed to a teacher-centered model where compliance is key. Success in this environment depends not just on memorizing content, but on the ability to synthesize information and challenge existing theories. Consequently, universities are increasingly designing courses that encourage collaboration and independent inquiry rather than simple rote learning."
+    },
+    {
+      "text": "Deciding where to live is often the major concern for new students. Many institutions provide on-campus halls, which offer convenience and a fantastic way to connect with peers immediately. However, these facilities are frequently overcrowded, and competition can be fierce. Alternatively, private rentals allow for greater freedom and the opportunity to discover different districts, often providing a calmer atmosphere. It is vital to view any property in person before signing a lease to ensure it meets your requirements. Ultimately, organizing your living situation in advance is key to a successful start.",
+      "id": "goarno-hiw-28",
+      "answer": "",
+      "errors": [
+        7,
+        25,
+        34,
+        46,
+        71,
+        77,
+        79
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): major→primary, connect→socialize, overcrowded→oversubscribed, freedom→independence, lease→contract, requirements→expectations, organizing→arranging. (Source key: goarno.io)",
+      "trap": "Cerca de 80% do texto costuma bater com o áudio; a tarefa é achar os 20% que não batem.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 91,
+      "audio_text": "Deciding where to live is often the primary concern for new students. Many institutions provide on-campus halls, which offer convenience and a fantastic way to socialize with peers immediately. However, these facilities are frequently oversubscribed, and competition can be fierce. Alternatively, private rentals allow for greater independence and the opportunity to discover different districts, often providing a calmer atmosphere. It is vital to view any property in person before signing a contract to ensure it meets your expectations. Ultimately, arranging your living situation in advance is key to a successful start."
+    },
+    {
+      "text": "In recent decades, university curricula have increasingly shifted focus towards developing critical thinking rather than focusing on simple rote memorization. In a rapidly changing information landscape, the ability to analyze diverse sources and conduct logical arguments is considered paramount. Employers frequently report that they value graduates who can solve complex problems over those who mostly possess encyclopedic knowledge of a specific field. Consequently, modern syllabus reform often incorporates project-based learning and collaborative workshops to foster these capabilities. These methods encourage students to question assumptions and agree deeply with the material, ensuring they leave higher education equipped with the acceptable skills necessary for the future workforce.",
+      "id": "goarno-hiw-29",
+      "answer": "",
+      "errors": [
+        15,
+        33,
+        54,
+        65,
+        85,
+        98
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): focusing→relying, conduct→construct, mostly→merely, reform→design, agree→engage, acceptable→adaptable. (Source key: goarno.io)",
+      "trap": "Palavras de polaridade (aumenta/diminui, antes/depois, mais/menos) são trocadas com frequência: escute a direção da afirmação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 105,
+      "audio_text": "In recent decades, university curricula have increasingly shifted focus towards developing critical thinking rather than relying on simple rote memorization. In a rapidly changing information landscape, the ability to analyze diverse sources and construct logical arguments is considered paramount. Employers frequently report that they value graduates who can solve complex problems over those who merely possess encyclopedic knowledge of a specific field. Consequently, modern syllabus design often incorporates project-based learning and collaborative workshops to foster these capabilities. These methods encourage students to question assumptions and engage deeply with the material, ensuring they leave higher education equipped with the adaptable skills necessary for the future workforce."
+    },
+    {
+      "text": "In higher education, the primary function of feedback is not merely to confirm a grade, but to facilitate deeper learning. Effective feedback acts as a crucial path between a student's current performance and the desired academic standard. However, it is unfortunate that students often view comments solely as a record of their past work rather than valuable preparation for future assignments. To change this perception, universities must encourage a culture where feedback is seen as developmental rather than punitive. When students actively engage with tutors about their assessment results, they are more likely to memorize the advice. Ultimately, the goal is to transform feedback into feed-forward, ensuring that insights gained today are applied effectively to problems encountered tomorrow.",
+      "id": "goarno-hiw-30",
+      "answer": "",
+      "errors": [
+        12,
+        26,
+        49,
+        57,
+        69,
+        94,
+        115
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): confirm→justify, path→bridge, record→critique, preparation→guidance, culture→dialogue, memorize→internalize, problems→challenges. (Source key: goarno.io)",
+      "trap": "Vocabulário acadêmico parecido (adapt/integrate, holistic/dominant) exige ouvir a palavra inteira, não só o começo.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 118,
+      "audio_text": "In higher education, the primary function of feedback is not merely to justify a grade, but to facilitate deeper learning. Effective feedback acts as a crucial bridge between a student's current performance and the desired academic standard. However, it is unfortunate that students often view comments solely as a critique of their past work rather than valuable guidance for future assignments. To change this perception, universities must encourage a dialogue where feedback is seen as developmental rather than punitive. When students actively engage with tutors about their assessment results, they are more likely to internalize the advice. Ultimately, the goal is to transform feedback into feed-forward, ensuring that insights gained today are applied effectively to challenges encountered tomorrow."
+    },
+    {
+      "text": "One of the most effective strategies for improving academic writing is engaging in prior review. When you have spent hours staring at the same argument, it becomes easy to overstate simple mistakes because your brain automatically fills in the gaps. By changing papers with a classmate, you gain a fresh perspective on your work. A colleague can identify areas where your argument lacks clarity or where the structure feels disputed. Furthermore, explaining your ideas to someone else often forces you to remind your thinking. Remember that the goal is not just to correct grammar, but to enhance the overall appearance of the essay.",
+      "id": "goarno-hiw-31",
+      "answer": "",
+      "errors": [
+        13,
+        24,
+        29,
+        41,
+        69,
+        81,
+        99
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): prior→peer, argument→document, overstate→overlook, changing→exchanging, disputed→disjointed, remind→refine, appearance→coherence. (Source key: goarno.io)",
+      "trap": "Leia a transcrição antes de ouvir: antecipar onde a palavra pode ter sido trocada (datas, quantidades, direção) reduz muito o tempo de reação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 103,
+      "audio_text": "One of the most effective strategies for improving academic writing is engaging in peer review. When you have spent hours staring at the same document, it becomes easy to overlook simple mistakes because your brain automatically fills in the gaps. By exchanging papers with a classmate, you gain a fresh perspective on your work. A colleague can identify areas where your argument lacks clarity or where the structure feels disjointed. Furthermore, explaining your ideas to someone else often forces you to refine your thinking. Remember that the goal is not just to correct grammar, but to enhance the overall coherence of the essay."
+    },
+    {
+      "text": "In modern higher education, the emphasis has shifted significantly towards collective learning. Unlike traditional lecture formats where students patiently absorb information from an educator, group work requires active participation and negotiation. This approach mimics the professional environment, where teamwork is crucial for solving complex problems. Critics often argue that group projects allow some students to ride on the work of others, leading to unfair grading. However, proponents maintain that the skills developed, such as conflict management and communication, are invaluable. Ultimately, the goal is to foster a learning community where knowledge is co-constructed rather than simply transferred.",
+      "id": "goarno-hiw-32",
+      "answer": "",
+      "errors": [
+        10,
+        18,
+        23,
+        25,
+        33,
+        40,
+        75,
+        96
+      ],
+      "explanation": "The recording differs from the transcript in 8 place(s): collective→collaborative, patiently→passively, educator→instructor, mimics→mirrors, crucial→essential, work→efforts, management→resolution, transferred→transmitted. (Source key: goarno.io)",
+      "trap": "Marque só o que ouviu diferente do texto — destacar demais desconta pontos.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 97,
+      "audio_text": "In modern higher education, the emphasis has shifted significantly towards collaborative learning. Unlike traditional lecture formats where students passively absorb information from an instructor, group efforts requires active participation and negotiation. This approach mirrors the professional environment, where teamwork is essential for solving complex problems. Critics often argue that group projects allow some students to ride on the work of others, leading to unfair grading. However, proponents maintain that the skills developed, such as conflict resolution and communication, are invaluable. Ultimately, the goal is to foster a learning community where knowledge is co-constructed rather than simply transmitted."
+    },
+    {
+      "text": "In recent years, the landscape of higher education has drifted significantly away from the traditional lecture model. Educators increasingly recognize that passive listening alone rarely leads to deep understanding or long-term attention. Instead, active learning strategies are being supplemented to engage students directly with course material. This approach encourages learners to organize information critically rather than simply memorizing it for an exam. By participating in group discussions and comparative problem-solving exercises, students develop practical skills that are beneficial for their future careers. Consequently, the role of the professor is evolving from a mere transmitter of knowledge into a coordinator of independent inquiry and discovery.",
+      "id": "goarno-hiw-33",
+      "answer": "",
+      "errors": [
+        9,
+        31,
+        38,
+        51,
+        68,
+        77,
+        98
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): drifted→shifted, attention→retention, supplemented→implemented, organize→analyze, comparative→collaborative, beneficial→essential, coordinator→facilitator. (Source key: goarno.io)",
+      "trap": "Cerca de 80% do texto costuma bater com o áudio; a tarefa é achar os 20% que não batem.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 104,
+      "audio_text": "In recent years, the landscape of higher education has shifted significantly away from the traditional lecture model. Educators increasingly recognize that passive listening alone rarely leads to deep understanding or long-term retention. Instead, active learning strategies are being implemented to engage students directly with course material. This approach encourages learners to analyze information critically rather than simply memorizing it for an exam. By participating in group discussions and collaborative problem-solving exercises, students develop practical skills that are essential for their future careers. Consequently, the role of the professor is evolving from a mere transmitter of knowledge into a facilitator of independent inquiry and discovery."
+    },
+    {
+      "text": "When drafting a personal statement for university admission, applicants must illustrate their general passion for the chosen field of study. Admissions tutors frequently look for evidence of independent learning outside the standard curriculum to judge a candidate's commitment. It is not enough to simply list achievements; one must expand on how these experiences have shaped their academic interests. Furthermore, clarity of expression is valid, as this document often serves as the only opportunity to showcase writing skills before the interview stage. Therefore, careful proofreading is essential to avoid errors that could underline an otherwise strong application. Ultimately, a well-crafted statement can distinguish a student from thousands of equally qualified pairs.",
+      "id": "goarno-hiw-34",
+      "answer": "",
+      "errors": [
+        10,
+        12,
+        34,
+        48,
+        63,
+        91,
+        109
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): illustrate→demonstrate, general→genuine, judge→gauge, expand→reflect, valid→vital, underline→undermine, pairs→peers. (Source key: goarno.io)",
+      "trap": "Palavras de polaridade (aumenta/diminui, antes/depois, mais/menos) são trocadas com frequência: escute a direção da afirmação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 110,
+      "audio_text": "When drafting a personal statement for university admission, applicants must demonstrate their genuine passion for the chosen field of study. Admissions tutors frequently look for evidence of independent learning outside the standard curriculum to gauge a candidate's commitment. It is not enough to simply list achievements; one must reflect on how these experiences have shaped their academic interests. Furthermore, clarity of expression is vital, as this document often serves as the only opportunity to showcase writing skills before the interview stage. Therefore, careful proofreading is essential to avoid errors that could undermine an otherwise strong application. Ultimately, a well-crafted statement can distinguish a student from thousands of equally qualified peers."
+    },
+    {
+      "text": "Oral traditions act as a crucial medium for maintaining history in cultures where written scripts were not realized. Through the use of myths, songs, and epic tales, groups transfer wisdom from elders to younger members. This mode of interaction is not simply for amazement; it serves as a storage system for ethical standards, geological data, and land rights. Researchers have frequently asserted that people in these communities hold impressive memory skills, enabling them to repeat complex stories with fluency. Unfortunately, this heritage is vulnerable because it depends solely on the presence of active practitioners.",
+      "id": "goarno-hiw-35",
+      "answer": "",
+      "errors": [
+        6,
+        17,
+        28,
+        43,
+        53,
+        61,
+        78,
+        87
+      ],
+      "explanation": "The recording differs from the transcript in 8 place(s): medium→mechanism, realized→utilized, transfer→transmit, amazement→amusement, geological→genealogical, asserted→observed, fluency→accuracy, solely→wholly. (Source key: goarno.io)",
+      "trap": "Vocabulário acadêmico parecido (adapt/integrate, holistic/dominant) exige ouvir a palavra inteira, não só o começo.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 94,
+      "audio_text": "Oral traditions act as a crucial mechanism for maintaining history in cultures where written scripts were not utilized. Through the use of myths, songs, and epic tales, groups transmit wisdom from elders to younger members. This mode of interaction is not simply for amusement; it serves as a storage system for ethical standards, genealogical data, and land rights. Researchers have frequently observed that people in these communities hold impressive memory skills, enabling them to repeat complex stories with accuracy. Unfortunately, this heritage is vulnerable because it depends wholly on the presence of active practitioners."
+    },
+    {
+      "text": "When arriving in a new country for university, many students instantly feel isolated. One effective strategy to combat this is by joining student societies. These organizations provide a platform not just for promoting hobbies, but for meaningful cultural change. Unlike the former atmosphere of a lecture hall, clubs offer a relaxed environment where you can practice language skills without the fear of judgment. Furthermore, interacting with peers from different backgrounds helps to dismiss stereotypes and forces a genuine sense of community. Ultimately, active involvement in these groups is often regarded as a hallmark of the journey.",
+      "id": "goarno-hiw-36",
+      "answer": "",
+      "errors": [
+        10,
+        32,
+        38,
+        41,
+        72,
+        75,
+        92
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): instantly→initially, promoting→pursuing, change→exchange, former→formal, dismiss→dismantle, forces→fosters, hallmark→highlight. (Source key: goarno.io)",
+      "trap": "Leia a transcrição antes de ouvir: antecipar onde a palavra pode ter sido trocada (datas, quantidades, direção) reduz muito o tempo de reação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 96,
+      "audio_text": "When arriving in a new country for university, many students initially feel isolated. One effective strategy to combat this is by joining student societies. These organizations provide a platform not just for pursuing hobbies, but for meaningful cultural exchange. Unlike the formal atmosphere of a lecture hall, clubs offer a relaxed environment where you can practice language skills without the fear of judgment. Furthermore, interacting with peers from different backgrounds helps to dismantle stereotypes and fosters a genuine sense of community. Ultimately, active involvement in these groups is often regarded as a highlight of the journey."
+    },
+    {
+      "text": "Prospective students often depend heavily on global university rankings when making their final choices about where to study. However, these league tables can be somewhat misleading if the underlying formula is not fully understood. Many ranking systems tend to prioritize research output and academic standards significantly more than the actual quality of teaching or student satisfaction levels. Consequently, a highly ranked institution might boast world-class libraries yet offer large, introductory lecture classes for undergraduates. Ideally, applicants should look beyond the average scores and investigate specific departmental strengths. Reading alumni reviews and examining the faculty-to-student ratio can often provide a much more accurate picture of the real educational experience.",
+      "id": "goarno-hiw-37",
+      "answer": "",
+      "errors": [
+        3,
+        29,
+        44,
+        65,
+        69,
+        80,
+        105
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): depend→rely, formula→methodology, standards→citations, libraries→laboratories, introductory→impersonal, average→aggregate, real→daily. (Source key: goarno.io)",
+      "trap": "Marque só o que ouviu diferente do texto — destacar demais desconta pontos.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 108,
+      "audio_text": "Prospective students often rely heavily on global university rankings when making their final choices about where to study. However, these league tables can be somewhat misleading if the underlying methodology is not fully understood. Many ranking systems tend to prioritize research output and academic citations significantly more than the actual quality of teaching or student satisfaction levels. Consequently, a highly ranked institution might boast world-class laboratories yet offer large, impersonal lecture classes for undergraduates. Ideally, applicants should look beyond the aggregate scores and investigate specific departmental strengths. Reading alumni reviews and examining the faculty-to-student ratio can often provide a much more accurate picture of the daily educational experience."
+    },
+    {
+      "text": "In the modern academic landscape, the focus has shifted drastically from rote memorization to the development of critical thinking skills. Educators argue that simply obtaining information is no longer sufficient in a world where data is readily available at the touch of a button. Instead, the primary goal of higher education must be to equip students with the ability to analyze complex problems and generate innovative solutions. This pedagogical approach encourages learners to question assumptions rather than passively expecting established theories. Consequently, assessment methods are evolving to measure how well students can apply concepts in practical scenarios, ensuring they are truly prepared for the unforeseen challenges of the future workforce.",
+      "id": "goarno-hiw-38",
+      "answer": "",
+      "errors": [
+        9,
+        24,
+        37,
+        64,
+        78,
+        87,
+        104
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): drastically→significantly, obtaining→absorbing, available→accessible, generate→formulate, expecting→accepting, measure→evaluate, unforeseen→unpredictable. (Source key: goarno.io)",
+      "trap": "Cerca de 80% do texto costuma bater com o áudio; a tarefa é achar os 20% que não batem.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 110,
+      "audio_text": "In the modern academic landscape, the focus has shifted significantly from rote memorization to the development of critical thinking skills. Educators argue that simply absorbing information is no longer sufficient in a world where data is readily accessible at the touch of a button. Instead, the primary goal of higher education must be to equip students with the ability to analyze complex problems and formulate innovative solutions. This pedagogical approach encourages learners to question assumptions rather than passively accepting established theories. Consequently, assessment methods are evolving to evaluate how well students can apply concepts in practical scenarios, ensuring they are truly prepared for the unpredictable challenges of the future workforce."
+    },
+    {
+      "text": "When arriving in a new country for university studies, securing stable accommodation is often the first priority. Many advisors suggest booking temporary housing before departure to allow time for expecting long-term options in person. Photos on the internet can sometimes be misleading, and the proximity to campus facilities is difficult to judge from a map alone. Furthermore, living on campus during the first semester can significantly aid social interaction. It provides immediate access to support networks and minimizes the logical challenges of commuting. While private rentals offer more independence, they often require signing a twelve-month lease, which can be a heavy commitment for someone just setting into a new environment. Therefore, weighing these factors carefully is essential for a smooth transition.",
+      "id": "goarno-hiw-39",
+      "answer": "",
+      "errors": [
+        10,
+        29,
+        51,
+        68,
+        79,
+        105
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): stable→suitable, expecting→inspecting, judge→gauge, interaction→integration, logical→logistical, setting→settling. (Source key: goarno.io)",
+      "trap": "Palavras de polaridade (aumenta/diminui, antes/depois, mais/menos) são trocadas com frequência: escute a direção da afirmação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 121,
+      "audio_text": "When arriving in a new country for university studies, securing suitable accommodation is often the first priority. Many advisors suggest booking temporary housing before departure to allow time for inspecting long-term options in person. Photos on the internet can sometimes be misleading, and the proximity to campus facilities is difficult to gauge from a map alone. Furthermore, living on campus during the first semester can significantly aid social integration. It provides immediate access to support networks and minimizes the logistical challenges of commuting. While private rentals offer more independence, they often require signing a twelve-month lease, which can be a heavy commitment for someone just settling into a new environment. Therefore, weighing these factors carefully is essential for a smooth transition."
+    },
+    {
+      "text": "One of the most significant assignments that students face when entering university is the dramatic shift towards independent study. Unlike in secondary school, where teachers often guide every step of the learning progress, higher education requires a much higher degree of self-confidence. Lecturers provide the coursework and core concepts, but the real depth of understanding comes from the hours spent in the library or working through complex problems online. This autonomy can be quite demanding for many new undergraduates. Consequently, success relies not just on raw intelligence, but on the ability to manage time effectively and prioritize tasks without constant permission. Developing these habits early is crucial for long-term academic achievement.",
+      "id": "goarno-hiw-40",
+      "answer": "",
+      "errors": [
+        5,
+        32,
+        41,
+        45,
+        68,
+        74,
+        100
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): assignments→adjustments, progress→process, self-confidence→self-discipline, coursework→framework, online→alone, demanding→daunting, permission→supervision. (Source key: goarno.io)",
+      "trap": "Vocabulário acadêmico parecido (adapt/integrate, holistic/dominant) exige ouvir a palavra inteira, não só o começo.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 111,
+      "audio_text": "One of the most significant adjustments that students face when entering university is the dramatic shift towards independent study. Unlike in secondary school, where teachers often guide every step of the learning process, higher education requires a much higher degree of self-discipline. Lecturers provide the framework and core concepts, but the real depth of understanding comes from the hours spent in the library or working through complex problems alone. This autonomy can be quite daunting for many new undergraduates. Consequently, success relies not just on raw intelligence, but on the ability to manage time effectively and prioritize tasks without constant supervision. Developing these habits early is crucial for long-term academic achievement."
+    },
+    {
+      "text": "In recent years, there has been a significant shift in higher education away from traditional lecturing towards active learning strategies. The standard model, where an instructor delivers a dialogue while students passively take notes, is increasingly seen as updated. Educational research suggests that students obtain information more effectively when they actively anticipate in the process through discussions, problem-solving tasks, and group projects. This approach requires students to engage deeply with the material rather than just summarizing it. However, implementing these methods can be challenging. It demands more effort from both instructors and students, who may be assigned to a more passive role in the classroom.",
+      "id": "goarno-hiw-41",
+      "answer": "",
+      "errors": [
+        28,
+        38,
+        44,
+        51,
+        75,
+        96
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): dialogue→monologue, updated→outdated, obtain→retain, anticipate→participate, summarizing→memorizing, assigned→accustomed. (Source key: goarno.io)",
+      "trap": "Leia a transcrição antes de ouvir: antecipar onde a palavra pode ter sido trocada (datas, quantidades, direção) reduz muito o tempo de reação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 105,
+      "audio_text": "In recent years, there has been a significant shift in higher education away from traditional lecturing towards active learning strategies. The standard model, where an instructor delivers a monologue while students passively take notes, is increasingly seen as outdated. Educational research suggests that students retain information more effectively when they actively participate in the process through discussions, problem-solving tasks, and group projects. This approach requires students to engage deeply with the material rather than just memorizing it. However, implementing these methods can be challenging. It demands more effort from both instructors and students, who may be accustomed to a more passive role in the classroom."
+    },
+    {
+      "text": "Fieldwork is often considered the defining characteristic of modern cultural anthropology. Unlike scientists working in a controlled laboratory, anthropologists typically involve themselves in the daily lives of the communities they wish to study. This specific method, widely known as participant observation, requires the researcher to live among the people for an extended period, learning their language and understanding their social systems from an internal perspective. The ultimate goal is to grasp the native point of view, rather than enforcing external theories or judgments. However, this deep personal involvement can sometimes make it difficult to maintain neutrality, a significant challenge that every ethnographer must navigate properly during their stay.",
+      "id": "goarno-hiw-42",
+      "answer": "",
+      "errors": [
+        20,
+        60,
+        63,
+        78,
+        95,
+        104
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): involve→immerse, systems→structures, internal→insider's, enforcing→imposing, neutrality→objectivity, properly→carefully. (Source key: goarno.io)",
+      "trap": "Marque só o que ouviu diferente do texto — destacar demais desconta pontos.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 108,
+      "audio_text": "Fieldwork is often considered the defining characteristic of modern cultural anthropology. Unlike scientists working in a controlled laboratory, anthropologists typically immerse themselves in the daily lives of the communities they wish to study. This specific method, widely known as participant observation, requires the researcher to live among the people for an extended period, learning their language and understanding their social structures from an insider's perspective. The ultimate goal is to grasp the native point of view, rather than imposing external theories or judgments. However, this deep personal involvement can sometimes make it difficult to maintain objectivity, a significant challenge that every ethnographer must navigate carefully during their stay."
+    },
+    {
+      "text": "When developing a brand identity, the choice of color is not merely an artistic decision but a strategic psychological tool. Marketing experts understand that different cues evoke specific emotional responses from consumers, often subsequently influencing their purchasing behavior. For instance, blue is frequently realized by financial institutions because it conveys stability and dependency. In contrast, red is often employed to create a sense of urgency or excitement, which is why it occurs so often in clearance sales. Consistency in color usage across various platforms increases brand reputation significantly. Therefore, companies invest substantial resources into selecting the perfect palette to align with their core values.",
+      "id": "goarno-hiw-43",
+      "answer": "",
+      "errors": [
+        13,
+        25,
+        33,
+        43,
+        52,
+        71,
+        86
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): artistic→aesthetic, cues→hues, subsequently→subconsciously, realized→utilized, dependency→dependability, occurs→appears, reputation→recognition. (Source key: goarno.io)",
+      "trap": "Cerca de 80% do texto costuma bater com o áudio; a tarefa é achar os 20% que não batem.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 104,
+      "audio_text": "When developing a brand identity, the choice of color is not merely an aesthetic decision but a strategic psychological tool. Marketing experts understand that different hues evoke specific emotional responses from consumers, often subconsciously influencing their purchasing behavior. For instance, blue is frequently utilized by financial institutions because it conveys stability and dependability. In contrast, red is often employed to create a sense of urgency or excitement, which is why it appears so often in clearance sales. Consistency in color usage across various platforms increases brand recognition significantly. Therefore, companies invest substantial resources into selecting the perfect palette to align with their core values."
+    },
+    {
+      "text": "One of the most effective ways to settle into university life is by joining a club or society. This isn't merely about pursuing a habit; it is a strategic move for social interaction. Many new arrivals find that shared interests provide a natural icebreaker, limiting the awkwardness often associated with meeting strangers. Whether you are interested in debating, photography, or competitive sports, these groups offer a strict environment to build lasting friendships. Furthermore, being part of a committee can significantly enhance your leadership skills, which is a valuable aspect for future employment. Ultimately, engaging in these activities transforms a large, impressive campus into a welcoming community where you feel you truly belong.",
+      "id": "goarno-hiw-44",
+      "answer": "",
+      "errors": [
+        24,
+        32,
+        44,
+        66,
+        88,
+        100
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): habit→hobby, interaction→integration, limiting→eliminating, strict→structured, aspect→asset, impressive→impersonal. (Source key: goarno.io)",
+      "trap": "Palavras de polaridade (aumenta/diminui, antes/depois, mais/menos) são trocadas com frequência: escute a direção da afirmação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 112,
+      "audio_text": "One of the most effective ways to settle into university life is by joining a club or society. This isn't merely about pursuing a hobby; it is a strategic move for social integration. Many new arrivals find that shared interests provide a natural icebreaker, eliminating the awkwardness often associated with meeting strangers. Whether you are interested in debating, photography, or competitive sports, these groups offer a structured environment to build lasting friendships. Furthermore, being part of a committee can significantly enhance your leadership skills, which is a valuable asset for future employment. Ultimately, engaging in these activities transforms a large, impersonal campus into a welcoming community where you feel you truly belong."
+    },
+    {
+      "text": "Moving from undergraduate to postgraduate study represents a significant shift in academic aspirations. While undergraduate courses often focus on observing existing knowledge through lectures and standard assignments, postgraduate work commands a much higher degree of independence. Students are expected to critique established theories rather than simply expect them as absolute truth. This transition can often be challenging because it requires a fundamental change in method. Instead of merely looking for the correct answer, scholars must learn to negotiate ambiguity and contribute original thoughts to their field. Consequently, success at this level depends less on memorization and much more on the ability to synthesize diverse courses into a coherent argument.",
+      "id": "goarno-hiw-45",
+      "answer": "",
+      "errors": [
+        12,
+        15,
+        19,
+        29,
+        46,
+        64,
+        77
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): aspirations→expectations, observing→absorbing, commands→demands, expect→accept, method→mindset, negotiate→navigate, courses→sources. (Source key: goarno.io)",
+      "trap": "Vocabulário acadêmico parecido (adapt/integrate, holistic/dominant) exige ouvir a palavra inteira, não só o começo.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 109,
+      "audio_text": "Moving from undergraduate to postgraduate study represents a significant shift in academic expectations. While undergraduate sources often focus on absorbing existing knowledge through lectures and standard assignments, postgraduate work demands a much higher degree of independence. Students are expected to critique established theories rather than simply accept them as absolute truth. This transition can often be challenging because it requires a fundamental change in mindset. Instead of merely looking for the correct answer, scholars must learn to navigate ambiguity and contribute original thoughts to their field. Consequently, success at this level depends less on memorization and much more on the ability to synthesize diverse courses into a coherent argument."
+    },
+    {
+      "text": "In the context of higher education, the feedback loop plays a critical role in focusing student development. It implies that assessment should not be viewed merely as a final judgment, but rather as an outgoing dialogue between the instructor and the learner. When students receive instructive comments on their assignments, they are better expected to identify their specific weaknesses and refine their skills for future tasks. Unfortunately, many learners tend to view feedback slowly as a justification for the grade they received, rather than a roadmap for general improvement. To maximize learning potential, universities must encourage a culture where students actively engage with evaluations, asking questions and seeking classification to ensure they truly understand the guidance provided.",
+      "id": "goarno-hiw-46",
+      "answer": "",
+      "errors": [
+        14,
+        34,
+        45,
+        53,
+        73,
+        87,
+        108
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): focusing→fostering, outgoing→ongoing, instructive→constructive, expected→equipped, slowly→solely, general→genuine, classification→clarification. (Source key: goarno.io)",
+      "trap": "Leia a transcrição antes de ouvir: antecipar onde a palavra pode ter sido trocada (datas, quantidades, direção) reduz muito o tempo de reação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 117,
+      "audio_text": "In the context of higher education, the feedback loop plays a critical role in fostering student development. It implies that assessment should not be viewed merely as a final judgment, but rather as an ongoing dialogue between the instructor and the learner. When students receive constructive comments on their assignments, they are better equipped to identify their specific weaknesses and refine their skills for future tasks. Unfortunately, many learners tend to view feedback solely as a justification for the grade they received, rather than a roadmap for genuine improvement. To maximize learning potential, universities must encourage a culture where students actively engage with evaluations, asking questions and seeking clarification to ensure they truly understand the guidance provided."
+    },
+    {
+      "text": "Transitioning to university life requires a significant shift in attitude, particularly regarding independent study. Unlike high school, where teachers often lead students through every step of the curriculum, university lecturers expect you to manage your own schedule and reading lists. This autonomy can be liberating but also difficult for new undergraduates. Success depends largely on developing effective time management skills early on. Instead of relying on rigid timetables provided by the school, students must proactively assign hours for research and revision. Failure to adjust to this self-directed learning style is a common reason why some struggle in their first year.",
+      "id": "goarno-hiw-47",
+      "answer": "",
+      "errors": [
+        9,
+        20,
+        47,
+        68,
+        75,
+        83
+      ],
+      "explanation": "The recording differs from the transcript in 6 place(s): attitude→mindset, lead→guide, difficult→daunting, provided→imposed, assign→allocate, adjust→adapt. (Source key: goarno.io)",
+      "trap": "Marque só o que ouviu diferente do texto — destacar demais desconta pontos.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 100,
+      "audio_text": "Transitioning to university life requires a significant shift in mindset, particularly regarding independent study. Unlike high school, where teachers often guide students through every step of the curriculum, university lecturers expect you to manage your own schedule and reading lists. This autonomy can be liberating but also daunting for new undergraduates. Success depends largely on developing effective time management skills early on. Instead of relying on rigid timetables imposed by the school, students must proactively allocate hours for research and revision. Failure to adapt to this self-directed learning style is a common reason why some struggle in their first year."
+    },
+    {
+      "text": "University interviews are a critical component of the admissions process for many competitive institutions. They provide a unique opportunity for applicants to demonstrate their general passion and attitude for a chosen course beyond what is written in their personal statement. To prepare effectively, candidates should appreciate common questions regarding their academic interests and relevant experiences. It is also highly beneficial to practice articulating thoughts clearly and precisely, as interviewers are looking for evidence of critical thinking and capability. Furthermore, engaging in mock interviews with teachers or peers can help remove anxiety and significantly improve performance on the day. Ultimately, the goal is to engage in an intellectual discussion rather than simply repeating rehearsed answers, showing that you are ready for the rigors of higher education.",
+      "id": "goarno-hiw-48",
+      "answer": "",
+      "errors": [
+        24,
+        27,
+        45,
+        66,
+        77,
+        89,
+        107,
+        111
+      ],
+      "explanation": "The recording differs from the transcript in 8 place(s): general→genuine, attitude→aptitude, appreciate→anticipate, precisely→concisely, capability→teachability, remove→reduce, discussion→dialogue, repeating→reciting. (Source key: goarno.io)",
+      "trap": "Cerca de 80% do texto costuma bater com o áudio; a tarefa é achar os 20% que não batem.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 125,
+      "audio_text": "University interviews are a critical component of the admissions process for many competitive institutions. They provide a unique opportunity for applicants to demonstrate their genuine passion and aptitude for a chosen course beyond what is written in their personal statement. To prepare effectively, candidates should anticipate common questions regarding their academic interests and relevant experiences. It is also highly beneficial to practice articulating thoughts clearly and concisely, as interviewers are looking for evidence of critical thinking and teachability. Furthermore, engaging in mock interviews with teachers or peers can help reduce anxiety and significantly improve performance on the day. Ultimately, the goal is to engage in an intellectual dialogue rather than simply reciting rehearsed answers, showing that you are ready for the rigors of higher education."
+    },
+    {
+      "text": "Universities are increasingly relying on student feedback to shape the development of their curriculum. While faculty members possess the necessary academic experience, students offer a unique perspective on how materials are actually perceived and understood in the classroom context. This collaborative approach ensures that courses remain relevant and encouraging for the modern learner. However, interpreting this feedback requires significant skill, as immediate student satisfaction does not always coincide with long-term learning outcomes. Administrators must therefore balance popularity with pedagogical vigour to maintain high standards. Ultimately, the goal is to foster a learning environment where both teaching methods and content evolve to meet changing educational needs effectively.",
+      "id": "goarno-hiw-49",
+      "answer": "",
+      "errors": [
+        10,
+        21,
+        32,
+        48,
+        59,
+        67,
+        79
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): development→design, experience→expertise, perceived→received, encouraging→engaging, skill→care, coincide→correlate, vigour→rigor. (Source key: goarno.io)",
+      "trap": "Palavras de polaridade (aumenta/diminui, antes/depois, mais/menos) são trocadas com frequência: escute a direção da afirmação.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 106,
+      "audio_text": "Universities are increasingly relying on student feedback to shape the design of their curriculum. While faculty members possess the necessary academic expertise, students offer a unique perspective on how materials are actually received and understood in the classroom context. This collaborative approach ensures that courses remain relevant and engaging for the modern learner. However, interpreting this feedback requires significant care, as immediate student satisfaction does not always correlate with long-term learning outcomes. Administrators must therefore balance popularity with pedagogical rigor to maintain high standards. Ultimately, the goal is to foster a learning environment where both teaching methods and content evolve to meet changing educational needs effectively."
+    },
+    {
+      "text": "In traditional academic settings, the lecture hall was often viewed as a place for passive observation. Students would sit quietly, listening to a professor deliver content without much interruption. However, modern pedagogy implies that true understanding requires active engagement. It is no longer efficient to simply memorize definitions or formulas; learners must supply concepts to solve complex problems. This shift challenges educators to redesign their courses, incorporating discussions and group projects that force critical thinking. Consequently, the role of the student has evolved from a silent observer to a dynamic participant in the creation of knowledge. By engaging directly with the material, students develop skills that are transformable to real-world scenarios.",
+      "id": "goarno-hiw-50",
+      "answer": "",
+      "errors": [
+        15,
+        28,
+        32,
+        43,
+        52,
+        72,
+        107
+      ],
+      "explanation": "The recording differs from the transcript in 7 place(s): observation→absorption, interruption→interaction, implies→emphasizes, efficient→sufficient, supply→apply, force→foster, transformable→transferable. (Source key: goarno.io)",
+      "trap": "Vocabulário acadêmico parecido (adapt/integrate, holistic/dominant) exige ouvir a palavra inteira, não só o começo.",
+      "topic": "academic lecture",
+      "source": "goarno.io",
+      "word_count": 111,
+      "audio_text": "In traditional academic settings, the lecture hall was often viewed as a place for passive absorption. Students would sit quietly, listening to a professor deliver content without much interaction. However, modern pedagogy emphasizes that true understanding requires active engagement. It is no longer sufficient to simply memorize definitions or formulas; learners must apply concepts to solve complex problems. This shift challenges educators to redesign their courses, incorporating discussions and group projects that foster critical thinking. Consequently, the role of the student has evolved from a silent observer to a dynamic participant in the creation of knowledge. By engaging directly with the material, students develop skills that are transferable to real-world scenarios."
     }
   ]
 }

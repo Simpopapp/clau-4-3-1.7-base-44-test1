@@ -12,7 +12,9 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 // Only extend the allowlist when the sandbox flag is exactly "1"; with it unset or any other
 // value the wrapper's defaults stand untouched.
 const sandboxHostDomain =
-  process.env["BASE44_PREVIEW_MODE"] === "1" ? process.env["BASE44_SANDBOX_HOST_DOMAIN"] : undefined;
+  process.env["BASE44_PREVIEW_MODE"] === "1"
+    ? process.env["BASE44_SANDBOX_HOST_DOMAIN"]
+    : undefined;
 const sandboxAllowedHosts = sandboxHostDomain ? [`.${sandboxHostDomain}`] : [];
 
 export default defineConfig({

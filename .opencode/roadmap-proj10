@@ -1,0 +1,27 @@
+# Roadmap — projeto 10: Expansão máxima do banco com questões reais verificadas
+> Planejamento: `.opencode/project10.md` · PRD: `.opencode/prd-project10.md` (criado na Fase 0) · Ordem de dependência, sem estimativa de prazo.
+> Decisões vinculantes do PRD: D1–D14 (destaques: D2 `audio_text` corrigido no HIW; D5 verificação por máquina de cada gabarito; D7 dedupe canônico obrigatório; D14 monitor indisponível → aviso registrado em arquivo).
+## Fase 0 — Planejar o PRD e varrer as fontes
+- [x] Criar `prd-project10.md` a partir de `project10.md`, confirmando cada afirmação no código (contagens por tipo, `baseOf`/`AUDIO_TYPES`, mapa canônico, `sourceClass`, contrato do JSON por tipo) e decidindo D1–D14
+- [x] Achado novo documentado no PRD §0.F: os itens `pteracai-seed` de `lst_hiw` têm `errors` que não correspondem às palavras citadas na própria `explanation` (índice 5 = `been`, não `gaining`) — o `bank-integrity` não pega porque só checa o range
+- [x] Varredura por tipo + veredito por HTTP (200, sem login, gabarito presente, volume) registrado em `.opencode/proj10-work/sources.md` (4 aprovadas, 6 aprovadas-com-pendência, 7 rejeitadas com motivo)
+- [x] Gates: PRD cobre as Fases 1–4 com escopo + critérios de aceite; toda fonte tem URL, HTTP, volume e evidência de gabarito
+## Fase 1 — Tipos rasos (P0): HIW, HCS, SMW, MCQ de escuta
+- [x] Extração automática de `goarno.io` (50 HIW com par errada→correta, 50 HCS, 50 SMW, 51 MCQ) com verificação por máquina de cada gabarito (D5) e descarte registrado de qualquer item que falhe
+- [x] Integração no banco: `text`/`options`/`answer` verbatim, `audio_text` corrigido no HIW (D2), `explanation` com o gabarito (D4), `trap` rotativo (D11), `source: "goarno.io"`
+- [x] Dedupe canônico (D7) + manifesto regenerado + testes que fixam contagem atualizados por semântica (D8)
+- [x] Justificativa registrada para os tipos rasos que continuam rasos (`lst_mcq_multi` 3, `lst_summary` 5, `describe_image` 6) — sem fonte pública com gabarito, ou dependente de imagem licenciada
+  - Gates: checagem de origem com 0 descartes · `bank-integrity` + `catalog` + `fase5-banco` verdes · vitest completo verde · `tsc --noEmit` limpo · build OK · lint 0 erros · manifesto regenerado e estável
+## Fase 2 — Tipos médios (P1)
+- [ ] `swt`, `retell_lecture`, `write_essay`, `mcq_single`, `read_fib`, `reorder_paragraphs`, `summarize_group_discussion`, `respond_to_situation` — só itens 100% novos, com o gabarito próprio do tipo (amostra modelo, ordem correta, resposta)
+- [ ] Conferir campo a campo as pendências S5–S8 e S10 do PRD §6 antes de integrar (variante de resposta, marcação de lacuna, amostra modelo)
+- [ ] Gates: dedupe sem quase-duplicata nova · integridade por tipo verde · mesma checagem de origem da Fase 1
+## Fase 3 — Tipos grandes (P2)
+- [ ] `wfd` (100 sentenças de `languageacademy.com.au`, fonte já verificada), `lst_fib`, `summarize_spoken_text`, `read_aloud`, `repeat_sentence` — somente itens 100% novos
+- [ ] Dedupe obrigatório contra os bancos grandes (934 WFD / 586 RS) e entre as fontes novas
+- [ ] Gates: zero novidade duvidosa · dedupe limpo ou par registrado no mapa canônico · integridade verde
+## Fase 4 — Fechamento
+- [ ] Contagem final por tipo e por fonte; relatório de dedupe (pares novos no mapa); veredito de cada fonte rejeitada
+- [ ] Confirmar critérios de aceite do PRD §4 (nenhum tipo ≤ 6 sem justificativa; todo item novo auditável; nada fora de dados)
+- [ ] Aviso pendente ao monitor registrado em `.opencode/monitor-notice-proj10.md` (D14: OpenCode ausente na sandbox, sem canal de MCP)
+- [ ] Gates: vitest · `tsc --noEmit` · build · lint · `build-manifest.mjs` · `bank-integrity`
