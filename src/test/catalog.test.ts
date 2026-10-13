@@ -23,6 +23,9 @@ import {
 // +100 repeat_sentence e +131 wfd (stormedugo.com, recall) e +10 RA / +2 RL (ptebank.com, memória
 // de exame). Os tipos sem fonte pública de recall (lst_fib, summarize_spoken_text, lst_summary,
 // lst_mcq_multi) ficam em 0 até haver fonte pública com gabarito.
+// Varredura de recalls (13/10/2026, 2ª rodada): os 4 tipos zerados receberam 50 itens cada do banco
+// público do goarno.io (transcrição + gabarito publicados) — lst_summary é a mesma tarefa de resumo
+// do áudio com ids próprios.
 const EXPECTED_COUNTS: Record<string, number> = {
   read_aloud: 57,
   repeat_sentence: 100,
@@ -35,15 +38,15 @@ const EXPECTED_COUNTS: Record<string, number> = {
   reorder_paragraphs: 57,
   read_fib: 62,
   wfd: 229,
-  lst_fib: 0,
-  summarize_spoken_text: 0,
+  lst_fib: 50,
+  summarize_spoken_text: 50,
   // Projeto 10, Fase 1: bancos públicos do goarno.io integrados (50 itens por tipo).
   lst_hiw: 50,
   lst_hcs: 50,
-  lst_summary: 0,
+  lst_summary: 50,
   lst_smw: 50,
   lst_mcq: 50,
-  lst_mcq_multi: 0,
+  lst_mcq_multi: 50,
   // Fase 7 do projeto 9 — os 3 tipos novos do formato 2025.
   summarize_group_discussion: 13,
   respond_to_situation: 63,
@@ -99,8 +102,8 @@ describe("Catálogo (22 task types, carregamento sob demanda)", () => {
   it("questões de escolha têm opções e respostas normalizadas", async () => {
     const choice = all.filter((q) => "options" in q);
     // Projeto 10, Fase 1: +50 em lst_hcs, +50 em lst_smw e +50 em lst_mcq (bancos do goarno.io).
-    // lst_mcq_multi ficou sem itens após a auditoria de proveniência (banco era só de predição).
-    expect(choice.length).toBe(58 + 10 + 50 + 50 + 50);
+    // 2ª varredura (13/10/2026): +50 em lst_mcq_multi (mesma fonte).
+    expect(choice.length).toBe(58 + 10 + 50 + 50 + 50 + 50);
     for (const q of choice) {
       expect(q.options.length).toBeGreaterThan(0);
       expect(Array.isArray(q.answer)).toBe(true);

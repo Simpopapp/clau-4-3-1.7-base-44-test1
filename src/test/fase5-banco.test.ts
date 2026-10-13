@@ -25,7 +25,7 @@ describe("Proveniência (C2)", () => {
 
   it("o manifesto carrega o selo em toda QuestionMeta", async () => {
     const { allMeta } = await import("@/lib/pte");
-    expect(allMeta.length).toBe(1133);
+    expect(allMeta.length).toBe(1333);
     expect(allMeta.every((m) => ["verificada", "comunitária", "ia"].includes(m.sourceClass))).toBe(
       true,
     );
@@ -245,7 +245,7 @@ describe("Banco pequeno (C4)", () => {
     for (const [type, n] of Object.entries(typeCounts)) {
       expect(isSmallBank(type as keyof typeof typeCounts)).toBe(n <= SMALL_BANK_MAX);
     }
-    expect(isSmallBank("lst_summary")).toBe(true);
+    expect(isSmallBank("lst_summary")).toBe(false); // 2ª varredura: +50 itens do goarno.io
     expect(isSmallBank("wfd")).toBe(false);
     expect(typeCounts["wfd"]).toBeGreaterThan(SMALL_BANK_MAX);
   });
@@ -272,8 +272,8 @@ describe("Payload (D2) — contrato do leitor", () => {
     expect(essay!.text).toBe(essay!.prompt);
   });
 
-  it("o manifesto soma 1133 questões (só fontes verificadas/comunitárias após a auditoria)", async () => {
+  it("o manifesto soma 1333 questões (só fontes verificadas/comunitárias após a auditoria)", async () => {
     const { TOTAL_ALL_QUESTIONS } = await import("@/lib/pte");
-    expect(TOTAL_ALL_QUESTIONS).toBe(1133);
+    expect(TOTAL_ALL_QUESTIONS).toBe(1333);
   });
 });

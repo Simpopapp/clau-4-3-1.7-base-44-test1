@@ -2,7 +2,863 @@
   "type": "lst_fib",
   "task_type": "Fill in the Blanks",
   "section": "listening",
-  "total": 0,
-  "generated_at": "2026-10-05",
-  "questions": []
+  "total": 50,
+  "generated_at": "2026-10-13",
+  "questions": [
+    {
+      "text": "The study of volcanic eruptions has evolved rapidly with the _____ of modern technology. Researchers deploy networks of seismometers to monitor tremors that often _____ volcanic activity. Additionally, they measure the _____ of gases released from the crater, as rising magma typically alters these chemical signatures. Despite these sophisticated tools, accurate forecasting is not _____ forcing authorities to rely on statistical models when issuing safety alerts. This uncertainty makes the management of active zones particularly difficult, as decision-makers must balance the safety of residents against the economic _____ caused by unnecessary evacuations.",
+      "id": "goarno-lfib-01",
+      "answer": [
+        "integration",
+        "precede",
+        "composition",
+        "guaranteed",
+        "disruption"
+      ],
+      "explanation": "Lacunas: 1 \"integration\", 2 \"precede\", 3 \"composition\", 4 \"guaranteed\", 5 \"disruption\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "the study of",
+      "source": "goarno.io",
+      "word_count": 92,
+      "transcript": "The study of volcanic eruptions has evolved rapidly with the integration of modern technology. Researchers deploy networks of seismometers to monitor tremors that often precede volcanic activity. Additionally, they measure the composition of gases released from the crater, as rising magma typically alters these chemical signatures. Despite these sophisticated tools, accurate forecasting is not guaranteed forcing authorities to rely on statistical models when issuing safety alerts. This uncertainty makes the management of active zones particularly difficult, as decision-makers must balance the safety of residents against the economic disruption caused by unnecessary evacuations."
+    },
+    {
+      "text": "The emerging field of nutrigenomics explores the complex _____ between nutrition and the human genome. Unlike traditional nutrition science, which focuses on satisfying hunger and preventing _____, this discipline investigates how specific food compounds _____ with our genes at a molecular level. Researchers have discovered that certain dietary components can actually switch genes on or off, thereby altering individual _____ to diseases. Consequently, the ultimate goal is to develop personalized dietary _____ based on a person's unique genetic makeup, moving away from the generic one-size-fits-all approach to health.",
+      "id": "goarno-lfib-02",
+      "answer": [
+        "relationship",
+        "deficiency",
+        "interact",
+        "susceptibility",
+        "recommendations"
+      ],
+      "explanation": "Lacunas: 1 \"relationship\", 2 \"deficiency\", 3 \"interact\", 4 \"susceptibility\", 5 \"recommendations\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "the emerging field",
+      "source": "goarno.io",
+      "word_count": 88,
+      "transcript": "The emerging field of nutrigenomics explores the complex relationship between nutrition and the human genome. Unlike traditional nutrition science, which focuses on satisfying hunger and preventing deficiency, this discipline investigates how specific food compounds interact with our genes at a molecular level. Researchers have discovered that certain dietary components can actually switch genes on or off, thereby altering individual susceptibility to diseases. Consequently, the ultimate goal is to develop personalized dietary recommendations based on a person's unique genetic makeup, moving away from the generic one-size-fits-all approach to health."
+    },
+    {
+      "text": "The emergence of Sumerian city-states was fundamentally linked to the successful _____ of water resources. Since the regional climate was extremely _____ with very little rainfall, farmers were forced to rely on complex artificial irrigation systems to _____ their crops. Constructing and maintaining these networks required a level of cooperation and labor that went beyond individual families, leading to the development of centralized _____ These early administrative bodies were tasked with the critical role of maintaining canals and ensuring the equitable _____ of water. Consequently, the ability to control river flows became a primary source of political power and social stability in the region.",
+      "id": "goarno-lfib-03",
+      "answer": [
+        "management",
+        "arid",
+        "cultivate",
+        "authorities",
+        "distribution"
+      ],
+      "explanation": "Lacunas: 1 \"management\", 2 \"arid\", 3 \"cultivate\", 4 \"authorities\", 5 \"distribution\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "the emergence of",
+      "source": "goarno.io",
+      "word_count": 104,
+      "transcript": "The emergence of Sumerian city-states was fundamentally linked to the successful management of water resources. Since the regional climate was extremely arid with very little rainfall, farmers were forced to rely on complex artificial irrigation systems to cultivate their crops. Constructing and maintaining these networks required a level of cooperation and labor that went beyond individual families, leading to the development of centralized authorities These early administrative bodies were tasked with the critical role of maintaining canals and ensuring the equitable distribution of water. Consequently, the ability to control river flows became a primary source of political power and social stability in the region."
+    },
+    {
+      "text": "When examining the monumental architecture of this region, specifically the towering ziggurats, we notice a distinct absence of stone. Unlike neighboring empires that possessed access to vast _____ these builders had to rely on what was _____ available: earth and mud. They consequently developed _____ techniques to create durable bricks, often kiln-fired to withstand the _____ These massive structures served as religious centers and physically dominated the flat landscape, and their survival is remarkable given the _____ of the primary construction material.",
+      "id": "goarno-lfib-04",
+      "answer": [
+        "quarries",
+        "readily",
+        "sophisticated",
+        "elements",
+        "vulnerability"
+      ],
+      "explanation": "Lacunas: 1 \"quarries\", 2 \"readily\", 3 \"sophisticated\", 4 \"elements\", 5 \"vulnerability\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "when examining the",
+      "source": "goarno.io",
+      "word_count": 82,
+      "transcript": "When examining the monumental architecture of this region, specifically the towering ziggurats, we notice a distinct absence of stone. Unlike neighboring empires that possessed access to vast quarries these builders had to rely on what was readily available: earth and mud. They consequently developed sophisticated techniques to create durable bricks, often kiln-fired to withstand the elements These massive structures served as religious centers and physically dominated the flat landscape, and their survival is remarkable given the vulnerability of the primary construction material."
+    },
+    {
+      "text": "Volcanic eruptions represent one of nature's most destructive forces, yet accurate forecasting remains a significant scientific _____ Recently, geologists have placed greater _____ on analyzing gas emissions to identify potential threats. By measuring changes in the chemical _____ of fumes escaping from craters, researchers can often detect pressure build-up long before the ground begins to shake. This data is crucial for authorities who need to issue evacuation _____ to vulnerable populations. Despite these advances, sudden geological shifts can still occur without warning, implying that current monitoring systems are not entirely _____",
+      "id": "goarno-lfib-05",
+      "answer": [
+        "challenge",
+        "emphasis",
+        "composition",
+        "alerts",
+        "reliable"
+      ],
+      "explanation": "Lacunas: 1 \"challenge\", 2 \"emphasis\", 3 \"composition\", 4 \"alerts\", 5 \"reliable\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "volcanic eruptions represent",
+      "source": "goarno.io",
+      "word_count": 91,
+      "transcript": "Volcanic eruptions represent one of nature's most destructive forces, yet accurate forecasting remains a significant scientific challenge Recently, geologists have placed greater emphasis on analyzing gas emissions to identify potential threats. By measuring changes in the chemical composition of fumes escaping from craters, researchers can often detect pressure build-up long before the ground begins to shake. This data is crucial for authorities who need to issue evacuation alerts to vulnerable populations. Despite these advances, sudden geological shifts can still occur without warning, implying that current monitoring systems are not entirely reliable"
+    },
+    {
+      "text": "When we examine ancient Mesopotamian records, the sheer durability of the writing medium is striking. Unlike the perishable papyrus utilized by later civilizations, the people of this region relied on the clay found in _____ along their riverbanks. Scribes would _____ distinct wedge-shaped marks onto wet clay tablets using a reed stylus. Once these tablets were baked in a kiln, they became incredibly _____, effectively turning the documents into stone. This accidental _____ allows thousands of administrative texts to survive, providing a unique _____ into their complex society.",
+      "id": "goarno-lfib-06",
+      "answer": [
+        "abundance",
+        "impress",
+        "resilient",
+        "preservation",
+        "window"
+      ],
+      "explanation": "Lacunas: 1 \"abundance\", 2 \"impress\", 3 \"resilient\", 4 \"preservation\", 5 \"window\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "when we examine",
+      "source": "goarno.io",
+      "word_count": 88,
+      "transcript": "When we examine ancient Mesopotamian records, the sheer durability of the writing medium is striking. Unlike the perishable papyrus utilized by later civilizations, the people of this region relied on the clay found in abundance along their riverbanks. Scribes would impress distinct wedge-shaped marks onto wet clay tablets using a reed stylus. Once these tablets were baked in a kiln, they became incredibly resilient, effectively turning the documents into stone. This accidental preservation allows thousands of administrative texts to survive, providing a unique window into their complex society."
+    },
+    {
+      "text": "In ancient Mesopotamia, literacy was far from universal, which made the profession of the scribe essential for the effective _____ of the state. These individuals underwent _____ training in dedicated schools, where they were required to master thousands of _____ cuneiform signs. Their expertise allowed them to document everything from agricultural yields to legal disputes. Due to these specialized skills, scribes held a privileged status within the social _____ and were often exempt from manual labor. Consequently, this career path was highly desired by elite families looking to secure _____ for their children.",
+      "id": "goarno-lfib-07",
+      "answer": [
+        "administration",
+        "rigorous",
+        "complex",
+        "hierarchy",
+        "influence"
+      ],
+      "explanation": "Lacunas: 1 \"administration\", 2 \"rigorous\", 3 \"complex\", 4 \"hierarchy\", 5 \"influence\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "in ancient mesopotamia",
+      "source": "goarno.io",
+      "word_count": 93,
+      "transcript": "In ancient Mesopotamia, literacy was far from universal, which made the profession of the scribe essential for the effective administration of the state. These individuals underwent rigorous training in dedicated schools, where they were required to master thousands of complex cuneiform signs. Their expertise allowed them to document everything from agricultural yields to legal disputes. Due to these specialized skills, scribes held a privileged status within the social hierarchy and were often exempt from manual labor. Consequently, this career path was highly desired by elite families looking to secure influence for their children."
+    },
+    {
+      "text": "In ancient Mesopotamia, the ability to read and write was generally _____ for a specific professional class known as scribes. To enter this profession, individuals had to complete a _____ education at institutions often attached to temples. The training involved memorizing thousands of cuneiform signs, which was a significant intellectual challenge. Once qualified, these scribes became _____ to the state administration, managing everything from tax collections to diplomatic _____. Their unique skills granted them a high social standing, allowing them to rise above the ordinary _____.",
+      "id": "goarno-lfib-08",
+      "answer": [
+        "reserved",
+        "rigorous",
+        "indispensable",
+        "correspondence",
+        "population"
+      ],
+      "explanation": "Lacunas: 1 \"reserved\", 2 \"rigorous\", 3 \"indispensable\", 4 \"correspondence\", 5 \"population\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "in ancient mesopotamia",
+      "source": "goarno.io",
+      "word_count": 86,
+      "transcript": "In ancient Mesopotamia, the ability to read and write was generally reserved for a specific professional class known as scribes. To enter this profession, individuals had to complete a rigorous education at institutions often attached to temples. The training involved memorizing thousands of cuneiform signs, which was a significant intellectual challenge. Once qualified, these scribes became indispensable to the state administration, managing everything from tax collections to diplomatic correspondence. Their unique skills granted them a high social standing, allowing them to rise above the ordinary population."
+    },
+    {
+      "text": "Monitoring volcanic activity is a critical task for geologists aiming to _____ the risks associated with eruptions. By analyzing seismic data and gas _____ scientists can effectively detect changes in a volcano's _____ pressure. Recent advancements in satellite imagery allow researchers to _____ ground deformation from a safe distance, providing early warning signs to local communities. While predicting the exact moment of an eruption remains a challenge, these technological tools have significantly improved our ability to prepare for potential disasters and _____ threatened areas in time.",
+      "id": "goarno-lfib-09",
+      "answer": [
+        "mitigate",
+        "emissions",
+        "internal",
+        "observe",
+        "evacuate"
+      ],
+      "explanation": "Lacunas: 1 \"mitigate\", 2 \"emissions\", 3 \"internal\", 4 \"observe\", 5 \"evacuate\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "monitoring volcanic activity",
+      "source": "goarno.io",
+      "word_count": 86,
+      "transcript": "Monitoring volcanic activity is a critical task for geologists aiming to mitigate the risks associated with eruptions. By analyzing seismic data and gas emissions scientists can effectively detect changes in a volcano's internal pressure. Recent advancements in satellite imagery allow researchers to observe ground deformation from a safe distance, providing early warning signs to local communities. While predicting the exact moment of an eruption remains a challenge, these technological tools have significantly improved our ability to prepare for potential disasters and evacuate threatened areas in time."
+    },
+    {
+      "text": "Volcanic eruptions are among the most powerful and _____ forces in nature, yet they surprisingly play a crucial role in generating _____ land for agriculture. Scientists closely _____ seismic activity and gas emissions to determine when a volcano might become active. By analyzing these warning signs, experts can issue timely alerts to _____ and protect local communities. However, despite rapid advancements in monitoring technology, predicting the exact timing of an event remains a significant challenge. The sheer _____ of magma movement underground means that researchers are constantly refining their models to improve forecast accuracy.",
+      "id": "goarno-lfib-10",
+      "answer": [
+        "destructive",
+        "fertile",
+        "monitor",
+        "evacuate",
+        "complexity"
+      ],
+      "explanation": "Lacunas: 1 \"destructive\", 2 \"fertile\", 3 \"monitor\", 4 \"evacuate\", 5 \"complexity\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "volcanic eruptions are",
+      "source": "goarno.io",
+      "word_count": 94,
+      "transcript": "Volcanic eruptions are among the most powerful and destructive forces in nature, yet they surprisingly play a crucial role in generating fertile land for agriculture. Scientists closely monitor seismic activity and gas emissions to determine when a volcano might become active. By analyzing these warning signs, experts can issue timely alerts to evacuate and protect local communities. However, despite rapid advancements in monitoring technology, predicting the exact timing of an event remains a significant challenge. The sheer complexity of magma movement underground means that researchers are constantly refining their models to improve forecast accuracy."
+    },
+    {
+      "text": "Wildfires have emerged as a significant _____ in numerous regions, exacerbated by rising global temperatures and shifts in land management. Scientists are currently investigating how different vegetation types function as fuel, which directly impacts the _____ and spread of the flames. Historically, the dominant strategy was total fire _____ yet this approach often resulted in a dangerous _____ of dry debris on the forest floor. Consequently, this buildup increased the likelihood of uncontrollable mega-fires. Nowadays, experts recommend controlled burns to safely decrease this combustible material. Recognizing the ecological function of fire is essential for creating effective forestry _____ that safeguard both communities and ecosystems.",
+      "id": "goarno-lfib-11",
+      "answer": [
+        "threat",
+        "intensity",
+        "suppression",
+        "accumulation",
+        "policies"
+      ],
+      "explanation": "Lacunas: 1 \"threat\", 2 \"intensity\", 3 \"suppression\", 4 \"accumulation\", 5 \"policies\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "wildfires have emerged",
+      "source": "goarno.io",
+      "word_count": 104,
+      "transcript": "Wildfires have emerged as a significant threat in numerous regions, exacerbated by rising global temperatures and shifts in land management. Scientists are currently investigating how different vegetation types function as fuel, which directly impacts the intensity and spread of the flames. Historically, the dominant strategy was total fire suppression yet this approach often resulted in a dangerous accumulation of dry debris on the forest floor. Consequently, this buildup increased the likelihood of uncontrollable mega-fires. Nowadays, experts recommend controlled burns to safely decrease this combustible material. Recognizing the ecological function of fire is essential for creating effective forestry policies that safeguard both communities and ecosystems."
+    },
+    {
+      "text": "Salmon are famous for their grueling migration from the ocean back to freshwater streams to _____ This journey relies heavily on olfactory memory, a sense of smell that is _____ during their juvenile stages. As the fish approach coastal waters, they detect specific chemical cues that _____ their home river from others. This chemical signature guides them through complex river systems with incredible _____ Although visual landmarks play a minor role, experiments show that if their nostrils are blocked, the salmon become _____ and cannot locate their original breeding grounds.",
+      "id": "goarno-lfib-12",
+      "answer": [
+        "spawn",
+        "imprinted",
+        "distinguish",
+        "precision",
+        "disoriented"
+      ],
+      "explanation": "Lacunas: 1 \"spawn\", 2 \"imprinted\", 3 \"distinguish\", 4 \"precision\", 5 \"disoriented\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "salmon are famous",
+      "source": "goarno.io",
+      "word_count": 90,
+      "transcript": "Salmon are famous for their grueling migration from the ocean back to freshwater streams to spawn This journey relies heavily on olfactory memory, a sense of smell that is imprinted during their juvenile stages. As the fish approach coastal waters, they detect specific chemical cues that distinguish their home river from others. This chemical signature guides them through complex river systems with incredible precision Although visual landmarks play a minor role, experiments show that if their nostrils are blocked, the salmon become disoriented and cannot locate their original breeding grounds."
+    },
+    {
+      "text": "Volcanic eruptions are among the most powerful _____ events on Earth, yet predicting them remains a complex challenge. Scientists rely on delicate instruments to detect the tiny tremors that often _____ an explosion, indicating magma movement beneath the surface. Recent technological advances allow researchers to monitor gas _____ which can change dramatically before an eruption occurs. These monitoring techniques are vital for public safety, as they provide authorities with crucial time to _____ threatened areas. However, despite these improvements, the exact timing and _____ of volcanic activity are still difficult to forecast with absolute certainty.",
+      "id": "goarno-lfib-13",
+      "answer": [
+        "geological",
+        "precede",
+        "emissions",
+        "evacuate",
+        "magnitude"
+      ],
+      "explanation": "Lacunas: 1 \"geological\", 2 \"precede\", 3 \"emissions\", 4 \"evacuate\", 5 \"magnitude\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "volcanic eruptions are",
+      "source": "goarno.io",
+      "word_count": 95,
+      "transcript": "Volcanic eruptions are among the most powerful geological events on Earth, yet predicting them remains a complex challenge. Scientists rely on delicate instruments to detect the tiny tremors that often precede an explosion, indicating magma movement beneath the surface. Recent technological advances allow researchers to monitor gas emissions which can change dramatically before an eruption occurs. These monitoring techniques are vital for public safety, as they provide authorities with crucial time to evacuate threatened areas. However, despite these improvements, the exact timing and magnitude of volcanic activity are still difficult to forecast with absolute certainty."
+    },
+    {
+      "text": "While the magnetic compass is crucial for many avian species, recent research suggests that homing pigeons rely heavily on an olfactory map to navigate. Essentially, these birds learn the spatial _____ of atmospheric odours in their _____ When released from an unfamiliar location, they determine their position by smelling the air and associating specific scents with the direction of home. Experiments where the birds' sense of smell was temporarily _____ showed they were unable to orient themselves correctly, whereas those with blocked magnetic receptors could still _____ successfully. This indicates that for local homing, the chemical _____ is just as vital as magnetic cues.",
+      "id": "goarno-lfib-14",
+      "answer": [
+        "distribution",
+        "surroundings",
+        "impaired",
+        "navigate",
+        "landscape"
+      ],
+      "explanation": "Lacunas: 1 \"distribution\", 2 \"surroundings\", 3 \"impaired\", 4 \"navigate\", 5 \"landscape\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "while the magnetic",
+      "source": "goarno.io",
+      "word_count": 104,
+      "transcript": "While the magnetic compass is crucial for many avian species, recent research suggests that homing pigeons rely heavily on an olfactory map to navigate. Essentially, these birds learn the spatial distribution of atmospheric odours in their surroundings When released from an unfamiliar location, they determine their position by smelling the air and associating specific scents with the direction of home. Experiments where the birds' sense of smell was temporarily impaired showed they were unable to orient themselves correctly, whereas those with blocked magnetic receptors could still navigate successfully. This indicates that for local homing, the chemical landscape is just as vital as magnetic cues."
+    },
+    {
+      "text": "One of the most significant factors in our understanding of Mesopotamian history is the durability of their writing surface. While many ancient cultures used _____ materials like papyrus or leather, the Mesopotamians wrote on wet clay. In ancient times, if a library was caught in a fire during _____ organic scrolls would simply burn away. In contrast, clay tablets were baked hard by the heat, becoming _____ records. Because of this accidental preservation, we have access to thousands of administrative _____ covering everything from trade deals to legal _____",
+      "id": "goarno-lfib-15",
+      "answer": [
+        "perishable",
+        "warfare",
+        "permanent",
+        "documents",
+        "disputes"
+      ],
+      "explanation": "Lacunas: 1 \"perishable\", 2 \"warfare\", 3 \"permanent\", 4 \"documents\", 5 \"disputes\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "one of the",
+      "source": "goarno.io",
+      "word_count": 89,
+      "transcript": "One of the most significant factors in our understanding of Mesopotamian history is the durability of their writing surface. While many ancient cultures used perishable materials like papyrus or leather, the Mesopotamians wrote on wet clay. In ancient times, if a library was caught in a fire during warfare organic scrolls would simply burn away. In contrast, clay tablets were baked hard by the heat, becoming permanent records. Because of this accidental preservation, we have access to thousands of administrative documents covering everything from trade deals to legal disputes"
+    },
+    {
+      "text": "The sheer scale of the Roman Empire required an advanced infrastructure to maintain control over its _____ Central to this was the road network, which was initially designed for military purposes. These roads allowed legions to _____ quickly to suppress rebellions or expand borders. However, their utility extended far beyond warfare. They facilitated the efficient _____ of resources and fostered economic integration across the empire. Interestingly, the construction techniques were so _____ that many of these routes remain visible today, serving as a testament to Roman engineering _____",
+      "id": "goarno-lfib-16",
+      "answer": [
+        "territories",
+        "mobilize",
+        "transport",
+        "robust",
+        "prowess"
+      ],
+      "explanation": "Lacunas: 1 \"territories\", 2 \"mobilize\", 3 \"transport\", 4 \"robust\", 5 \"prowess\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "the sheer scale",
+      "source": "goarno.io",
+      "word_count": 88,
+      "transcript": "The sheer scale of the Roman Empire required an advanced infrastructure to maintain control over its territories Central to this was the road network, which was initially designed for military purposes. These roads allowed legions to mobilize quickly to suppress rebellions or expand borders. However, their utility extended far beyond warfare. They facilitated the efficient transport of resources and fostered economic integration across the empire. Interestingly, the construction techniques were so robust that many of these routes remain visible today, serving as a testament to Roman engineering prowess"
+    },
+    {
+      "text": "The emerging field of nutrigenomics explores the complex relationship between our diet and our genome. It suggests that food acts as more than just a source of _____ it functions as a molecular signal that _____ directly with our biology. Specific nutrients can actually trigger switches within our cells, potentially reducing the risk of developing _____ diseases. Unlike _____ nutrition, which typically offers general advice for the population, this discipline aims to provide _____ dietary recommendations based on an individual's unique makeup. Consequently, understanding these interactions could revolutionize healthcare by tailoring food intake to match specific physiological needs.",
+      "id": "goarno-lfib-17",
+      "answer": [
+        "energy",
+        "interacts",
+        "chronic",
+        "traditional",
+        "personalized"
+      ],
+      "explanation": "Lacunas: 1 \"energy\", 2 \"interacts\", 3 \"chronic\", 4 \"traditional\", 5 \"personalized\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "the emerging field",
+      "source": "goarno.io",
+      "word_count": 98,
+      "transcript": "The emerging field of nutrigenomics explores the complex relationship between our diet and our genome. It suggests that food acts as more than just a source of energy it functions as a molecular signal that interacts directly with our biology. Specific nutrients can actually trigger switches within our cells, potentially reducing the risk of developing chronic diseases. Unlike traditional nutrition, which typically offers general advice for the population, this discipline aims to provide personalized dietary recommendations based on an individual's unique makeup. Consequently, understanding these interactions could revolutionize healthcare by tailoring food intake to match specific physiological needs."
+    },
+    {
+      "text": "Researchers have long investigated how severe dietary _____ affect future generations. A pivotal study focused on a historical period of _____ revealing that individuals exposed to starvation while in the womb experienced distinct _____ differences later in life. Their bodies were effectively programmed to conserve energy, anticipating a world of _____ that never materialized. This _____ between prenatal prediction and postnatal reality resulted in higher rates of obesity. It suggests that our biological systems possess a form of memory, adapting to early signals to ensure survival, even if those adaptations prove _____ in modern contexts.",
+      "id": "goarno-lfib-18",
+      "answer": [
+        "restrictions",
+        "famine",
+        "metabolic",
+        "scarcity",
+        "mismatch",
+        "detrimental"
+      ],
+      "explanation": "Lacunas: 1 \"restrictions\", 2 \"famine\", 3 \"metabolic\", 4 \"scarcity\", 5 \"mismatch\", 6 \"detrimental\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "researchers have long",
+      "source": "goarno.io",
+      "word_count": 95,
+      "transcript": "Researchers have long investigated how severe dietary restrictions affect future generations. A pivotal study focused on a historical period of famine revealing that individuals exposed to starvation while in the womb experienced distinct metabolic differences later in life. Their bodies were effectively programmed to conserve energy, anticipating a world of scarcity that never materialized. This mismatch between prenatal prediction and postnatal reality resulted in higher rates of obesity. It suggests that our biological systems possess a form of memory, adapting to early signals to ensure survival, even if those adaptations prove detrimental in modern contexts."
+    },
+    {
+      "text": "Sea turtles undertake one of the most remarkable migrations in the marine world. Immediately after hatching, these tiny creatures must navigate across vast oceans to find specific feeding grounds. For years, biologists wondered how they managed such accurate navigation without parental _____ Recent studies suggest that turtles possess a _____ internal map based on the Earth's magnetic field. They can detect subtle _____ in magnetic intensity, allowing them to determine their precise location. This magnetic sense acts as a biological GPS, keeping them within warm currents and _____ them from straying into _____ colder waters.",
+      "id": "goarno-lfib-19",
+      "answer": [
+        "guidance",
+        "sophisticated",
+        "variations",
+        "preventing",
+        "fatal"
+      ],
+      "explanation": "Lacunas: 1 \"guidance\", 2 \"sophisticated\", 3 \"variations\", 4 \"preventing\", 5 \"fatal\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "sea turtles undertake",
+      "source": "goarno.io",
+      "word_count": 95,
+      "transcript": "Sea turtles undertake one of the most remarkable migrations in the marine world. Immediately after hatching, these tiny creatures must navigate across vast oceans to find specific feeding grounds. For years, biologists wondered how they managed such accurate navigation without parental guidance Recent studies suggest that turtles possess a sophisticated internal map based on the Earth's magnetic field. They can detect subtle variations in magnetic intensity, allowing them to determine their precise location. This magnetic sense acts as a biological GPS, keeping them within warm currents and preventing them from straying into fatal colder waters."
+    },
+    {
+      "text": "The emerging field of nutrigenomics investigates the complex _____ between nutrition and the human genome. It proposes that food serves as more than just fuel; it acts as a set of biological _____ that can alter gene expression. Researchers have identified specific compounds in plant-based foods that might _____ protective mechanisms within our cells. This variability means that people often _____ differently to identical diets depending on their genetic profile. As a result, the future of healthcare may involve personalized dietary recommendations designed to maximize health and aid in disease _____.",
+      "id": "goarno-lfib-20",
+      "answer": [
+        "relationship",
+        "signals",
+        "trigger",
+        "respond",
+        "prevention"
+      ],
+      "explanation": "Lacunas: 1 \"relationship\", 2 \"signals\", 3 \"trigger\", 4 \"respond\", 5 \"prevention\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "the emerging field",
+      "source": "goarno.io",
+      "word_count": 91,
+      "transcript": "The emerging field of nutrigenomics investigates the complex relationship between nutrition and the human genome. It proposes that food serves as more than just fuel; it acts as a set of biological signals that can alter gene expression. Researchers have identified specific compounds in plant-based foods that might trigger protective mechanisms within our cells. This variability means that people often respond differently to identical diets depending on their genetic profile. As a result, the future of healthcare may involve personalized dietary recommendations designed to maximize health and aid in disease prevention."
+    },
+    {
+      "text": "Volcanology has transformed significantly in recent decades, shifting from direct visual _____ to sophisticated data analysis. Nowadays, scientists deploy a range of instruments to _____ active volcanoes, looking for subtle ground deformations that typically _____ an eruption. Furthermore, satellite imagery enables researchers to track thermal changes from space, offering _____ warning signals without placing personnel at risk. Despite these technological strides, predicting the _____ timing of a volcanic event remains a formidable challenge. Therefore, authorities prioritize evacuation drills and community education to _____ the potential impact on local populations.",
+      "id": "goarno-lfib-21",
+      "answer": [
+        "observation",
+        "monitor",
+        "precede",
+        "vital",
+        "precise",
+        "mitigate"
+      ],
+      "explanation": "Lacunas: 1 \"observation\", 2 \"monitor\", 3 \"precede\", 4 \"vital\", 5 \"precise\", 6 \"mitigate\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "volcanology has transformed",
+      "source": "goarno.io",
+      "word_count": 89,
+      "transcript": "Volcanology has transformed significantly in recent decades, shifting from direct visual observation to sophisticated data analysis. Nowadays, scientists deploy a range of instruments to monitor active volcanoes, looking for subtle ground deformations that typically precede an eruption. Furthermore, satellite imagery enables researchers to track thermal changes from space, offering vital warning signals without placing personnel at risk. Despite these technological strides, predicting the precise timing of a volcanic event remains a formidable challenge. Therefore, authorities prioritize evacuation drills and community education to mitigate the potential impact on local populations."
+    },
+    {
+      "text": "The Phoenician alphabet stands as a monumental _____ in the history of written language. Emerging around 1050 BC, it offered a stark contrast to the intricate scripts _____ in neighboring regions. Rather than relying on hundreds of complex symbols, this system utilized a minimal set of characters to form words. This efficiency democratized literacy, ensuring that skills were not exclusively _____ to a professional elite. As maritime traders, the Phoenicians _____ this adaptable script across the Mediterranean, where it became the _____ for the Greek and Roman alphabets.",
+      "id": "goarno-lfib-22",
+      "answer": [
+        "innovation",
+        "prevalent",
+        "confined",
+        "disseminated",
+        "foundation"
+      ],
+      "explanation": "Lacunas: 1 \"innovation\", 2 \"prevalent\", 3 \"confined\", 4 \"disseminated\", 5 \"foundation\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "the phoenician alphabet",
+      "source": "goarno.io",
+      "word_count": 88,
+      "transcript": "The Phoenician alphabet stands as a monumental innovation in the history of written language. Emerging around 1050 BC, it offered a stark contrast to the intricate scripts prevalent in neighboring regions. Rather than relying on hundreds of complex symbols, this system utilized a minimal set of characters to form words. This efficiency democratized literacy, ensuring that skills were not exclusively confined to a professional elite. As maritime traders, the Phoenicians disseminated this adaptable script across the Mediterranean, where it became the foundation for the Greek and Roman alphabets."
+    },
+    {
+      "text": "In ancient Mesopotamia, literacy was a highly _____ skill reserved for a select few. Young students, mostly boys from wealthy families, attended schools known as tablet houses to become professional scribes. Their training was _____ involving the memorization of thousands of complex signs and learning how to prepare the clay tablets used for writing. Once qualified, these individuals held prestigious positions in government and _____ recording everything from agricultural yields to legal contracts. Their work was essential for maintaining the _____ of the early city-states, and without their meticulous records, much of this civilization's history would remain a _____ to us today.",
+      "id": "goarno-lfib-23",
+      "answer": [
+        "specialized",
+        "rigorous",
+        "administration",
+        "bureaucracy",
+        "mystery"
+      ],
+      "explanation": "Lacunas: 1 \"specialized\", 2 \"rigorous\", 3 \"administration\", 4 \"bureaucracy\", 5 \"mystery\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "in ancient mesopotamia",
+      "source": "goarno.io",
+      "word_count": 102,
+      "transcript": "In ancient Mesopotamia, literacy was a highly specialized skill reserved for a select few. Young students, mostly boys from wealthy families, attended schools known as tablet houses to become professional scribes. Their training was rigorous involving the memorization of thousands of complex signs and learning how to prepare the clay tablets used for writing. Once qualified, these individuals held prestigious positions in government and administration recording everything from agricultural yields to legal contracts. Their work was essential for maintaining the bureaucracy of the early city-states, and without their meticulous records, much of this civilization's history would remain a mystery to us today."
+    },
+    {
+      "text": "One of the distinct innovations associated with the Uruk period is the cylinder seal. Unlike earlier stamp seals, which simply pressed a single image, these small stone cylinders were rolled across wet surfaces to create a _____ band of imagery. This technique allowed for complex narratives and intricate _____ to be repeated indefinitely. Functionally, they served as a mark of ownership or administrative _____ securing jars and doors against _____ opening. The craftsmanship required to carve these miniature scenes in hard stone was immense, indicating the high social _____ of the owners who commissioned them.",
+      "id": "goarno-lfib-24",
+      "answer": [
+        "continuous",
+        "motifs",
+        "authority",
+        "unauthorized",
+        "status"
+      ],
+      "explanation": "Lacunas: 1 \"continuous\", 2 \"motifs\", 3 \"authority\", 4 \"unauthorized\", 5 \"status\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "one of the",
+      "source": "goarno.io",
+      "word_count": 95,
+      "transcript": "One of the distinct innovations associated with the Uruk period is the cylinder seal. Unlike earlier stamp seals, which simply pressed a single image, these small stone cylinders were rolled across wet surfaces to create a continuous band of imagery. This technique allowed for complex narratives and intricate motifs to be repeated indefinitely. Functionally, they served as a mark of ownership or administrative authority securing jars and doors against unauthorized opening. The craftsmanship required to carve these miniature scenes in hard stone was immense, indicating the high social status of the owners who commissioned them."
+    },
+    {
+      "text": "In ancient Mesopotamia, becoming a scribe was a _____ process that opened the door to a privileged existence. Students attended schools known as 'tablet houses' where the _____ was incredibly demanding. They were required to master thousands of complex signs and learn to prepare their own clay tablets from river mud. _____ was notoriously strict, and mistakes were frequently punished with physical beatings. However, successful graduates could look forward to high-status careers in the palace or temple _____ often _____ from the manual labor that burdened the rest of the population.",
+      "id": "goarno-lfib-25",
+      "answer": [
+        "rigorous",
+        "curriculum",
+        "Discipline",
+        "administration",
+        "exempt"
+      ],
+      "explanation": "Lacunas: 1 \"rigorous\", 2 \"curriculum\", 3 \"Discipline\", 4 \"administration\", 5 \"exempt\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "in ancient mesopotamia",
+      "source": "goarno.io",
+      "word_count": 91,
+      "transcript": "In ancient Mesopotamia, becoming a scribe was a rigorous process that opened the door to a privileged existence. Students attended schools known as 'tablet houses' where the curriculum was incredibly demanding. They were required to master thousands of complex signs and learn to prepare their own clay tablets from river mud. Discipline was notoriously strict, and mistakes were frequently punished with physical beatings. However, successful graduates could look forward to high-status careers in the palace or temple administration often exempt from the manual labor that burdened the rest of the population."
+    },
+    {
+      "text": "Volcanologists rely on a sophisticated array of _____ to monitor the behavior of active mountains. One critical area of study involves analyzing gas _____ particularly changes in the volume of sulfur dioxide released into the atmosphere. A sudden increase often indicates that fresh magma is rising near the _____ potentially pressurizing the system. By tracking these chemical shifts alongside seismic data, authorities can issue timely _____ This integrated approach allows communities living in the shadow of these geological giants to prepare for potential _____ significantly reducing the risk to human life during an eruption.",
+      "id": "goarno-lfib-26",
+      "answer": [
+        "instruments",
+        "emissions",
+        "surface",
+        "warnings",
+        "evacuation"
+      ],
+      "explanation": "Lacunas: 1 \"instruments\", 2 \"emissions\", 3 \"surface\", 4 \"warnings\", 5 \"evacuation\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "volcanologists rely on",
+      "source": "goarno.io",
+      "word_count": 94,
+      "transcript": "Volcanologists rely on a sophisticated array of instruments to monitor the behavior of active mountains. One critical area of study involves analyzing gas emissions particularly changes in the volume of sulfur dioxide released into the atmosphere. A sudden increase often indicates that fresh magma is rising near the surface potentially pressurizing the system. By tracking these chemical shifts alongside seismic data, authorities can issue timely warnings This integrated approach allows communities living in the shadow of these geological giants to prepare for potential evacuation significantly reducing the risk to human life during an eruption."
+    },
+    {
+      "text": "While many animals rely on the sun or magnetic fields to find their way, the humble dung beetle employs a rather _____ method of navigation. Scientific studies have confirmed that these insects can actually _____ themselves using the faint light of the Milky Way. This capability is particularly crucial because they frequently operate at night to avoid _____ for limited resources. By maintaining a straight path, they can rapidly roll their ball away from the _____ of the source pile. However, if the night sky is cloudy and the stars are _____ the beetles tend to wander aimlessly, often circling back towards their rivals. This behavior _____ just how vital celestial cues are for their efficient movement.",
+      "id": "goarno-lfib-27",
+      "answer": [
+        "unique",
+        "orient",
+        "competition",
+        "chaos",
+        "obscured",
+        "demonstrates"
+      ],
+      "explanation": "Lacunas: 1 \"unique\", 2 \"orient\", 3 \"competition\", 4 \"chaos\", 5 \"obscured\", 6 \"demonstrates\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "while many animals",
+      "source": "goarno.io",
+      "word_count": 117,
+      "transcript": "While many animals rely on the sun or magnetic fields to find their way, the humble dung beetle employs a rather unique method of navigation. Scientific studies have confirmed that these insects can actually orient themselves using the faint light of the Milky Way. This capability is particularly crucial because they frequently operate at night to avoid competition for limited resources. By maintaining a straight path, they can rapidly roll their ball away from the chaos of the source pile. However, if the night sky is cloudy and the stars are obscured the beetles tend to wander aimlessly, often circling back towards their rivals. This behavior demonstrates just how vital celestial cues are for their efficient movement."
+    },
+    {
+      "text": "Recent research has emphasized the pervasive nature of microplastics within the marine environment. Unlike substantial plastic waste, these minute fragments are nearly impossible to _____ out of the ocean efficiently. Consequently, a wide variety of marine species _____ these particles for natural prey. When organisms _____ the plastic, it can cause significant physical harm, such as digestive obstructions or false sensations of fullness. Perhaps most concerning is the way these contaminants _____ as they move up the food chain, raising serious questions about the long-term _____ for both wildlife and human populations.",
+      "id": "goarno-lfib-28",
+      "answer": [
+        "filter",
+        "mistake",
+        "consume",
+        "accumulate",
+        "consequences"
+      ],
+      "explanation": "Lacunas: 1 \"filter\", 2 \"mistake\", 3 \"consume\", 4 \"accumulate\", 5 \"consequences\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "recent research has",
+      "source": "goarno.io",
+      "word_count": 92,
+      "transcript": "Recent research has emphasized the pervasive nature of microplastics within the marine environment. Unlike substantial plastic waste, these minute fragments are nearly impossible to filter out of the ocean efficiently. Consequently, a wide variety of marine species mistake these particles for natural prey. When organisms consume the plastic, it can cause significant physical harm, such as digestive obstructions or false sensations of fullness. Perhaps most concerning is the way these contaminants accumulate as they move up the food chain, raising serious questions about the long-term consequences for both wildlife and human populations."
+    },
+    {
+      "text": "One of the most profound applications of early writing systems was the codification of law, famously exemplified by the Code of Hammurabi. Before such codes, legal judgments were frequently _____ relying heavily on the immediate discretion of local leaders. By inscribing statutes onto durable stone monuments, the state created a _____ standard that was immune to sudden changes. This visibility served as a powerful _____ to potential offenders and strengthened the _____ of the monarch. The laws outlined specific punishments, often based on the principle of retaliation, where the _____ of the penalty was determined by the social class of the victim.",
+      "id": "goarno-lfib-29",
+      "answer": [
+        "arbitrary",
+        "permanent",
+        "deterrent",
+        "legitimacy",
+        "severity"
+      ],
+      "explanation": "Lacunas: 1 \"arbitrary\", 2 \"permanent\", 3 \"deterrent\", 4 \"legitimacy\", 5 \"severity\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "one of the",
+      "source": "goarno.io",
+      "word_count": 102,
+      "transcript": "One of the most profound applications of early writing systems was the codification of law, famously exemplified by the Code of Hammurabi. Before such codes, legal judgments were frequently arbitrary relying heavily on the immediate discretion of local leaders. By inscribing statutes onto durable stone monuments, the state created a permanent standard that was immune to sudden changes. This visibility served as a powerful deterrent to potential offenders and strengthened the legitimacy of the monarch. The laws outlined specific punishments, often based on the principle of retaliation, where the severity of the penalty was determined by the social class of the victim."
+    },
+    {
+      "text": "Volcanic eruptions are among nature's most destructive forces, yet _____ them remains a complex scientific undertaking. While modern instruments can detect the subtle tremors that often _____ a blast, these signals are not always reliable indicators of an _____ disaster. Consequently, researchers are now analyzing gas _____ to identify changes in the chemical composition of magma rising to the surface. This multi-faceted approach provides a more comprehensive picture of volcanic activity. By integrating seismic data with gas monitoring, experts hope to deliver more timely warnings to _____ populations residing near active zones.",
+      "id": "goarno-lfib-30",
+      "answer": [
+        "forecasting",
+        "precede",
+        "imminent",
+        "emissions",
+        "vulnerable"
+      ],
+      "explanation": "Lacunas: 1 \"forecasting\", 2 \"precede\", 3 \"imminent\", 4 \"emissions\", 5 \"vulnerable\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "volcanic eruptions are",
+      "source": "goarno.io",
+      "word_count": 92,
+      "transcript": "Volcanic eruptions are among nature's most destructive forces, yet forecasting them remains a complex scientific undertaking. While modern instruments can detect the subtle tremors that often precede a blast, these signals are not always reliable indicators of an imminent disaster. Consequently, researchers are now analyzing gas emissions to identify changes in the chemical composition of magma rising to the surface. This multi-faceted approach provides a more comprehensive picture of volcanic activity. By integrating seismic data with gas monitoring, experts hope to deliver more timely warnings to vulnerable populations residing near active zones."
+    },
+    {
+      "text": "When we analyze ancient records, the medium chosen by scribes often dictated the _____ of the text. In Mesopotamia, writers _____ symbols into wet clay, which was then left to harden. This method offered a unique benefit in terms of survival. While _____ materials like papyrus decompose easily in damp environments, clay tablets become incredibly _____ once baked. In fact, many royal _____ survived only because invading armies set fire to the palaces. The intense heat accidentally fired the raw clay, turning temporary administrative records into _____ artifacts that archaeologists can recover today.",
+      "id": "goarno-lfib-31",
+      "answer": [
+        "longevity",
+        "impressed",
+        "organic",
+        "durable",
+        "archives",
+        "permanent"
+      ],
+      "explanation": "Lacunas: 1 \"longevity\", 2 \"impressed\", 3 \"organic\", 4 \"durable\", 5 \"archives\", 6 \"permanent\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "when we analyze",
+      "source": "goarno.io",
+      "word_count": 93,
+      "transcript": "When we analyze ancient records, the medium chosen by scribes often dictated the longevity of the text. In Mesopotamia, writers impressed symbols into wet clay, which was then left to harden. This method offered a unique benefit in terms of survival. While organic materials like papyrus decompose easily in damp environments, clay tablets become incredibly durable once baked. In fact, many royal archives survived only because invading armies set fire to the palaces. The intense heat accidentally fired the raw clay, turning temporary administrative records into permanent artifacts that archaeologists can recover today."
+    },
+    {
+      "text": "While traditional plastics persist in the environment for centuries, there is growing interest in bioplastics derived from _____ sources like corn starch. However, the term bioplastic can be _____ for consumers. Many assume these materials will harmlessly degrade in nature, but most require specific _____ conditions to break down effectively. If tossed into a home compost bin or landfill, they often remain _____ just like conventional synthetic materials. Therefore, clearer labeling _____ are essential to ensure these alternatives actually reduce our environmental footprint rather than adding to the waste problem.",
+      "id": "goarno-lfib-32",
+      "answer": [
+        "renewable",
+        "misleading",
+        "industrial",
+        "intact",
+        "standards"
+      ],
+      "explanation": "Lacunas: 1 \"renewable\", 2 \"misleading\", 3 \"industrial\", 4 \"intact\", 5 \"standards\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "while traditional plastics",
+      "source": "goarno.io",
+      "word_count": 90,
+      "transcript": "While traditional plastics persist in the environment for centuries, there is growing interest in bioplastics derived from renewable sources like corn starch. However, the term bioplastic can be misleading for consumers. Many assume these materials will harmlessly degrade in nature, but most require specific industrial conditions to break down effectively. If tossed into a home compost bin or landfill, they often remain intact just like conventional synthetic materials. Therefore, clearer labeling standards are essential to ensure these alternatives actually reduce our environmental footprint rather than adding to the waste problem."
+    },
+    {
+      "text": "Tsunamis are among the most devastating natural events, often _____ by underwater earthquakes or volcanic eruptions. Unlike normal ocean waves generated by wind, tsunamis involve the movement of the entire water _____ This unique characteristic allows them to travel across ocean basins at jet-like speeds with _____ energy loss. Modern detection strategies rely heavily on a network of deep-ocean pressure sensors. These devices can _____ subtle changes in sea level and transmit data instantaneously to monitoring centers. While technology has _____ significantly, the short warning window remains a critical challenge.",
+      "id": "goarno-lfib-33",
+      "answer": [
+        "triggered",
+        "column",
+        "minimal",
+        "identify",
+        "advanced"
+      ],
+      "explanation": "Lacunas: 1 \"triggered\", 2 \"column\", 3 \"minimal\", 4 \"identify\", 5 \"advanced\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "tsunamis are among",
+      "source": "goarno.io",
+      "word_count": 90,
+      "transcript": "Tsunamis are among the most devastating natural events, often triggered by underwater earthquakes or volcanic eruptions. Unlike normal ocean waves generated by wind, tsunamis involve the movement of the entire water column This unique characteristic allows them to travel across ocean basins at jet-like speeds with minimal energy loss. Modern detection strategies rely heavily on a network of deep-ocean pressure sensors. These devices can identify subtle changes in sea level and transmit data instantaneously to monitoring centers. While technology has advanced significantly, the short warning window remains a critical challenge."
+    },
+    {
+      "text": "When we consider ancient record-keeping, the material used is crucial. Unlike organic media like papyrus that _____ over time, Mesopotamian clay tablets possessed exceptional _____ A scribe would use a stylus to press symbols into soft clay, which was then dried. Interestingly, catastrophic fires often aided _____ When palaces were burned during _____ the clay archives inside were baked hard rather than destroyed. This accidental firing transformed temporary administrative notes into _____ artifacts, allowing modern archaeologists to recover thousands of texts that would otherwise have vanished.",
+      "id": "goarno-lfib-34",
+      "answer": [
+        "decompose",
+        "longevity",
+        "preservation",
+        "warfare",
+        "indestructible"
+      ],
+      "explanation": "Lacunas: 1 \"decompose\", 2 \"longevity\", 3 \"preservation\", 4 \"warfare\", 5 \"indestructible\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "when we consider",
+      "source": "goarno.io",
+      "word_count": 86,
+      "transcript": "When we consider ancient record-keeping, the material used is crucial. Unlike organic media like papyrus that decompose over time, Mesopotamian clay tablets possessed exceptional longevity A scribe would use a stylus to press symbols into soft clay, which was then dried. Interestingly, catastrophic fires often aided preservation When palaces were burned during warfare the clay archives inside were baked hard rather than destroyed. This accidental firing transformed temporary administrative notes into indestructible artifacts, allowing modern archaeologists to recover thousands of texts that would otherwise have vanished."
+    },
+    {
+      "text": "Identical twins provide a unique window into the mechanics of epigenetics. Despite starting life with a matching genetic _____ twins can develop significant differences in health and personality as they age. Scientists _____ these discrepancies to epigenetic drift, where environmental factors like diet and stress influence the genome. These external experiences leave chemical tags that _____ how genes are expressed without altering the underlying DNA. Consequently, one twin may develop a hereditary condition while the other remains healthy, demonstrating that our biological destiny is not solely defined by _____",
+      "id": "goarno-lfib-35",
+      "answer": [
+        "sequence",
+        "attribute",
+        "regulate",
+        "inheritance"
+      ],
+      "explanation": "Lacunas: 1 \"sequence\", 2 \"attribute\", 3 \"regulate\", 4 \"inheritance\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "identical twins provide",
+      "source": "goarno.io",
+      "word_count": 89,
+      "transcript": "Identical twins provide a unique window into the mechanics of epigenetics. Despite starting life with a matching genetic sequence twins can develop significant differences in health and personality as they age. Scientists attribute these discrepancies to epigenetic drift, where environmental factors like diet and stress influence the genome. These external experiences leave chemical tags that regulate how genes are expressed without altering the underlying DNA. Consequently, one twin may develop a hereditary condition while the other remains healthy, demonstrating that our biological destiny is not solely defined by inheritance"
+    },
+    {
+      "text": "One of the most fascinating puzzles in biology is how a single fertilized egg transforms into a complex organism. Despite every cell containing the exact same DNA _____ manual, they somehow develop into _____ types, such as muscle, nerve, or skin cells. This process relies on a complex _____ system that acts like a series of switches, turning specific sections of the code on or off. Essentially, the _____ of a cell is determined not by the library of information it holds, but by which books it chooses to read. Understanding this mechanism is _____ for future advancements in regenerative medicine.",
+      "id": "goarno-lfib-36",
+      "answer": [
+        "instruction",
+        "distinct",
+        "regulatory",
+        "identity",
+        "crucial"
+      ],
+      "explanation": "Lacunas: 1 \"instruction\", 2 \"distinct\", 3 \"regulatory\", 4 \"identity\", 5 \"crucial\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "one of the",
+      "source": "goarno.io",
+      "word_count": 101,
+      "transcript": "One of the most fascinating puzzles in biology is how a single fertilized egg transforms into a complex organism. Despite every cell containing the exact same DNA instruction manual, they somehow develop into distinct types, such as muscle, nerve, or skin cells. This process relies on a complex regulatory system that acts like a series of switches, turning specific sections of the code on or off. Essentially, the identity of a cell is determined not by the library of information it holds, but by which books it chooses to read. Understanding this mechanism is crucial for future advancements in regenerative medicine."
+    },
+    {
+      "text": "Identical twins enter the world with virtually the same genetic material. However, as they age, they often become increasingly _____ in terms of their health profiles and personalities. This divergence is largely _____ to epigenetics. While their underlying DNA sequence remains _____, the chemical markers attached to their genes evolve based on lifestyle choices and environmental _____. Factors such as diet, stress levels, and physical activity can _____ these markers, effectively switching certain genes on or off. Consequently, one twin might develop a specific condition while the other remains healthy, proving that genetics is not the sole _____ of our biological destiny.",
+      "id": "goarno-lfib-37",
+      "answer": [
+        "distinct",
+        "attributed",
+        "static",
+        "exposures",
+        "modify",
+        "determinant"
+      ],
+      "explanation": "Lacunas: 1 \"distinct\", 2 \"attributed\", 3 \"static\", 4 \"exposures\", 5 \"modify\", 6 \"determinant\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "identical twins enter",
+      "source": "goarno.io",
+      "word_count": 102,
+      "transcript": "Identical twins enter the world with virtually the same genetic material. However, as they age, they often become increasingly distinct in terms of their health profiles and personalities. This divergence is largely attributed to epigenetics. While their underlying DNA sequence remains static, the chemical markers attached to their genes evolve based on lifestyle choices and environmental exposures. Factors such as diet, stress levels, and physical activity can modify these markers, effectively switching certain genes on or off. Consequently, one twin might develop a specific condition while the other remains healthy, proving that genetics is not the sole determinant of our biological destiny."
+    },
+    {
+      "text": "The emerging field of nutrigenomics explores the complex _____ between our diet and our genome. Unlike traditional nutrition, which typically offers general advice for the entire _____, this discipline aims to provide tailored dietary recommendations based on an individual's genetic makeup. Scientists are investigating how specific genetic variations influence the _____ of nutrients and how diet can impact the risk of developing chronic diseases. While the potential for _____ nutrition is exciting, experts warn that the science is still evolving. Therefore, implementing these findings into public health guidelines requires careful _____ of various biological factors.",
+      "id": "goarno-lfib-38",
+      "answer": [
+        "interaction",
+        "population",
+        "metabolism",
+        "personalized",
+        "consideration"
+      ],
+      "explanation": "Lacunas: 1 \"interaction\", 2 \"population\", 3 \"metabolism\", 4 \"personalized\", 5 \"consideration\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "the emerging field",
+      "source": "goarno.io",
+      "word_count": 95,
+      "transcript": "The emerging field of nutrigenomics explores the complex interaction between our diet and our genome. Unlike traditional nutrition, which typically offers general advice for the entire population, this discipline aims to provide tailored dietary recommendations based on an individual's genetic makeup. Scientists are investigating how specific genetic variations influence the metabolism of nutrients and how diet can impact the risk of developing chronic diseases. While the potential for personalized nutrition is exciting, experts warn that the science is still evolving. Therefore, implementing these findings into public health guidelines requires careful consideration of various biological factors."
+    },
+    {
+      "text": "The human gut microbiome is a vast ecosystem of bacteria that plays a crucial role in our physical health. Recent studies have _____ how the composition of these microorganisms can _____ everything from digestion to our immune system. When this delicate equilibrium is _____ frequently by antibiotics or a poor diet, it may lead to various chronic conditions. Researchers are currently exploring how nutritional changes can _____ this balance. Furthermore, the connection known as the gut-brain axis suggests that stomach bacteria might actually _____ with our nervous system, influencing our mood and behavior.",
+      "id": "goarno-lfib-39",
+      "answer": [
+        "highlighted",
+        "impact",
+        "disturbed",
+        "restore",
+        "communicate"
+      ],
+      "explanation": "Lacunas: 1 \"highlighted\", 2 \"impact\", 3 \"disturbed\", 4 \"restore\", 5 \"communicate\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "the human gut",
+      "source": "goarno.io",
+      "word_count": 93,
+      "transcript": "The human gut microbiome is a vast ecosystem of bacteria that plays a crucial role in our physical health. Recent studies have highlighted how the composition of these microorganisms can impact everything from digestion to our immune system. When this delicate equilibrium is disturbed frequently by antibiotics or a poor diet, it may lead to various chronic conditions. Researchers are currently exploring how nutritional changes can restore this balance. Furthermore, the connection known as the gut-brain axis suggests that stomach bacteria might actually communicate with our nervous system, influencing our mood and behavior."
+    },
+    {
+      "text": "Electronic waste, often referred to as e-waste, is becoming a significant _____ challenge as technology advances rapidly. While many people _____ old devices, they often forget that these items contain valuable materials like gold and copper. Recycling these components is _____ because mining new metals consumes vast amounts of energy and damages the environment. Unfortunately, a large percentage of e-waste ends up in landfills, where _____ substances can leak into the soil and water supply. Governments are now implementing stricter _____ to ensure that manufacturers take responsibility for the entire lifecycle of their products.",
+      "id": "goarno-lfib-40",
+      "answer": [
+        "global",
+        "discard",
+        "crucial",
+        "hazardous",
+        "regulations"
+      ],
+      "explanation": "Lacunas: 1 \"global\", 2 \"discard\", 3 \"crucial\", 4 \"hazardous\", 5 \"regulations\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "electronic waste, often",
+      "source": "goarno.io",
+      "word_count": 94,
+      "transcript": "Electronic waste, often referred to as e-waste, is becoming a significant global challenge as technology advances rapidly. While many people discard old devices, they often forget that these items contain valuable materials like gold and copper. Recycling these components is crucial because mining new metals consumes vast amounts of energy and damages the environment. Unfortunately, a large percentage of e-waste ends up in landfills, where hazardous substances can leak into the soil and water supply. Governments are now implementing stricter regulations to ensure that manufacturers take responsibility for the entire lifecycle of their products."
+    },
+    {
+      "text": "One of the most defining features of Mesopotamian culture was the extensive use of clay as a writing surface. While other civilizations relied on _____ materials, the inhabitants of the Tigris and Euphrates valley utilized the _____ mud found on riverbanks. Scribes would impress symbols into wet clay using a stylus, a _____ that eventually evolved into cuneiform. The resulting tablets were often baked, rendering them extremely _____ Consequently, archaeologists have _____ vast quantities of these ancient documents, revealing intricate details about everything from trade agreements to legal disputes.",
+      "id": "goarno-lfib-41",
+      "answer": [
+        "perishable",
+        "abundant",
+        "technique",
+        "durable",
+        "recovered"
+      ],
+      "explanation": "Lacunas: 1 \"perishable\", 2 \"abundant\", 3 \"technique\", 4 \"durable\", 5 \"recovered\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "one of the",
+      "source": "goarno.io",
+      "word_count": 89,
+      "transcript": "One of the most defining features of Mesopotamian culture was the extensive use of clay as a writing surface. While other civilizations relied on perishable materials, the inhabitants of the Tigris and Euphrates valley utilized the abundant mud found on riverbanks. Scribes would impress symbols into wet clay using a stylus, a technique that eventually evolved into cuneiform. The resulting tablets were often baked, rendering them extremely durable Consequently, archaeologists have recovered vast quantities of these ancient documents, revealing intricate details about everything from trade agreements to legal disputes."
+    },
+    {
+      "text": "Identical twins offer a unique opportunity for researchers to examine the interaction between our DNA and the environment. Since these siblings share the exact same genetic material, any differences that develop can usually be _____ to epigenetic factors. As twins age, their lifestyles often _____ in terms of diet, exercise, and stress exposure. These distinct experiences trigger chemical _____ that attach to their genes, effectively turning them on or off. Consequently, even though their genetic sequence remains _____ throughout their lives, the way their bodies function can become increasingly _____",
+      "id": "goarno-lfib-42",
+      "answer": [
+        "attributed",
+        "diverge",
+        "modifications",
+        "constant",
+        "distinct"
+      ],
+      "explanation": "Lacunas: 1 \"attributed\", 2 \"diverge\", 3 \"modifications\", 4 \"constant\", 5 \"distinct\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "identical twins offer",
+      "source": "goarno.io",
+      "word_count": 90,
+      "transcript": "Identical twins offer a unique opportunity for researchers to examine the interaction between our DNA and the environment. Since these siblings share the exact same genetic material, any differences that develop can usually be attributed to epigenetic factors. As twins age, their lifestyles often diverge in terms of diet, exercise, and stress exposure. These distinct experiences trigger chemical modifications that attach to their genes, effectively turning them on or off. Consequently, even though their genetic sequence remains constant throughout their lives, the way their bodies function can become increasingly distinct"
+    },
+    {
+      "text": "One distinct feature of early Near Eastern society was the _____ of the cylinder seal. These small, carved stone objects were rolled across wet surfaces to create a _____ impression. Unlike a simple stamp, the rolling motion allowed for complex, narrative designs to be _____ indefinitely. Their primary function was to serve as a personal signature or mark of _____ securing doors, jars, and bundles of goods. As trade networks expanded, the intricate imagery on these seals became increasingly _____ acting almost like a visual identification card.",
+      "id": "goarno-lfib-43",
+      "answer": [
+        "invention",
+        "continuous",
+        "repeated",
+        "ownership",
+        "sophisticated"
+      ],
+      "explanation": "Lacunas: 1 \"invention\", 2 \"continuous\", 3 \"repeated\", 4 \"ownership\", 5 \"sophisticated\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "one distinct feature",
+      "source": "goarno.io",
+      "word_count": 87,
+      "transcript": "One distinct feature of early Near Eastern society was the invention of the cylinder seal. These small, carved stone objects were rolled across wet surfaces to create a continuous impression. Unlike a simple stamp, the rolling motion allowed for complex, narrative designs to be repeated indefinitely. Their primary function was to serve as a personal signature or mark of ownership securing doors, jars, and bundles of goods. As trade networks expanded, the intricate imagery on these seals became increasingly sophisticated acting almost like a visual identification card."
+    },
+    {
+      "text": "One of the most remarkable aspects of Mesopotamian civilization is the sheer volume of written records that have _____ to the present day. Unlike papyrus, which degrades relatively quickly in damp climates, the clay tablets used by Sumerian scribes were incredibly _____ especially when baked. This accidental preservation often occurred when libraries were burned down during _____ hardening the clay rather than destroying it. Consequently, archaeologists have _____ hundreds of thousands of documents ranging from administrative receipts to epic poetry. These artifacts provide an unparalleled window into the _____ and social complexities of the ancient world.",
+      "id": "goarno-lfib-44",
+      "answer": [
+        "survived",
+        "durable",
+        "conflicts",
+        "recovered",
+        "economic"
+      ],
+      "explanation": "Lacunas: 1 \"survived\", 2 \"durable\", 3 \"conflicts\", 4 \"recovered\", 5 \"economic\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "one of the",
+      "source": "goarno.io",
+      "word_count": 96,
+      "transcript": "One of the most remarkable aspects of Mesopotamian civilization is the sheer volume of written records that have survived to the present day. Unlike papyrus, which degrades relatively quickly in damp climates, the clay tablets used by Sumerian scribes were incredibly durable especially when baked. This accidental preservation often occurred when libraries were burned down during conflicts hardening the clay rather than destroying it. Consequently, archaeologists have recovered hundreds of thousands of documents ranging from administrative receipts to epic poetry. These artifacts provide an unparalleled window into the economic and social complexities of the ancient world."
+    },
+    {
+      "text": "In ancient Mesopotamia, the availability of specific resources dictated the evolution of their writing system. Scribes _____ the thick clay found along the riverbanks to fashion tablets, which served as their primary surface. Unlike the _____ materials used in other cultures, clay was remarkably durable once dried or baked. However, it required a specific approach; signs had to be _____ into the wet surface rather than sketched. By using a reed stylus with a triangular tip, writers created characteristic wedge shapes. This _____ eventually led to the stylized script known as Cuneiform, which became the _____ medium of communication for thousands of years.",
+      "id": "goarno-lfib-45",
+      "answer": [
+        "utilized",
+        "perishable",
+        "pressed",
+        "constraint",
+        "standard"
+      ],
+      "explanation": "Lacunas: 1 \"utilized\", 2 \"perishable\", 3 \"pressed\", 4 \"constraint\", 5 \"standard\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "in ancient mesopotamia",
+      "source": "goarno.io",
+      "word_count": 103,
+      "transcript": "In ancient Mesopotamia, the availability of specific resources dictated the evolution of their writing system. Scribes utilized the thick clay found along the riverbanks to fashion tablets, which served as their primary surface. Unlike the perishable materials used in other cultures, clay was remarkably durable once dried or baked. However, it required a specific approach; signs had to be pressed into the wet surface rather than sketched. By using a reed stylus with a triangular tip, writers created characteristic wedge shapes. This constraint eventually led to the stylized script known as Cuneiform, which became the standard medium of communication for thousands of years."
+    },
+    {
+      "text": "The Silk Road was not a single thoroughfare but a complex _____ of trade routes connecting East and West. While silk was certainly the major _____ exchanged, the routes also facilitated the _____ of ideas, religions, and technologies. Merchants traveled in caravans for safety, often stopping at oasis cities that _____ due to this constant flow of travelers. Interestingly, few people traversed the entire length; instead, goods were handled in a _____ system, passing through many hands before reaching their final destination. This extensive interaction profoundly shaped the cultural _____ of the civilizations involved.",
+      "id": "goarno-lfib-46",
+      "answer": [
+        "network",
+        "commodity",
+        "transmission",
+        "flourished",
+        "relay",
+        "landscapes"
+      ],
+      "explanation": "Lacunas: 1 \"network\", 2 \"commodity\", 3 \"transmission\", 4 \"flourished\", 5 \"relay\", 6 \"landscapes\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "the silk road",
+      "source": "goarno.io",
+      "word_count": 94,
+      "transcript": "The Silk Road was not a single thoroughfare but a complex network of trade routes connecting East and West. While silk was certainly the major commodity exchanged, the routes also facilitated the transmission of ideas, religions, and technologies. Merchants traveled in caravans for safety, often stopping at oasis cities that flourished due to this constant flow of travelers. Interestingly, few people traversed the entire length; instead, goods were handled in a relay system, passing through many hands before reaching their final destination. This extensive interaction profoundly shaped the cultural landscapes of the civilizations involved."
+    },
+    {
+      "text": "One of the defining features of Mesopotamian culture is the medium used for record-keeping. While other civilizations relied on _____ materials like papyrus, the Mesopotamians _____ their signs onto wet clay. This choice has proven incredibly _____ over millennia. Ironically, many ancient _____ survive today precisely because they were subjected to fires that destroyed the cities around them. The heat baked the clay into a permanent ceramic form, preserving everything from royal decrees to ordinary business _____ for modern archaeologists to study.",
+      "id": "goarno-lfib-47",
+      "answer": [
+        "perishable",
+        "inscribed",
+        "durable",
+        "archives",
+        "transactions"
+      ],
+      "explanation": "Lacunas: 1 \"perishable\", 2 \"inscribed\", 3 \"durable\", 4 \"archives\", 5 \"transactions\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "one of the",
+      "source": "goarno.io",
+      "word_count": 82,
+      "transcript": "One of the defining features of Mesopotamian culture is the medium used for record-keeping. While other civilizations relied on perishable materials like papyrus, the Mesopotamians inscribed their signs onto wet clay. This choice has proven incredibly durable over millennia. Ironically, many ancient archives survive today precisely because they were subjected to fires that destroyed the cities around them. The heat baked the clay into a permanent ceramic form, preserving everything from royal decrees to ordinary business transactions for modern archaeologists to study."
+    },
+    {
+      "text": "Volcanic eruptions are often viewed as localized disasters, yet their atmospheric consequences can be global. A critical issue is the _____ of volcanic ash, which consists of tiny, jagged particles of rock and glass. This material represents a substantial hazard to aviation, as the _____ dust can damage flight control systems and cause engine _____ Beyond immediate safety risks, suspended ash reflects solar radiation, potentially _____ global weather patterns. Researchers utilize satellite data to predict the movement of these clouds, ensuring that air traffic can be diverted in time to avoid _____ encounters.",
+      "id": "goarno-lfib-48",
+      "answer": [
+        "dispersion",
+        "abrasive",
+        "failure",
+        "altering",
+        "catastrophic"
+      ],
+      "explanation": "Lacunas: 1 \"dispersion\", 2 \"abrasive\", 3 \"failure\", 4 \"altering\", 5 \"catastrophic\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "volcanic eruptions are",
+      "source": "goarno.io",
+      "word_count": 93,
+      "transcript": "Volcanic eruptions are often viewed as localized disasters, yet their atmospheric consequences can be global. A critical issue is the dispersion of volcanic ash, which consists of tiny, jagged particles of rock and glass. This material represents a substantial hazard to aviation, as the abrasive dust can damage flight control systems and cause engine failure Beyond immediate safety risks, suspended ash reflects solar radiation, potentially altering global weather patterns. Researchers utilize satellite data to predict the movement of these clouds, ensuring that air traffic can be diverted in time to avoid catastrophic encounters."
+    },
+    {
+      "text": "The emerging field of nutrigenomics explores the complex relationship between our diet and our genome. It suggests that food is not merely a source of caloric energy but acts as a biological _____ that can influence our long-term health. Unlike traditional views where food simply fuels the body, this science posits that specific nutrients have the capacity to _____ switches in our DNA. This mechanism could be pivotal in reducing the risk of _____ diseases such as diabetes. Consequently, understanding this connection allows for _____ dietary recommendations, effectively moving away from a generic, one-size-fits-all approach to modern _____.",
+      "id": "goarno-lfib-49",
+      "answer": [
+        "signal",
+        "trigger",
+        "chronic",
+        "personalized",
+        "nutrition"
+      ],
+      "explanation": "Lacunas: 1 \"signal\", 2 \"trigger\", 3 \"chronic\", 4 \"personalized\", 5 \"nutrition\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "the emerging field",
+      "source": "goarno.io",
+      "word_count": 98,
+      "transcript": "The emerging field of nutrigenomics explores the complex relationship between our diet and our genome. It suggests that food is not merely a source of caloric energy but acts as a biological signal that can influence our long-term health. Unlike traditional views where food simply fuels the body, this science posits that specific nutrients have the capacity to trigger switches in our DNA. This mechanism could be pivotal in reducing the risk of chronic diseases such as diabetes. Consequently, understanding this connection allows for personalized dietary recommendations, effectively moving away from a generic, one-size-fits-all approach to modern nutrition."
+    },
+    {
+      "text": "Honeybees _____ remarkable navigational skills when foraging for nectar. Upon returning to the hive, a scout bee performs a _____ series of movements known as the waggle dance. This behavior _____ both the distance and the direction of a food source to the rest of the colony. The angle of the dance _____ with the position of the sun, providing precise coordinates for other bees to follow. However, recent studies indicate that pesticides may impair their cognitive functions, making it difficult for them to _____ these instructions effectively.",
+      "id": "goarno-lfib-50",
+      "answer": [
+        "demonstrate",
+        "complex",
+        "communicates",
+        "correlates",
+        "interpret"
+      ],
+      "explanation": "Lacunas: 1 \"demonstrate\", 2 \"complex\", 3 \"communicates\", 4 \"correlates\", 5 \"interpret\" (Source key: goarno.io)",
+      "trap": "Só palavra correta e com grafia exata pontua: plural, -ed/-ing e palavras longas são a armadilha mais comum.",
+      "topic": "honeybees demonstrate remarkable",
+      "source": "goarno.io",
+      "word_count": 88,
+      "transcript": "Honeybees demonstrate remarkable navigational skills when foraging for nectar. Upon returning to the hive, a scout bee performs a complex series of movements known as the waggle dance. This behavior communicates both the distance and the direction of a food source to the rest of the colony. The angle of the dance correlates with the position of the sun, providing precise coordinates for other bees to follow. However, recent studies indicate that pesticides may impair their cognitive functions, making it difficult for them to interpret these instructions effectively."
+    }
+  ]
 }

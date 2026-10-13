@@ -3,7 +3,7 @@
   "id": "/",
   "name": "PTE Master Hub",
   "short_name": "PTE",
-  "description": "Treino interativo para PTE Academic com 18 task types e 1133 questões, correção em tempo real e uso offline.",
+  "description": "Treino interativo para PTE Academic com 22 task types e 1333 questões, correção em tempo real e uso offline.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
