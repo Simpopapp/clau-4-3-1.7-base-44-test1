@@ -25,7 +25,7 @@ describe("Proveniência (C2)", () => {
 
   it("o manifesto carrega o selo em toda QuestionMeta", async () => {
     const { allMeta } = await import("@/lib/pte");
-    expect(allMeta.length).toBeGreaterThan(2_000);
+    expect(allMeta.length).toBe(1333);
     expect(allMeta.every((m) => ["verificada", "comunitária", "ia"].includes(m.sourceClass))).toBe(
       true,
     );
@@ -40,8 +40,10 @@ describe("Dedupe / canonicalId (C3)", () => {
     expect(isDuplicateId("pte-swt-00dc6a7a")).toBe(true);
     expect(isDuplicateId("goarno-swt-07")).toBe(false);
     const { allMeta } = await import("@/lib/pte");
-    expect(allMeta.filter((m) => m.duplicate)).toHaveLength(28);
-    expect(allMeta.filter((m) => m.duplicate).every((m) => m.taskType === "swt")).toBe(true);
+    // Auditoria de proveniência (12/10/2026): as 28 cópias `pte-swt-*` eram predição de IA e
+    // saíram do banco, então nenhum item restante carrega o selo "repetida". O mapa canônico
+    // mantém os apelidos para o progresso já feito nessas cópias migrar para o item que ficou.
+    expect(allMeta.filter((m) => m.duplicate)).toHaveLength(0);
   });
 
   it("mergeSnapshots soma contadores, pega máximos e mantém o 'último' do mais recente", async () => {
@@ -221,9 +223,16 @@ describe("Filas respeitam duplicatas e o filtro de fontes (D4/D7)", () => {
       stats,
     );
     expect(open.total).toBeGreaterThan(0);
-    // sem filtros, tipos só-IA (wfd) têm estoque; com o filtro, não
+    // wfd deixou de ser tipo só-IA: 131 itens de recall verificado (stormedugo.com) + comunitários
+    // (anki-cards). Com o filtro, o plano só pode alocar o que existe de fonte verificada.
+    const { allMeta } = await import("@/lib/pte");
+    const verifiedWfd = allMeta.filter(
+      (m) => m.taskType === "wfd" && m.sourceClass === "verificada",
+    ).length;
+    expect(verifiedWfd).toBeGreaterThan(0);
     expect(open.counts["wfd"] ?? 0).toBeGreaterThan(0);
-    expect(filtered.counts["wfd"] ?? 0).toBe(0);
+    expect(filtered.counts["wfd"] ?? 0).toBeLessThanOrEqual(verifiedWfd);
+    expect(filtered.counts["wfd"] ?? 0).toBeGreaterThan(0);
   });
 });
 
@@ -236,7 +245,7 @@ describe("Banco pequeno (C4)", () => {
     for (const [type, n] of Object.entries(typeCounts)) {
       expect(isSmallBank(type as keyof typeof typeCounts)).toBe(n <= SMALL_BANK_MAX);
     }
-    expect(isSmallBank("lst_summary")).toBe(true);
+    expect(isSmallBank("lst_summary")).toBe(false); // 2ª varredura: +50 itens do goarno.io
     expect(isSmallBank("wfd")).toBe(false);
     expect(typeCounts["wfd"]).toBeGreaterThan(SMALL_BANK_MAX);
   });
@@ -246,7 +255,7 @@ describe("Payload (D2) — contrato do leitor", () => {
   it("wfd.json guarda só id/answer/source/word_count — sem text/transcript duplicados", async () => {
     const wfd = (await import("@/data/pte/wfd.json")).default as { questions?: unknown[] };
     const items = (wfd.questions ?? wfd) as Record<string, unknown>[];
-    expect(items.length).toBe(934);
+    expect(items.length).toBe(229);
     expect(Object.keys(items[0]!).sort()).toEqual(["answer", "id", "source", "word_count"]);
   });
 
@@ -263,8 +272,8 @@ describe("Payload (D2) — contrato do leitor", () => {
     expect(essay!.text).toBe(essay!.prompt);
   });
 
-  it("o manifesto soma 2.818 questões (projeto 10: +200 dos bancos do goarno.io)", async () => {
+  it("o manifesto soma 1333 questões (só fontes verificadas/comunitárias após a auditoria)", async () => {
     const { TOTAL_ALL_QUESTIONS } = await import("@/lib/pte");
-    expect(TOTAL_ALL_QUESTIONS).toBe(2_818);
+    expect(TOTAL_ALL_QUESTIONS).toBe(1333);
   });
 });
