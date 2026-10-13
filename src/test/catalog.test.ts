@@ -19,13 +19,14 @@ import {
 
 // Auditoria de proveniência (12/10/2026): as fontes de predição de IA
 // (`ai-generated-prediction`, `pte2-prediction`, `pteracai-seed`) foram removidas do banco —
-// restam só fontes verificadas e as comunitárias (anki-cards). Os tipos cujo banco era
-// inteiramente de predição (repeat_sentence, lst_fib, summarize_spoken_text, lst_summary,
+// restam só fontes verificadas e as comunitárias (anki-cards). Varredura de recalls (13/10/2026):
+// +100 repeat_sentence e +131 wfd (stormedugo.com, recall) e +10 RA / +2 RL (ptebank.com, memória
+// de exame). Os tipos sem fonte pública de recall (lst_fib, summarize_spoken_text, lst_summary,
 // lst_mcq_multi) ficam em 0 até haver fonte pública com gabarito.
 const EXPECTED_COUNTS: Record<string, number> = {
-  read_aloud: 47,
-  repeat_sentence: 0,
-  retell_lecture: 50,
+  read_aloud: 57,
+  repeat_sentence: 100,
+  retell_lecture: 52,
   answer_short: 133,
   swt: 50,
   write_essay: 43,
@@ -33,7 +34,7 @@ const EXPECTED_COUNTS: Record<string, number> = {
   mcq_multi: 10,
   reorder_paragraphs: 57,
   read_fib: 62,
-  wfd: 98,
+  wfd: 229,
   lst_fib: 0,
   summarize_spoken_text: 0,
   // Projeto 10, Fase 1: bancos públicos do goarno.io integrados (50 itens por tipo).
@@ -129,7 +130,7 @@ describe("Catálogo (22 task types, carregamento sob demanda)", () => {
       expect(list.length).toBe(sectionCounts[s]);
       for (const q of list) expect(q.section).toBe(s);
     }
-    expect(metaByType("wfd").length).toBe(98);
+    expect(metaByType("wfd").length).toBe(229);
   });
 
   it("navegação anterior/próxima é circular dentro do task type", () => {

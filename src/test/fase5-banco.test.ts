@@ -25,7 +25,7 @@ describe("Proveniência (C2)", () => {
 
   it("o manifesto carrega o selo em toda QuestionMeta", async () => {
     const { allMeta } = await import("@/lib/pte");
-    expect(allMeta.length).toBe(890);
+    expect(allMeta.length).toBe(1133);
     expect(allMeta.every((m) => ["verificada", "comunitária", "ia"].includes(m.sourceClass))).toBe(
       true,
     );
@@ -223,9 +223,16 @@ describe("Filas respeitam duplicatas e o filtro de fontes (D4/D7)", () => {
       stats,
     );
     expect(open.total).toBeGreaterThan(0);
-    // sem filtros, tipos só-IA (wfd) têm estoque; com o filtro, não
+    // wfd deixou de ser tipo só-IA: 131 itens de recall verificado (stormedugo.com) + comunitários
+    // (anki-cards). Com o filtro, o plano só pode alocar o que existe de fonte verificada.
+    const { allMeta } = await import("@/lib/pte");
+    const verifiedWfd = allMeta.filter(
+      (m) => m.taskType === "wfd" && m.sourceClass === "verificada",
+    ).length;
+    expect(verifiedWfd).toBeGreaterThan(0);
     expect(open.counts["wfd"] ?? 0).toBeGreaterThan(0);
-    expect(filtered.counts["wfd"] ?? 0).toBe(0);
+    expect(filtered.counts["wfd"] ?? 0).toBeLessThanOrEqual(verifiedWfd);
+    expect(filtered.counts["wfd"] ?? 0).toBeGreaterThan(0);
   });
 });
 
@@ -248,7 +255,7 @@ describe("Payload (D2) — contrato do leitor", () => {
   it("wfd.json guarda só id/answer/source/word_count — sem text/transcript duplicados", async () => {
     const wfd = (await import("@/data/pte/wfd.json")).default as { questions?: unknown[] };
     const items = (wfd.questions ?? wfd) as Record<string, unknown>[];
-    expect(items.length).toBe(98);
+    expect(items.length).toBe(229);
     expect(Object.keys(items[0]!).sort()).toEqual(["answer", "id", "source", "word_count"]);
   });
 
@@ -265,8 +272,8 @@ describe("Payload (D2) — contrato do leitor", () => {
     expect(essay!.text).toBe(essay!.prompt);
   });
 
-  it("o manifesto soma 890 questões (só fontes verificadas/comunitárias após a auditoria)", async () => {
+  it("o manifesto soma 1133 questões (só fontes verificadas/comunitárias após a auditoria)", async () => {
     const { TOTAL_ALL_QUESTIONS } = await import("@/lib/pte");
-    expect(TOTAL_ALL_QUESTIONS).toBe(890);
+    expect(TOTAL_ALL_QUESTIONS).toBe(1133);
   });
 });

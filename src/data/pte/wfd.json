@@ -2,8 +2,8 @@
   "type": "wfd",
   "task_type": "Write From Dictation",
   "section": "listening",
-  "total": 98,
-  "generated_at": "2026-10-05",
+  "total": 229,
+  "generated_at": "2026-10-13",
   "questions": [
     {
       "id": "pte-wfd-bff197ec",
@@ -592,6 +592,792 @@
       "answer": "While some people regard it as reforming zeal, others regard it as recklessness.",
       "source": "anki-cards",
       "word_count": 13
+    },
+    {
+      "id": "storm-wfd-001",
+      "answer": "Air pollution is a serious problem all over the world.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-002",
+      "answer": "Eating fish twice a week is recommended for a healthy diet.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-003",
+      "answer": "There is no economic reason why public borrowing is necessarily bad.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-004",
+      "answer": "The deadline for the submission of this assignment is tomorrow.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-005",
+      "answer": "British students must study mathematics at secondary schools.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-006",
+      "answer": "The teaching staffs are actively engaged in original research.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-007",
+      "answer": "Libraries in many areas were closed due to the lack of funding.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-wfd-008",
+      "answer": "Students are required to have an undergraduate degree in Biology to be enrolled in this course.",
+      "source": "stormedugo.com",
+      "word_count": 16
+    },
+    {
+      "id": "storm-wfd-009",
+      "answer": "We can all meet at my office after the lecture.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-010",
+      "answer": "More research is required in the field of food science.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-011",
+      "answer": "It is an integrated course with several main elements.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-012",
+      "answer": "Information technology has changed the way people study today.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-013",
+      "answer": "The history of economics is a tricky subject to study.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-014",
+      "answer": "University graduates lose their time finding jobs.",
+      "source": "stormedugo.com",
+      "word_count": 7
+    },
+    {
+      "id": "storm-wfd-015",
+      "answer": "A regional assembly was moved to the devolution of power.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-016",
+      "answer": "There are more opportunities to receive the grants in most artistic fields.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-wfd-017",
+      "answer": "The essay should be easy to complete once the research is finished.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-wfd-018",
+      "answer": "The rising inflation rate indicates a decrease in demands for consumer products.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-wfd-019",
+      "answer": "Formal conclusions could be established through rigorous experiments.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-020",
+      "answer": "This is the first example of a modern and professional army.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-021",
+      "answer": "Muscle cells bring parts of the body closer together.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-022",
+      "answer": "An architect requires problem-solving skills and an eye for design.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-023",
+      "answer": "Global connections increased in academic communities, thanks to social media.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-024",
+      "answer": "The course places considerable emphasis on critical thinking skills.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-025",
+      "answer": "A good research assistant is not afraid to ask questions.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-026",
+      "answer": "The typical part of this course involves the study of society.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-027",
+      "answer": "Practical experience is a vital part of legal training.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-028",
+      "answer": "She has made a significant contribution to the field of chemistry.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-029",
+      "answer": "Undergraduates may pursue their specific interests within certificate programs.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-030",
+      "answer": "The designers will complete the plan later today.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-031",
+      "answer": "The faculty staff are very approachable, helpful and extremely friendly.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-032",
+      "answer": "Students live in the residence hall during the term time.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-033",
+      "answer": "The key findings seemed to contradict our initial hypothesis.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-034",
+      "answer": "The plight of wildlife has been ignored by local developers.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-035",
+      "answer": "The professor took a year off to work on her book.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-036",
+      "answer": "The American astronomers planned for landing a spaceship on Mars.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-037",
+      "answer": "The scientists found most of the studies today.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-038",
+      "answer": "The summer course was canceled due to insufficient re-enrollments.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-039",
+      "answer": "You should submit your term papers to the general office.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-040",
+      "answer": "Urbanization increases the costs for other communities.",
+      "source": "stormedugo.com",
+      "word_count": 7
+    },
+    {
+      "id": "storm-wfd-041",
+      "answer": "Social media is responsible for helping the government to solve social problems.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-wfd-042",
+      "answer": "The university theater group will be performing in the concert hall.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-043",
+      "answer": "The ways in which people communicate are constantly changing.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-044",
+      "answer": "There is a clear need for further research in this field.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-045",
+      "answer": "There is a pharmacy on campus near the bookstore.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-046",
+      "answer": "Art is an expression of creative skills and imagination.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-047",
+      "answer": "This course is integrated because it has several parts.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-048",
+      "answer": "Currently the growth of the company is unpredictable.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-049",
+      "answer": "Travelling by boat on the river is not possible in winter.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-050",
+      "answer": "Understanding how to use the library will save your time.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-051",
+      "answer": "Scientists have found all parts of science today.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-052",
+      "answer": "University fees are expected to increase next year.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-053",
+      "answer": "The theme of the course is to encourage students to develop their creativity.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-wfd-054",
+      "answer": "We support the research on problems related to tropical cyclone dynamics and forecasting.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-wfd-055",
+      "answer": "You need to hand in the essay next semester.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-056",
+      "answer": "You can request library books by using the electronic catalogue.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-057",
+      "answer": "You are able to contact a number of research subjects.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-058",
+      "answer": "Your summary should be as clear and concise as possible.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-059",
+      "answer": "Distance learning allows you to develop a career around your commitments.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-060",
+      "answer": "Economic development needs to be supported by the government.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-061",
+      "answer": "It would be extremely beneficial to work together.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-062",
+      "answer": "Students are encouraged to take part in their study as well as games.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-wfd-063",
+      "answer": "Our laboratory equipment is provided free of charge.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-064",
+      "answer": "Peer review is an essential part of the scientific method.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-065",
+      "answer": "Protective clothing must always be worn in the laboratory.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-066",
+      "answer": "The site is designed to be highly interactive.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-067",
+      "answer": "The university should introduce technology to support learning.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-068",
+      "answer": "The visiting speaker used to be a lecturer in this department.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-069",
+      "answer": "For the purpose of research, data should be collected and analyzed.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-070",
+      "answer": "Students are encouraged to read new books recommended by Professor Jones.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-071",
+      "answer": "Tutors should set a clear goal at the start of the class.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-wfd-072",
+      "answer": "Universities should invest in new technologies designed for learning.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-073",
+      "answer": "The reception staff can give advice about renting private accommodation.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-074",
+      "answer": "The essay will argue that the technology does more harm than good.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-wfd-075",
+      "answer": "Many vocational courses in the institution are funded by private enterprises.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-076",
+      "answer": "Listening is the key to succeeding in this course.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-077",
+      "answer": "The speaker began by giving an outline of her presentation.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-078",
+      "answer": "Native speakers are exempted from the language tests in their own languages.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-wfd-079",
+      "answer": "Physics is a key subject for understanding the world and the universe.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-wfd-080",
+      "answer": "Undergraduates have a wide range of cultural modules to choose from.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-081",
+      "answer": "Too much information may be avoided by good research design.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-082",
+      "answer": "Graphs and charts allowed data more easily to be understood.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-083",
+      "answer": "Implementation figures are expected to improve over the next few years.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-084",
+      "answer": "The garden behind the university is open to the public in summer.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-wfd-085",
+      "answer": "The academic tradition of the school ensures excellence.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-086",
+      "answer": "Leaving valuable possessions unattended in public places is risky.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-087",
+      "answer": "This book can be borrowed for a maximum of one week.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-088",
+      "answer": "Purity is one feature that makes gold expensive.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-089",
+      "answer": "I thought it was through the small meeting room.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-090",
+      "answer": "The new technician dropped the microscope in the biology lab.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-091",
+      "answer": "Certain organisms can reproduce using just one parent.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-092",
+      "answer": "Criminal charges will be brought against all of the men.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-093",
+      "answer": "International exchanges formed the important part of our study program.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-094",
+      "answer": "We can have a lecture on the morning of Thursday.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-095",
+      "answer": "Studying history can help you better understand the present.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-096",
+      "answer": "This course aims to develop your knowledge of statistics.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-097",
+      "answer": "Employment figures will decrease in the next few years.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-098",
+      "answer": "Children start producing words before they are able to walk.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-099",
+      "answer": "The timetable for next term will be available next week.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-100",
+      "answer": "The student union hosts a variety of social events.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-101",
+      "answer": "All laboratory equipment will be provided in class.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-102",
+      "answer": "Optional tutorials are offered in the final week of a term.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-103",
+      "answer": "Babies can distinguish between what is language and what is not.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-104",
+      "answer": "The two sides have disagreed on how to solve the problem.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-105",
+      "answer": "Key business partners are often involved in shared expense accounts.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-106",
+      "answer": "The library will stay open until midnight this week.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-107",
+      "answer": "All medical students must clean their hands before entering the room.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-108",
+      "answer": "Make sure you have saved all the files before turning off the computer.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-wfd-109",
+      "answer": "The library will be closed for staff training tomorrow morning.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-110",
+      "answer": "Sound waves are unable to travel through the vacuum.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-111",
+      "answer": "We will hold a celebration for the graduated students.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-112",
+      "answer": "Most of the lectures begin promptly, so do not be late.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-113",
+      "answer": "Scientists recognize different ice types according to the water molecule content.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-114",
+      "answer": "Even simple techniques need to be practiced becoming perfect.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-115",
+      "answer": "Slides and handouts can be downloaded after the lecture.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-116",
+      "answer": "It helps you to rationally assess your arguments.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-117",
+      "answer": "Social media is criticized for causing Internet addiction.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-118",
+      "answer": "The university has invested in the new technology designed for learning.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-119",
+      "answer": "The government is funding research study on the consequences of unemployment.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-wfd-120",
+      "answer": "Critical thinking is one part of a broad education.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-121",
+      "answer": "Extracurricular activities can help students to develop more talents.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-122",
+      "answer": "Please return the reference book to the correct position on the shelf.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-wfd-123",
+      "answer": "The history department is very active in research.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-124",
+      "answer": "Art and design are a competitive field to work in.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-125",
+      "answer": "All your assignments should be submitted by next Tuesday.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-126",
+      "answer": "The skills of great stage actors cannot be taught.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-127",
+      "answer": "Philosophy uses logic and reason to analyze human experience.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-wfd-128",
+      "answer": "Providers of higher education treat plagiarism extremely seriously.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-wfd-129",
+      "answer": "It takes a long time to walk to the university.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-130",
+      "answer": "The universities provide excellent leisure facilities for students and staff.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-wfd-131",
+      "answer": "We are researching on the most significant challenges we are facing in our society today.",
+      "source": "stormedugo.com",
+      "word_count": 15
     }
   ]
 }

@@ -5,9 +5,9 @@ import { tokenize } from "@/lib/pte";
 import { getQuestion, questions, topics, TOTAL_QUESTIONS } from "@/lib/pte/readaloud";
 
 describe("Banco de questões PTE Read Aloud", () => {
-  it("carrega as 47 questões do pte.json", () => {
-    expect(TOTAL_QUESTIONS).toBe(47);
-    expect(questions.length).toBe(47);
+  it("carrega as 57 questões do pte.json", () => {
+    expect(TOTAL_QUESTIONS).toBe(57);
+    expect(questions.length).toBe(57);
   });
 
   it("toda questão tem texto, palavras, contagem e tópico válidos", () => {
@@ -16,7 +16,7 @@ describe("Banco de questões PTE Read Aloud", () => {
       expect(q.words.length).toBeGreaterThan(0);
       expect(q.wordCount).toBeGreaterThan(0);
       expect(q.topic.length).toBeGreaterThan(0);
-      expect(q.id).toMatch(/^(pte-ra-|storm-ra-|goarno-ra-)/);
+      expect(q.id).toMatch(/^(pte-ra-|storm-ra-|goarno-ra-|ptebank-ra-)/);
     }
   });
 

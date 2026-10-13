@@ -2,7 +2,608 @@
   "type": "repeat_sentence",
   "task_type": "Repeat Sentence",
   "section": "speaking",
-  "total": 0,
-  "generated_at": "2026-10-05",
-  "questions": []
+  "total": 100,
+  "generated_at": "2026-10-13",
+  "questions": [
+    {
+      "id": "storm-rs-001",
+      "answer": "The wheelchair lift has been upgraded this month.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-rs-002",
+      "answer": "Doing this research makes me think of the purpose of science.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-003",
+      "answer": "The office said Dr. Smith will arrive later today.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-004",
+      "answer": "The recent study has thrown out the validity of the argument.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-005",
+      "answer": "To receive the reimbursement, you must keep the original receipts.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-006",
+      "answer": "The theoretical proposal was challenging to grasp.",
+      "source": "stormedugo.com",
+      "word_count": 7
+    },
+    {
+      "id": "storm-rs-007",
+      "answer": "Please finish all the reading chapters before the field trip.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-008",
+      "answer": "If she doesn't speak the language, she's not going to sit around and wait for a translator.",
+      "source": "stormedugo.com",
+      "word_count": 17
+    },
+    {
+      "id": "storm-rs-009",
+      "answer": "Being a student representative on the union really cuts into my study time.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-010",
+      "answer": "Being a vegan means not consuming any animal products.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-011",
+      "answer": "The United States has developed a coffee culture in recent years.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-012",
+      "answer": "Meeting with tutors could be arranged for students who need additional help.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-rs-013",
+      "answer": "The cafeteria closes soon but the snack machine is accessible throughout the night.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-014",
+      "answer": "The visiting professor is going to give a lecture on geology.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-015",
+      "answer": "Conferences are always scheduled on the third Wednesday of the month.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-016",
+      "answer": "Sport is the main cause of traumatic brain injuries in the United States.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-017",
+      "answer": "Student loans are now available for international students.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-rs-018",
+      "answer": "He told me it was the most important assignment of all.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-019",
+      "answer": "The hypothesis needs to be tested in a more rigorous way.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-020",
+      "answer": "Today, we will be discussing the role of the government in preventing injustice.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-021",
+      "answer": "Animals grow larger and stronger to help them hunt better.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-022",
+      "answer": "All sources of materials must be included in your bibliography.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-023",
+      "answer": "There are a range of housing options near the university.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-024",
+      "answer": "Our school of Arts and Technology accepts applications at all points throughout the year.",
+      "source": "stormedugo.com",
+      "word_count": 14
+    },
+    {
+      "id": "storm-rs-025",
+      "answer": "Students are competing for every place in the computer courses.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-026",
+      "answer": "Higher fees make students think more critically about what universities can offer.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-rs-027",
+      "answer": "The student service center is located on the main campus behind the library.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-028",
+      "answer": "The generic biology technology lab is located at the North Wing of the library.",
+      "source": "stormedugo.com",
+      "word_count": 14
+    },
+    {
+      "id": "storm-rs-029",
+      "answer": "We want to attract the very best students regardless of their financial circumstances.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-030",
+      "answer": "Expertise in particular areas distinguish you from other graduates in a job interview.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-031",
+      "answer": "In 2010, cycling became a major phenomenon in Europe.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-032",
+      "answer": "Arteries carry oxygenated blood from the heart to other parts of the body.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-033",
+      "answer": "We need to read the first five chapters to prepare for next week's tutorial.",
+      "source": "stormedugo.com",
+      "word_count": 14
+    },
+    {
+      "id": "storm-rs-034",
+      "answer": "We will study the following two pictures in the next lecture.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-035",
+      "answer": "In my free time, I would like to read current affairs and newspapers.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-036",
+      "answer": "Our capacity to respond to national needs will determine our ability to flourish.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-037",
+      "answer": "Biographical information should be removed prior to the publication of results.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-038",
+      "answer": "I will be in my office every day from ten to twelve.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-rs-039",
+      "answer": "The arts magazine is looking for a new assistant editor.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-040",
+      "answer": "We offer a broad range of undergraduate and postgraduate courses.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-041",
+      "answer": "The technician left the new microscope in the biology lab.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-042",
+      "answer": "Most of the assignments should be submitted on the same day.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-043",
+      "answer": "Anyone who has a problem with their accommodation should speak to the welfare officer.",
+      "source": "stormedugo.com",
+      "word_count": 14
+    },
+    {
+      "id": "storm-rs-044",
+      "answer": "I would like an egg and tomatoes on white sandwich bread with orange juice.",
+      "source": "stormedugo.com",
+      "word_count": 14
+    },
+    {
+      "id": "storm-rs-045",
+      "answer": "The United States is the largest chocolate manufacturing country.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-046",
+      "answer": "The minimal mark for Distinction to be awarded is no less than 75%.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-047",
+      "answer": "To answer such a complex question with a simple yes or no is absolutely impossible.",
+      "source": "stormedugo.com",
+      "word_count": 15
+    },
+    {
+      "id": "storm-rs-048",
+      "answer": "A renowned economist is selected to have a speech tonight at eight.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-rs-049",
+      "answer": "The number of company bankruptcies skyrocketed in the third quarter.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-050",
+      "answer": "The course comprises twenty hours of lectures, seminars and tutorials each week.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-rs-051",
+      "answer": "There is not enough space for me in the car.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-052",
+      "answer": "We can discuss education in the tutorial next week.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-053",
+      "answer": "Several students raised different examples.",
+      "source": "stormedugo.com",
+      "word_count": 5
+    },
+    {
+      "id": "storm-rs-054",
+      "answer": "The university policy on plagiarism can be viewed on the website.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-055",
+      "answer": "The website has probably the most attractive designs and layouts.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-056",
+      "answer": "You should return books to the library before ending your term.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-057",
+      "answer": "Young children need education and organized activities.",
+      "source": "stormedugo.com",
+      "word_count": 7
+    },
+    {
+      "id": "storm-rs-058",
+      "answer": "Read the safety instructions before using the equipment during the workshop.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-059",
+      "answer": "The faculty staff are very approachable, helpful and extremely friendly.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-060",
+      "answer": "We have three distinctive libraries which are nationally acclaimed.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-061",
+      "answer": "Parking permits can be collected through the student service office.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-062",
+      "answer": "Tuesday sessions will last for approximately two hours.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-rs-063",
+      "answer": "Everyone should get access to art galleries no matter where they live.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-rs-064",
+      "answer": "There is too much information on this topic.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-rs-065",
+      "answer": "Presentation skills are important to both universities and workplaces.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-066",
+      "answer": "Major sports on campus include rugby, soccer and tennis.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-067",
+      "answer": "The effects of climate change will damage the world economy.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-068",
+      "answer": "Experience would be an advantage for this managerial role.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-069",
+      "answer": "The library is located on the north side of the campus.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-070",
+      "answer": "If you forget your password, you need to contact the student center.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-rs-071",
+      "answer": "To get further extension, you need to call the education executive.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-072",
+      "answer": "In your introduction, show you understand the question in no more than four sentences.",
+      "source": "stormedugo.com",
+      "word_count": 14
+    },
+    {
+      "id": "storm-rs-073",
+      "answer": "The subject is complex and difficult to explain.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-rs-074",
+      "answer": "The contemporary literature works have been broadened and extended through interpretation.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-075",
+      "answer": "All students must return the books to the college library before the end of the term.",
+      "source": "stormedugo.com",
+      "word_count": 16
+    },
+    {
+      "id": "storm-rs-076",
+      "answer": "Newspapers around the country are reporting the stories of the president.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-077",
+      "answer": "Today's lecture is canceled because the lecturer is ill.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-078",
+      "answer": "Collaboration is a feature of a successful company.",
+      "source": "stormedugo.com",
+      "word_count": 8
+    },
+    {
+      "id": "storm-rs-079",
+      "answer": "Social work is not the only subject in sociology.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-080",
+      "answer": "A man who suffered serious brain damage during an operation is suing the hospital.",
+      "source": "stormedugo.com",
+      "word_count": 14
+    },
+    {
+      "id": "storm-rs-081",
+      "answer": "In Russia, my colleagues said my written language was hard to understand.",
+      "source": "stormedugo.com",
+      "word_count": 12
+    },
+    {
+      "id": "storm-rs-082",
+      "answer": "For further information, you need to contact a member of our administration team.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-083",
+      "answer": "Students may not use calculators in the final exams.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-084",
+      "answer": "The first draft of the presentation is almost ready.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-085",
+      "answer": "You must submit projects by the end of this week.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-086",
+      "answer": "Keeping organized class notes will make study time more efficient.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-087",
+      "answer": "Understanding the historical context will help you appreciate the art in this era.",
+      "source": "stormedugo.com",
+      "word_count": 13
+    },
+    {
+      "id": "storm-rs-088",
+      "answer": "Many species have not yet been discovered by biologists.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-089",
+      "answer": "The results of the study challenge previously held assumptions.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-090",
+      "answer": "You realize that you can deal with a lot of situations.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-091",
+      "answer": "Please make an appointment before attending the next meeting.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-092",
+      "answer": "Numerous courses devoted to life sciences are listed in the prospectus.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-093",
+      "answer": "Marks will be awarded for a bibliography in the correct format.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-094",
+      "answer": "The campus car park will be closed next weekend.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-095",
+      "answer": "Please note, the proposal submission deadline has been extended.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-096",
+      "answer": "There are many welcoming activities for new undergraduate and postgraduate students.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-097",
+      "answer": "Students can choose a graduate certificate, graduate diploma and master course.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    },
+    {
+      "id": "storm-rs-098",
+      "answer": "Please make sure you use the standard form of quotation.",
+      "source": "stormedugo.com",
+      "word_count": 10
+    },
+    {
+      "id": "storm-rs-099",
+      "answer": "The deadline of assignments is the fourth of February.",
+      "source": "stormedugo.com",
+      "word_count": 9
+    },
+    {
+      "id": "storm-rs-100",
+      "answer": "Compiling a bibliography can present a major challenge for some students.",
+      "source": "stormedugo.com",
+      "word_count": 11
+    }
+  ]
 }
